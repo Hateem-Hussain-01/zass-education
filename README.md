@@ -8,7 +8,7 @@ notes, revision courses and a full admin portal.
 - **Stack:** Next.js 16 + TypeScript + Tailwind 4 (App Router).
 - **Brand:** "Zass" — Zass Education. Palette: Cyprus `#004643` (primary)
   + Sand Dune `#F0EDE5` (base/panel), white `#FFFFFF` cards, Orange `#F97316`
-  (small accent only). Home uses the Design 1 (Global Academy) layout.
+  (small accent only). Home uses the Design 2 (LearnMix) layout.
 
 ## Routes
 

@@ -94,9 +94,9 @@ export const DEFAULT_SETTINGS: SiteSettings = {
   logoText: "Zass",
   tagline: "O & A Level learning, made simple.",
   heroBadge: "Learn from the best",
-  heroHeadline: "Lifelong learning\nis the key to success",
+  heroHeadline: "Learn Anywhere, Anytime\nEmpower Your Future",
   heroSubtext:
-    "Join thousands of O & A Level students learning with expert teachers — short video lessons, past papers and mock tests, all in one place.",
+    "Join thousands of O & A Level students getting past papers, notes and revision courses — all in one place.",
   heroSearchPlaceholder: "Search your Course...",
   heroCta: "Search",
   statsRating: "4.8",
