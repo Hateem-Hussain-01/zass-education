@@ -94,9 +94,9 @@ export const DEFAULT_SETTINGS: SiteSettings = {
   logoText: "Zass",
   tagline: "O & A Level learning, made simple.",
   heroBadge: "Learn from the best",
-  heroHeadline: "Learn Anywhere, Anytime\nEmpower Your Future",
+  heroHeadline: "Lifelong learning\nis the key to success",
   heroSubtext:
-    "Join thousands of O & A Level students getting past papers, notes and revision courses — all in one place.",
+    "Join thousands of O & A Level students learning with expert teachers — short video lessons, past papers and mock tests, all in one place.",
   heroSearchPlaceholder: "Search your Course...",
   heroCta: "Search",
   statsRating: "4.8",
@@ -117,9 +117,9 @@ export const DEFAULT_SETTINGS: SiteSettings = {
   seoDescription:
     "Past papers, notes, mock tests and courses for O & A Level students. Learn anywhere, anytime.",
   palette: {
-    base: "#F8FAFC",
-    card: "#F0FDFA",
-    primary: "#0D9488",
+    base: "#F0EDE5",
+    card: "#FFFFFF",
+    primary: "#004643",
     accent: "#F97316",
   },
 };

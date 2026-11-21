@@ -48,7 +48,7 @@ export default function CoursesPage() {
                 ) : (
                   <div className="h-full w-full bg-[var(--zass-primary)]" />
                 )}
-                <span className="absolute left-3 bottom-3 bg-white/90 text-[#0F766E] text-[11px] font-extrabold px-2.5 py-1 rounded-full">
+                <span className="absolute left-3 bottom-3 bg-white/90 text-[var(--zass-primary)] text-[11px] font-extrabold px-2.5 py-1 rounded-full">
                   {c.level}
                 </span>
               </div>

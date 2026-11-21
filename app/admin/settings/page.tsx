@@ -42,7 +42,7 @@ function ColorField({
           className={inputCls}
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          placeholder="#0D9488"
+          placeholder="#004643"
           spellCheck={false}
         />
       </div>
@@ -320,7 +320,7 @@ export default function SettingsAdmin() {
               }
             />
             <ColorField
-              label="Primary (teal)"
+              label="Primary (Cyprus)"
               value={form.palette.primary}
               onChange={(v) =>
                 setForm((f) => ({

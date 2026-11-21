@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40">
       {settings.announcementOn && settings.announcementText.trim() !== "" && (
-        <div className="bg-[#0F766E] text-white text-center text-sm py-2 px-4">
+        <div className="bg-[var(--zass-primary)] text-white text-center text-sm py-2 px-4">
           {settings.announcementText}
         </div>
       )}

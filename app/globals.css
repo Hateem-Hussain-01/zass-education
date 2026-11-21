@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
-/* Zass Education palette (60/30/10) — defaults; the SettingsProvider
-   overwrites these four variables at runtime from the admin settings. */
+/* Zass Education palette — Cyprus #004643 + Sand Dune #F0EDE5 (orange accent).
+   Defaults; the SettingsProvider overwrites these four variables at runtime
+   from the admin settings. */
 :root {
-  --zass-base: #f8fafc;
-  --zass-card: #f0fdfa;
-  --zass-primary: #0d9488;
+  --zass-base: #f0ede5;
+  --zass-card: #ffffff;
+  --zass-primary: #004643;
   --zass-accent: #f97316;
   --background: var(--zass-base);
   --foreground: #0f172a;
