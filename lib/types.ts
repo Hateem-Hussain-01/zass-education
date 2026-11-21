@@ -17,7 +17,7 @@ export interface Paper {
   id: string;
   title: string;
   subjectId: string;
-  board: string; // e.g. "Cambridge"
+  board: string; // e.g. "Cambridge International"
   year: number;
   session: Session;
   paperNo: string; // e.g. "Paper 1"
@@ -25,6 +25,13 @@ export interface Paper {
   fileSize: number | null;
   /** IndexedDB key for the uploaded file blob. Null when no file uploaded. */
   fileId: string | null;
+  /**
+   * Direct download URL for catalogue papers (public archive link).
+   * Null for admin-uploaded papers (those use fileId instead).
+   */
+  downloadUrl?: string | null;
+  /** Where the file came from, e.g. "papers.xtremepape.rs". */
+  source?: string | null;
   /** True for built-in demo rows — always shown with a "Sample" badge. */
   sample?: boolean;
   createdAt: number;
@@ -172,7 +179,7 @@ export const SEED_PAPERS: Paper[] = [
     id: "paper-sample-1",
     title: "Mathematics 9709 — Paper 1 (Pure Mathematics 1)",
     subjectId: "al-mathematics",
-    board: "Cambridge",
+    board: "Cambridge International",
     year: 2024,
     session: "May/June",
     paperNo: "Paper 1",
@@ -186,7 +193,7 @@ export const SEED_PAPERS: Paper[] = [
     id: "paper-sample-2",
     title: "Physics 9702 — Paper 2 (AS Structured Questions)",
     subjectId: "al-physics",
-    board: "Cambridge",
+    board: "Cambridge International",
     year: 2024,
     session: "Oct/Nov",
     paperNo: "Paper 2",

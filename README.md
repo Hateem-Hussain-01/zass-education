@@ -17,11 +17,42 @@ notes, revision courses and a full admin portal.
 | --- | --- |
 | `/` | Home — hero, subjects, popular courses, why Zass, team strip |
 | `/subjects` | O & A Level subject catalogue (Cambridge syllabus codes) |
-| `/papers` | Past papers library — filter by subject / year / session, download PDFs |
+| `/papers` | Past papers library — filter by board / subject / year / session, download PDFs |
+| `/boards` | Examination boards listing (Cambridge International, AQA GCSE, OxfordAQA, Oxford Education, IB Diploma Programme) |
+| `/boards/[slug]` | One page per board — its subjects and papers, real counts only |
 | `/courses` | Revision courses + notes & lessons |
 | `/about` | About + Meet the Team |
 | `/contact` | Contact details + email form (opens the visitor's email app) |
 | `/admin` | Admin portal (see below) |
+
+## Past papers catalogue
+
+- **Boards covered:** Cambridge International (live), AQA GCSE, OxfordAQA,
+  Oxford Education, IB Diploma Programme (coming soon — a board with no
+  papers yet shows as "coming soon", never with invented numbers).
+- **Phase 1 (Cambridge A Level, 2021–2025) — DONE 22 Nov 2026 (main
+  commit below): 1,654 papers** — Mathematics 9709 (433: 210 QP, 210 MS,
+  13 thresholds), Physics 9702 (407: 197/197/13), Chemistry 9701 (407:
+  197/197/13), Biology 9700 (407: 197/197/13). Sessions: Feb/Mar,
+  May/June, Oct/Nov where the archive lists them; missing only Feb/Mar
+  2024 and Feb/Mar 2025 for all four subjects (the March series does not
+  offer them those years). May/June 2021 papers exist in the archive and
+  were verified as genuine — included. Per-year ZIPs (20 total, ~473 MB
+  of PDFs) are in `~/workspace/zass-papers/<code>/zips/`; see each
+  subject's `SUMMARY.md` for the full per-session table.
+- **Source:** public archive papers.xtremepape.rs. Papers are copyright of
+  Cambridge University Press & Assessment (and of their respective boards)
+  and are linked here for students' revision use.
+- **Hosting:** each catalogue paper links directly to its verified archive
+  URL. Per-year ZIPs (one ZIP per subject-year) are kept in the workspace
+  at `~/workspace/zass-papers/<code>/zips/` — they are NOT committed to
+  git. GitHub release-asset upload is not possible with the project's
+  stored credential (uploads.github.com is outside the credential's
+  allowed hosts), so no release assets are used.
+- **Catalogue data:** `lib/papers-catalogue.ts` is generated from the
+  download manifests in `~/workspace/zass-papers/<code>/manifest.json`
+  (generator: `/tmp/gen_catalogue.py`) — never edit it by hand, and never
+  add a paper that was not actually downloaded and verified.
 
 ### Admin portal (`/admin`)
 

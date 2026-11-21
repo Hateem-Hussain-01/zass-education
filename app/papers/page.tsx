@@ -9,27 +9,40 @@ import {
   usePapers,
   useSubjects,
 } from "@/lib/store";
+import { CATALOGUE_PAPERS } from "@/lib/papers-catalogue";
+import { BOARDS } from "@/lib/boards";
 
 function PapersInner() {
   const searchParams = useSearchParams();
   const { papers } = usePapers();
   const { subjects } = useSubjects();
 
+  // Real catalogue entries (verified archive links) come first, then the
+  // admin-uploaded papers stored in this browser.
+  const allPapers = useMemo(
+    () => [...CATALOGUE_PAPERS, ...papers],
+    [papers],
+  );
+
   const [query, setQuery] = useState(searchParams.get("q") ?? "");
   const [subjectFilter, setSubjectFilter] = useState(
     searchParams.get("subject") ?? "all",
+  );
+  const [boardFilter, setBoardFilter] = useState(
+    searchParams.get("board") ?? "all",
   );
   const [sessionFilter, setSessionFilter] = useState("all");
   const [yearFilter, setYearFilter] = useState("all");
 
   const years = useMemo(
     () =>
-      Array.from(new Set(papers.map((p) => p.year))).sort((a, b) => b - a),
-    [papers],
+      Array.from(new Set(allPapers.map((p) => p.year))).sort((a, b) => b - a),
+    [allPapers],
   );
 
-  const filtered = papers.filter((p) => {
+  const filtered = allPapers.filter((p) => {
     if (subjectFilter !== "all" && p.subjectId !== subjectFilter) return false;
+    if (boardFilter !== "all" && p.board !== boardFilter) return false;
     if (sessionFilter !== "all" && p.session !== sessionFilter) return false;
     if (yearFilter !== "all" && String(p.year) !== yearFilter) return false;
     if (query.trim()) {
@@ -57,9 +70,12 @@ function PapersInner() {
     <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
       <h1 className="text-3xl font-extrabold text-[#004643]">Past Papers</h1>
       <p className="text-[rgba(0,70,67,0.6)] mt-2 max-w-2xl">
-        Past papers by subject, year and session. Files uploaded in the admin
-        portal can be downloaded here — in the same browser they were uploaded
-        from (v1 stores files locally).
+        Past papers by board, subject, year and session. Catalogue papers
+        download directly from the public archive; files uploaded in the
+        admin portal can be downloaded here — in the same browser they were
+        uploaded from (v1 stores files locally). Papers are copyright of
+        their examination boards and are shared here for students&apos;
+        revision use.
       </p>
 
       <div className="flex flex-wrap gap-3 mt-6">
@@ -70,6 +86,19 @@ function PapersInner() {
           className="border border-[rgba(0,70,67,0.25)] rounded-full px-4 py-2 text-sm flex-1 min-w-[200px] bg-white outline-none focus:border-[var(--zass-primary)]"
           aria-label="Search past papers"
         />
+        <select
+          value={boardFilter}
+          onChange={(e) => setBoardFilter(e.target.value)}
+          className="border border-[rgba(0,70,67,0.25)] rounded-full px-4 py-2 text-sm bg-white"
+          aria-label="Filter by examination board"
+        >
+          <option value="all">All boards</option>
+          {BOARDS.map((b) => (
+            <option key={b.slug} value={b.name}>
+              {b.name}
+            </option>
+          ))}
+        </select>
         <select
           value={subjectFilter}
           onChange={(e) => setSubjectFilter(e.target.value)}
@@ -119,7 +148,7 @@ function PapersInner() {
         <div className="mt-8 bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-8 text-center">
           <h2 className="font-bold text-[#004643]">No papers found</h2>
           <p className="text-sm text-[rgba(0,70,67,0.6)] mt-2">
-            {papers.length === 0
+            {allPapers.length === 0
               ? "No papers uploaded yet — add them from the admin portal (Past Papers → Add paper)."
               : "Try a different search or filter."}
           </p>
@@ -143,14 +172,26 @@ function PapersInner() {
                 <p className="text-sm text-[rgba(0,70,67,0.6)] mt-1">
                   {subjectName(subjects, p.subjectId)} · {p.board} ·{" "}
                   {p.session} {p.year} · {p.paperNo}
+                  {p.source ? ` · Source: ${p.source}` : ""}
                 </p>
                 <p className="text-xs text-[rgba(0,70,67,0.6)] mt-1">
                   {p.fileName
                     ? `${p.fileName} (${formatBytes(p.fileSize)})`
-                    : "No file uploaded yet"}
+                    : p.downloadUrl
+                      ? "PDF — downloads from the public archive"
+                      : "No file uploaded yet"}
                 </p>
               </div>
-              {p.fileId && p.fileName ? (
+              {p.downloadUrl ? (
+                <a
+                  href={p.downloadUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-[var(--zass-primary)] text-white text-sm font-bold px-5 py-2.5 rounded-full shrink-0 text-center"
+                >
+                  Download PDF
+                </a>
+              ) : p.fileId && p.fileName ? (
                 <button
                   onClick={() => onDownload(p.fileId as string, p.fileName as string, p.id)}
                   disabled={downloading === p.id}

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useSettings } from "@/lib/store";
+import { BOARDS } from "@/lib/boards";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -35,7 +36,7 @@ export default function Navbar() {
             Education
           </span>
         </Link>
-        <div className="hidden md:flex gap-6 text-sm font-semibold text-[rgba(0,70,67,0.78)]">
+        <div className="hidden md:flex gap-6 text-sm font-semibold text-[rgba(0,70,67,0.78)] items-center">
           {LINKS.map((l) => (
             <Link
               key={l.href}
@@ -49,6 +50,38 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
+          <div className="relative group">
+            <button
+              type="button"
+              aria-haspopup="true"
+              className="hover:text-[var(--zass-primary)] flex items-center gap-1"
+            >
+              Examination Boards
+              <span aria-hidden="true" className="text-xs">
+                ▾
+              </span>
+            </button>
+            <div className="absolute left-0 top-full pt-2 hidden group-hover:block group-focus-within:block">
+              <div className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl shadow-lg py-2 min-w-[250px]">
+                {BOARDS.map((b) => (
+                  <Link
+                    key={b.slug}
+                    href={`/boards/${b.slug}`}
+                    className="block px-4 py-2 hover:bg-[rgba(0,70,67,0.06)] hover:text-[var(--zass-primary)]"
+                  >
+                    {b.name}
+                  </Link>
+                ))}
+                <div className="border-t border-[rgba(0,70,67,0.15)] my-2" />
+                <Link
+                  href="/boards"
+                  className="block px-4 py-2 font-bold text-[var(--zass-primary)] hover:bg-[rgba(0,70,67,0.06)]"
+                >
+                  All examination boards →
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
         <Link
           href="/admin"
@@ -71,6 +104,9 @@ export default function Navbar() {
             {l.label}
           </Link>
         ))}
+        <Link href="/boards" className="whitespace-nowrap">
+          Boards
+        </Link>
       </div>
     </header>
   );
