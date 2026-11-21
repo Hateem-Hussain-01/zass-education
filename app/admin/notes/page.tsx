@@ -105,7 +105,7 @@ export default function NotesAdmin() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-[#0F172A]">Notes &amp; Lessons</h1>
+        <h1 className="text-2xl font-bold text-[#004643]">Notes &amp; Lessons</h1>
         <p className="mt-1 text-sm">
           Chapter notes and lesson write-ups, with an optional attached file.
         </p>
@@ -164,7 +164,7 @@ export default function NotesAdmin() {
             </Field>
           </div>
           {error ? (
-            <p className="rounded-lg bg-red-50 px-3 py-2 text-sm font-medium text-red-700">
+            <p className="rounded-lg bg-[rgba(0,70,67,0.06)] px-3 py-2 text-sm font-medium text-[#004643]">
               {error}
             </p>
           ) : null}
@@ -183,12 +183,12 @@ export default function NotesAdmin() {
         {sorted.length === 0 ? (
           <p className="text-sm">No notes yet.</p>
         ) : (
-          <ul className="divide-y divide-slate-200">
+          <ul className="divide-y divide-[rgba(0,70,67,0.15)]">
             {sorted.map((n) => (
               <li key={n.id} className="py-3">
                 <div className="flex flex-wrap items-start gap-2">
                   <div className="min-w-0 flex-1">
-                    <p className="text-sm font-medium text-[#0F172A]">
+                    <p className="text-sm font-medium text-[#004643]">
                       {n.title} {n.sample ? <SampleBadge /> : null}
                     </p>
                     <p className="text-xs">

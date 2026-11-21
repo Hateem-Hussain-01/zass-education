@@ -33,9 +33,9 @@ function ColorField({
       <div className="flex items-center gap-2">
         <input
           type="color"
-          value={/^#[0-9a-fA-F]{6}$/.test(value) ? value : "#000000"}
+          value={/^#[0-9a-fA-F]{6}$/.test(value) ? value : "#004643"}
           onChange={(e) => onChange(e.target.value)}
-          className="h-10 w-12 shrink-0 cursor-pointer rounded-lg border border-slate-300 bg-white p-1"
+          className="h-10 w-12 shrink-0 cursor-pointer rounded-lg border border-[rgba(0,70,67,0.25)] bg-white p-1"
           aria-label={`${label} colour picker`}
         />
         <input
@@ -84,7 +84,7 @@ export default function SettingsAdmin() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-[#0F172A]">Settings</h1>
+        <h1 className="text-2xl font-bold text-[#004643]">Settings</h1>
         <p className="mt-1 text-sm">
           Settings apply immediately across the public site and are saved in
           this browser only.
@@ -196,7 +196,7 @@ export default function SettingsAdmin() {
                 onChange={(e) => set("announcementText", e.target.value)}
               />
             </Field>
-            <label className="flex items-center gap-2 text-sm font-medium text-[#0F172A]">
+            <label className="flex items-center gap-2 text-sm font-medium text-[#004643]">
               <input
                 type="checkbox"
                 checked={form.announcementOn}
@@ -330,7 +330,7 @@ export default function SettingsAdmin() {
               }
             />
             <ColorField
-              label="Accent (orange)"
+              label="Accent"
               value={form.palette.accent}
               onChange={(v) =>
                 setForm((f) => ({ ...f, palette: { ...f.palette, accent: v } }))

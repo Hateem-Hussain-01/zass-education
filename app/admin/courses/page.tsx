@@ -103,7 +103,7 @@ export default function CoursesAdmin() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-[#0F172A]">Courses</h1>
+        <h1 className="text-2xl font-bold text-[#004643]">Courses</h1>
         <p className="mt-1 text-sm">
           Manage the courses shown on the public site. Price 0 means Free.
         </p>
@@ -186,7 +186,7 @@ export default function CoursesAdmin() {
             </Field>
             {form.image ? (
               <div className="sm:col-span-2">
-                <p className="mb-1 text-sm font-medium text-[#0F172A]">Preview</p>
+                <p className="mb-1 text-sm font-medium text-[#004643]">Preview</p>
                 <Image
                   src={form.image}
                   alt="Course image preview"
@@ -198,7 +198,7 @@ export default function CoursesAdmin() {
             ) : null}
           </div>
           {error ? (
-            <p className="rounded-lg bg-red-50 px-3 py-2 text-sm font-medium text-red-700">
+            <p className="rounded-lg bg-[rgba(0,70,67,0.06)] px-3 py-2 text-sm font-medium text-[#004643]">
               {error}
             </p>
           ) : null}
@@ -217,7 +217,7 @@ export default function CoursesAdmin() {
         {sorted.length === 0 ? (
           <p className="text-sm">No courses yet.</p>
         ) : (
-          <ul className="divide-y divide-slate-200">
+          <ul className="divide-y divide-[rgba(0,70,67,0.15)]">
             {sorted.map((c) => (
               <li key={c.id} className="flex flex-wrap items-start gap-3 py-3">
                 {c.image ? (
@@ -230,7 +230,7 @@ export default function CoursesAdmin() {
                   />
                 ) : null}
                 <div className="min-w-0 flex-1">
-                  <p className="text-sm font-medium text-[#0F172A]">
+                  <p className="text-sm font-medium text-[#004643]">
                     {c.title} {c.sample ? <SampleBadge /> : null}
                   </p>
                   <p className="text-xs">

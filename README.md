@@ -6,9 +6,10 @@ notes, revision courses and a full admin portal.
 - **Live site:** deploy on Vercel from this repo (see below — the deploy is
   done from the Vercel dashboard).
 - **Stack:** Next.js 16 + TypeScript + Tailwind 4 (App Router).
-- **Brand:** "Zass" — Zass Education. Palette: Cyprus `#004643` (primary)
-  + Sand Dune `#F0EDE5` (base/panel), white `#FFFFFF` cards, Orange `#F97316`
-  (small accent only). Home uses the Design 2 (LearnMix) layout.
+- **Brand:** "Zass" — Zass Education. Palette — exact two colours only:
+  Cyprus `#004643` (primary: hero, buttons, headings, links, stars, all
+  accents — flat fills, no gradients) + Sand Dune `#F0EDE5` (base/panel),
+  white `#FFFFFF` cards. Home uses the Design 2 (LearnMix) layout.
 
 ## Routes
 

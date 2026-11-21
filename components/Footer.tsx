@@ -22,21 +22,21 @@ export default function Footer() {
   ].filter((s) => s.href.trim() !== "");
 
   return (
-    <footer className="border-t border-slate-200 bg-[var(--zass-base)]">
+    <footer className="border-t border-[rgba(0,70,67,0.15)] bg-[var(--zass-base)]">
       <div className="px-5 md:px-14 py-10 grid gap-8 md:grid-cols-3">
         <div>
-          <div className="flex items-center gap-2 font-extrabold text-lg text-[#0F172A]">
+          <div className="flex items-center gap-2 font-extrabold text-lg text-[#004643]">
             <span className="w-3 h-3 rounded-full bg-[var(--zass-accent)] inline-block" />
             {settings.logoText} Education
           </div>
-          <p className="text-sm text-slate-500 mt-3 leading-relaxed">
+          <p className="text-sm text-[rgba(0,70,67,0.6)] mt-3 leading-relaxed">
             {settings.footerText}
           </p>
-          <p className="text-sm text-slate-500 mt-2">{settings.tagline}</p>
+          <p className="text-sm text-[rgba(0,70,67,0.6)] mt-2">{settings.tagline}</p>
         </div>
         <div>
-          <h3 className="font-bold text-[#0F172A]">Explore</h3>
-          <ul className="mt-3 space-y-2 text-sm text-slate-600">
+          <h3 className="font-bold text-[#004643]">Explore</h3>
+          <ul className="mt-3 space-y-2 text-sm text-[rgba(0,70,67,0.78)]">
             <li>
               <Link href="/subjects" className="hover:text-[var(--zass-primary)]">
                 Subjects
@@ -65,8 +65,8 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="font-bold text-[#0F172A]">Contact</h3>
-          <ul className="mt-3 space-y-2 text-sm text-slate-600">
+          <h3 className="font-bold text-[#004643]">Contact</h3>
+          <ul className="mt-3 space-y-2 text-sm text-[rgba(0,70,67,0.78)]">
             <li>
               <a
                 href={`mailto:${settings.contactEmail}`}
@@ -101,7 +101,7 @@ export default function Footer() {
             <li className="pt-2">
               <Link
                 href="/admin"
-                className="text-sm font-semibold text-slate-500 hover:text-[var(--zass-primary)]"
+                className="text-sm font-semibold text-[rgba(0,70,67,0.6)] hover:text-[var(--zass-primary)]"
               >
                 Admin Portal
               </Link>
@@ -109,7 +109,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-slate-200 py-4 text-center text-xs text-slate-400">
+      <div className="border-t border-[rgba(0,70,67,0.15)] py-4 text-center text-xs text-[rgba(0,70,67,0.6)]">
         © {year} {settings.siteName}. Photos: Unsplash (free stock).
       </div>
     </footer>

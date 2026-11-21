@@ -45,7 +45,7 @@ export default function AdminSigninPage() {
       {adminName ? (
         <p className="mb-5 text-sm">
           Welcome back,{" "}
-          <strong className="text-[#0F172A]">{adminName}</strong>. Enter your
+          <strong className="text-[#004643]">{adminName}</strong>. Enter your
           PIN to continue.
         </p>
       ) : (
@@ -65,7 +65,7 @@ export default function AdminSigninPage() {
           />
         </Field>
         {error ? (
-          <p className="rounded-lg bg-red-50 px-3 py-2 text-sm font-medium text-red-700">
+          <p className="rounded-lg bg-[rgba(0,70,67,0.06)] px-3 py-2 text-sm font-medium text-[#004643]">
             {error}
           </p>
         ) : null}

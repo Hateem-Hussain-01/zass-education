@@ -2,9 +2,9 @@
 import type { ButtonHTMLAttributes, ReactNode } from "react";
 
 export const inputCls =
-  "w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-[#0F172A] outline-none focus:border-[var(--zass-primary)] focus:ring-2 focus:ring-[var(--zass-primary)]/30";
+  "w-full rounded-lg border border-[rgba(0,70,67,0.25)] bg-white px-3 py-2 text-sm text-[rgba(0,70,67,0.78)] outline-none focus:border-[var(--zass-primary)] focus:ring-2 focus:ring-[var(--zass-primary)]/30";
 export const labelCls =
-  "mb-1 block text-sm font-medium text-[#0F172A]";
+  "mb-1 block text-sm font-medium text-[#004643]";
 
 export function Card({
   title,
@@ -16,10 +16,10 @@ export function Card({
   actions?: ReactNode;
 }) {
   return (
-    <section className="rounded-xl border border-slate-200 bg-[var(--zass-card)] p-4 shadow-sm sm:p-5">
+    <section className="rounded-xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] p-4 shadow-sm sm:p-5">
       {title ? (
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-          <h2 className="text-base font-semibold text-[#0F172A]">{title}</h2>
+          <h2 className="text-base font-semibold text-[#004643]">{title}</h2>
           {actions}
         </div>
       ) : null}
@@ -41,7 +41,7 @@ export function Field({
     <label className="block">
       <span className={labelCls}>{label}</span>
       {children}
-      {hint ? <span className="mt-1 block text-xs text-[#475569]">{hint}</span> : null}
+      {hint ? <span className="mt-1 block text-xs text-[rgba(0,70,67,0.78)]">{hint}</span> : null}
     </label>
   );
 }
@@ -76,7 +76,7 @@ export function DangerButton({
   return (
     <button
       type="button"
-      className="rounded-lg border border-red-300 px-3 py-1.5 text-sm font-medium text-red-600 hover:bg-red-50"
+      className="rounded-lg border border-[rgba(0,70,67,0.3)] px-3 py-1.5 text-sm font-medium text-[#004643] hover:bg-[rgba(0,70,67,0.06)]"
       {...props}
     >
       {children}
@@ -91,7 +91,7 @@ export function GhostButton({
   return (
     <button
       type="button"
-      className="rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm font-medium text-[#0F172A] hover:bg-slate-50"
+      className="rounded-lg border border-[rgba(0,70,67,0.25)] bg-white px-3 py-1.5 text-sm font-medium text-[#004643] hover:bg-[rgba(0,70,67,0.04)]"
       {...props}
     >
       {children}

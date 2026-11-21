@@ -120,7 +120,7 @@ export const DEFAULT_SETTINGS: SiteSettings = {
     base: "#F0EDE5",
     card: "#FFFFFF",
     primary: "#004643",
-    accent: "#F97316",
+    accent: "#004643",
   },
 };
 

@@ -48,7 +48,7 @@ function AdminShell({ children }: { children: ReactNode }) {
 
   if (isPublic) {
     return (
-      <div className="min-h-screen bg-[var(--zass-base)] text-[#475569]">
+      <div className="min-h-screen bg-[var(--zass-base)] text-[rgba(0,70,67,0.78)]">
         <main className="mx-auto w-full max-w-lg px-4 py-10">{children}</main>
       </div>
     );
@@ -57,7 +57,7 @@ function AdminShell({ children }: { children: ReactNode }) {
   if (!checked) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-[var(--zass-base)]">
-        <p className="text-sm text-[#475569]">Loading admin portal…</p>
+        <p className="text-sm text-[rgba(0,70,67,0.78)]">Loading admin portal…</p>
       </div>
     );
   }
@@ -68,7 +68,7 @@ function AdminShell({ children }: { children: ReactNode }) {
   };
 
   return (
-    <div className="min-h-screen bg-[var(--zass-base)] text-[#475569] md:flex">
+    <div className="min-h-screen bg-[var(--zass-base)] text-[rgba(0,70,67,0.78)] md:flex">
       {/* Sidebar (desktop) / top bar (mobile) */}
       <aside className="bg-[var(--zass-primary)] text-white md:flex md:w-64 md:shrink-0 md:flex-col md:min-h-screen">
         <div className="flex items-center justify-between px-4 py-4 md:block md:px-5 md:py-6">
@@ -126,9 +126,9 @@ function AdminShell({ children }: { children: ReactNode }) {
       </aside>
 
       {/* Mobile account row */}
-      <div className="flex items-center justify-between border-b border-slate-200 bg-white px-4 py-2 text-sm md:hidden">
+      <div className="flex items-center justify-between border-b border-[rgba(0,70,67,0.15)] bg-white px-4 py-2 text-sm md:hidden">
         <span>
-          Signed in as <strong className="text-[#0F172A]">{adminName || "Admin"}</strong>
+          Signed in as <strong className="text-[#004643]">{adminName || "Admin"}</strong>
         </span>
         <button
           type="button"

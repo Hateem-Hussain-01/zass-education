@@ -90,7 +90,7 @@ export default function AdminSetupPage() {
           />
         </Field>
         {error ? (
-          <p className="rounded-lg bg-red-50 px-3 py-2 text-sm font-medium text-red-700">
+          <p className="rounded-lg bg-[rgba(0,70,67,0.06)] px-3 py-2 text-sm font-medium text-[#004643]">
             {error}
           </p>
         ) : null}

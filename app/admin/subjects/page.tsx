@@ -56,7 +56,7 @@ export default function SubjectsAdmin() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-[#0F172A]">Subjects</h1>
+        <h1 className="text-2xl font-bold text-[#004643]">Subjects</h1>
         <p className="mt-1 text-sm">
           O &amp; A Level subjects offered by Zass Education.
         </p>
@@ -96,7 +96,7 @@ export default function SubjectsAdmin() {
             </Field>
           </div>
           {error ? (
-            <p className="rounded-lg bg-red-50 px-3 py-2 text-sm font-medium text-red-700">
+            <p className="rounded-lg bg-[rgba(0,70,67,0.06)] px-3 py-2 text-sm font-medium text-[#004643]">
               {error}
             </p>
           ) : null}
@@ -118,7 +118,7 @@ export default function SubjectsAdmin() {
           <div className="overflow-x-auto">
             <table className="w-full min-w-[480px] text-left text-sm">
               <thead>
-                <tr className="border-b border-slate-200 text-[#0F172A]">
+                <tr className="border-b border-[rgba(0,70,67,0.15)] text-[#004643]">
                   <th className="py-2 pr-3 font-semibold">Name</th>
                   <th className="py-2 pr-3 font-semibold">Level</th>
                   <th className="py-2 pr-3 font-semibold">Code</th>
@@ -127,8 +127,8 @@ export default function SubjectsAdmin() {
               </thead>
               <tbody>
                 {subjects.map((s) => (
-                  <tr key={s.id} className="border-b border-slate-100 last:border-0">
-                    <td className="py-2.5 pr-3 font-medium text-[#0F172A]">{s.name}</td>
+                  <tr key={s.id} className="border-b border-[rgba(0,70,67,0.08)] last:border-0">
+                    <td className="py-2.5 pr-3 font-medium text-[#004643]">{s.name}</td>
                     <td className="py-2.5 pr-3">{s.level}</td>
                     <td className="py-2.5 pr-3">{s.code}</td>
                     <td className="py-2.5 text-right">

@@ -56,7 +56,7 @@ export default function AdminDashboard() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-[#0F172A]">Dashboard</h1>
+        <h1 className="text-2xl font-bold text-[#004643]">Dashboard</h1>
         <p className="mt-1 text-sm">
           Manage past papers, subjects, notes, courses and site settings.
         </p>
@@ -67,9 +67,9 @@ export default function AdminDashboard() {
           <Link
             key={s.label}
             href={s.href}
-            className="rounded-xl border border-slate-200 bg-[var(--zass-card)] p-4 shadow-sm hover:border-[var(--zass-primary)]"
+            className="rounded-xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] p-4 shadow-sm hover:border-[var(--zass-primary)]"
           >
-            <p className="text-2xl font-bold text-[#0F172A]">{s.value}</p>
+            <p className="text-2xl font-bold text-[#004643]">{s.value}</p>
             <p className="mt-1 text-sm">{s.label}</p>
           </Link>
         ))}
@@ -91,11 +91,11 @@ export default function AdminDashboard() {
             {recentPapers.length === 0 ? (
               <p className="text-sm">No past papers yet.</p>
             ) : (
-              <ul className="divide-y divide-slate-200">
+              <ul className="divide-y divide-[rgba(0,70,67,0.15)]">
                 {recentPapers.map((p) => (
                   <li key={p.id} className="flex flex-wrap items-center gap-2 py-3">
                     <div className="min-w-0 flex-1">
-                      <p className="truncate text-sm font-medium text-[#0F172A]">
+                      <p className="truncate text-sm font-medium text-[#004643]">
                         {p.title}
                       </p>
                       <p className="text-xs">
@@ -126,7 +126,7 @@ export default function AdminDashboard() {
         </Card>
       </div>
 
-      <div className="rounded-xl border border-[var(--zass-accent)]/40 bg-[var(--zass-accent)]/10 px-4 py-3 text-sm text-[#0F172A]">
+      <div className="rounded-xl border border-[var(--zass-accent)]/40 bg-[var(--zass-accent)]/10 px-4 py-3 text-sm text-[#004643]">
         <strong>Note:</strong> v1 stores data in this browser only
         (localStorage + IndexedDB). A shared backend is the next step — data
         does not sync to other devices yet.

@@ -24,18 +24,18 @@ export default function Navbar() {
           {settings.announcementText}
         </div>
       )}
-      <nav className="bg-[var(--zass-base)] border-b border-slate-200 px-5 md:px-14 py-3 flex items-center justify-between gap-4">
+      <nav className="bg-[var(--zass-base)] border-b border-[rgba(0,70,67,0.15)] px-5 md:px-14 py-3 flex items-center justify-between gap-4">
         <Link
           href="/"
-          className="flex items-center gap-2 font-extrabold text-xl text-[#0F172A]"
+          className="flex items-center gap-2 font-extrabold text-xl text-[#004643]"
         >
           <span className="w-3 h-3 rounded-full bg-[var(--zass-accent)] inline-block" />
           {settings.logoText}
-          <span className="hidden sm:inline text-sm font-semibold text-slate-500">
+          <span className="hidden sm:inline text-sm font-semibold text-[rgba(0,70,67,0.6)]">
             Education
           </span>
         </Link>
-        <div className="hidden md:flex gap-6 text-sm font-semibold text-slate-600">
+        <div className="hidden md:flex gap-6 text-sm font-semibold text-[rgba(0,70,67,0.78)]">
           {LINKS.map((l) => (
             <Link
               key={l.href}
@@ -57,7 +57,7 @@ export default function Navbar() {
           Admin
         </Link>
       </nav>
-      <div className="md:hidden bg-[var(--zass-base)] border-b border-slate-200 px-5 py-2 flex gap-5 overflow-x-auto text-sm font-semibold text-slate-600">
+      <div className="md:hidden bg-[var(--zass-base)] border-b border-[rgba(0,70,67,0.15)] px-5 py-2 flex gap-5 overflow-x-auto text-sm font-semibold text-[rgba(0,70,67,0.78)]">
         {LINKS.map((l) => (
           <Link
             key={l.href}

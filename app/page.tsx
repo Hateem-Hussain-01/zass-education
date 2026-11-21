@@ -48,14 +48,8 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* Hero — Cyprus gradient, LearnMix layout */}
-      <section
-        className="text-white px-5 md:px-14 pt-6 pb-14"
-        style={{
-          background:
-            "linear-gradient(135deg, #003B38 0%, var(--zass-primary) 55%, #00695C 100%)",
-        }}
-      >
+      {/* Hero — flat Cyprus, LearnMix layout */}
+      <section className="bg-[var(--zass-primary)] text-white px-5 md:px-14 pt-6 pb-14">
         <div className="flex flex-col md:flex-row gap-10 items-center max-w-6xl mx-auto pt-6">
           <div className="flex-1">
             <span className="inline-block bg-white/15 border border-white/35 text-xs font-bold px-3.5 py-1.5 rounded-full">
@@ -87,7 +81,7 @@ export default function HomePage() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={settings.heroSearchPlaceholder}
-                className="border-none outline-none flex-1 text-sm text-slate-500 bg-transparent min-w-0"
+                className="border-none outline-none flex-1 text-sm text-[rgba(0,70,67,0.6)] bg-transparent min-w-0"
                 aria-label="Search courses and papers"
               />
               <button
@@ -105,19 +99,19 @@ export default function HomePage() {
               alt="O & A Level students studying together"
               className="w-[300px] h-[360px] object-cover rounded-t-[200px] rounded-b-3xl shadow-[0_0_0_12px_rgba(255,255,255,0.14)]"
             />
-            <div className="absolute left-[-30px] bottom-[90px] bg-[var(--zass-card)] text-[#0F172A] rounded-2xl shadow-xl px-4 py-3 text-[13px]">
+            <div className="absolute left-[-30px] bottom-[90px] bg-[var(--zass-card)] text-[#004643] rounded-2xl shadow-xl px-4 py-3 text-[13px]">
               <b className="text-lg block">{settings.statsRating} ★</b>
-              <span className="text-slate-500">
+              <span className="text-[rgba(0,70,67,0.6)]">
                 Rated by students for
                 <br />
                 quality learning
               </span>
             </div>
-            <div className="absolute right-[-14px] top-[60px] bg-[var(--zass-card)] text-[#0F172A] rounded-2xl shadow-xl px-4 py-3 text-[13px]">
+            <div className="absolute right-[-14px] top-[60px] bg-[var(--zass-card)] text-[#004643] rounded-2xl shadow-xl px-4 py-3 text-[13px]">
               <b className="text-lg block">{settings.statsLearners}</b>
-              <span className="text-amber-500">★★★★★</span>
+              <span className="text-[#004643]">★★★★★</span>
               <br />
-              <span className="text-slate-500">
+              <span className="text-[rgba(0,70,67,0.6)]">
                 Learners growing with
                 <br />
                 expert guidance
@@ -129,10 +123,10 @@ export default function HomePage() {
 
       {/* Subjects */}
       <section className="px-5 md:px-14 py-11 max-w-6xl mx-auto">
-        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#0F172A]">
+        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
           Explore Our Top Subjects
         </h2>
-        <p className="text-center text-slate-500 text-sm mt-2">
+        <p className="text-center text-[rgba(0,70,67,0.6)] text-sm mt-2">
           O &amp; A Level (Cambridge) — from Mathematics to Biology, notes and
           papers in one place.
         </p>
@@ -141,7 +135,7 @@ export default function HomePage() {
             <Link
               key={s.name}
               href="/subjects"
-              className="bg-[var(--zass-card)] border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -150,8 +144,8 @@ export default function HomePage() {
                 className="h-[130px] w-full object-cover"
               />
               <div className="p-4 text-center">
-                <h3 className="font-bold text-[#0F172A]">{s.name}</h3>
-                <span className="text-[13px] text-slate-500">
+                <h3 className="font-bold text-[#004643]">{s.name}</h3>
+                <span className="text-[13px] text-[rgba(0,70,67,0.6)]">
                   Cambridge {codesFor(s.name) || "O & A Level"}
                 </span>
               </div>
@@ -162,7 +156,7 @@ export default function HomePage() {
 
       {/* Courses */}
       <section className="px-5 md:px-14 py-4 max-w-6xl mx-auto">
-        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#0F172A]">
+        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
           Explore Most Popular Courses
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-7">
@@ -170,7 +164,7 @@ export default function HomePage() {
             <Link
               key={c.id}
               href="/courses"
-              className="bg-[var(--zass-card)] border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="relative h-[110px]">
                 {c.image ? (
@@ -188,10 +182,10 @@ export default function HomePage() {
                 </span>
               </div>
               <div className="p-3.5">
-                <h3 className="text-sm font-bold leading-snug text-[#0F172A]">
+                <h3 className="text-sm font-bold leading-snug text-[#004643]">
                   {c.title}
                 </h3>
-                <div className="text-xs text-slate-500 mt-1.5">{c.level}</div>
+                <div className="text-xs text-[rgba(0,70,67,0.6)] mt-1.5">{c.level}</div>
                 <div className="text-[15px] font-extrabold text-[var(--zass-primary)] mt-2">
                   {c.price === 0 ? "Free" : `Rs ${c.price.toLocaleString()}`}
                 </div>
@@ -211,20 +205,20 @@ export default function HomePage() {
 
       {/* Why Zass */}
       <section className="px-5 md:px-14 py-11 max-w-6xl mx-auto">
-        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#0F172A]">
+        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
           Why Zass Education
         </h2>
         <div className="grid sm:grid-cols-3 gap-5 mt-7">
           {WHY_ZASS.map((f) => (
             <div
               key={f.title}
-              className="bg-[var(--zass-card)] border border-slate-200 rounded-2xl p-5 shadow-sm"
+              className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5 shadow-sm"
             >
               <div className="w-11 h-11 rounded-xl bg-[var(--zass-primary)] text-white flex items-center justify-center text-xl font-bold">
                 {f.glyph}
               </div>
-              <h3 className="font-bold text-[#0F172A] mt-3">{f.title}</h3>
-              <p className="text-sm text-slate-500 mt-1.5 leading-relaxed">
+              <h3 className="font-bold text-[#004643] mt-3">{f.title}</h3>
+              <p className="text-sm text-[rgba(0,70,67,0.6)] mt-1.5 leading-relaxed">
                 {f.text}
               </p>
             </div>
@@ -242,22 +236,22 @@ export default function HomePage() {
 
       {/* Team strip */}
       <section className="px-5 md:px-14 pb-12 max-w-6xl mx-auto">
-        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#0F172A]">
+        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
           Meet the Team
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-7">
           {TEAM.map((m) => (
             <div
               key={m.name}
-              className="bg-[var(--zass-card)] border border-slate-200 rounded-2xl p-5 text-center shadow-sm"
+              className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5 text-center shadow-sm"
             >
               <div className="w-14 h-14 mx-auto rounded-full bg-[var(--zass-primary)] text-white flex items-center justify-center text-lg font-extrabold">
                 {initials(m.name)}
               </div>
-              <h3 className="font-bold text-[#0F172A] mt-3 text-sm">
+              <h3 className="font-bold text-[#004643] mt-3 text-sm">
                 {m.name}
               </h3>
-              <span className="text-xs text-slate-500">Team Member</span>
+              <span className="text-xs text-[rgba(0,70,67,0.6)]">Team Member</span>
             </div>
           ))}
         </div>

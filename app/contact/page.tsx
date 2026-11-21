@@ -25,15 +25,15 @@ export default function ContactPage() {
 
   return (
     <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-extrabold text-[#0F172A]">Contact</h1>
-      <p className="text-slate-500 mt-2 max-w-2xl">
+      <h1 className="text-3xl font-extrabold text-[#004643]">Contact</h1>
+      <p className="text-[rgba(0,70,67,0.6)] mt-2 max-w-2xl">
         Questions about a subject, a past paper or a course? Send us a message.
       </p>
 
       <div className="grid md:grid-cols-2 gap-8 mt-8">
-        <div className="bg-[var(--zass-card)] border border-slate-200 rounded-2xl p-6 h-fit">
-          <h2 className="font-bold text-[#0F172A]">Reach us directly</h2>
-          <p className="text-sm text-slate-600 mt-3">
+        <div className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-6 h-fit">
+          <h2 className="font-bold text-[#004643]">Reach us directly</h2>
+          <p className="text-sm text-[rgba(0,70,67,0.78)] mt-3">
             Email:{" "}
             <a
               href={`mailto:${settings.contactEmail}`}
@@ -42,7 +42,7 @@ export default function ContactPage() {
               {settings.contactEmail}
             </a>
           </p>
-          <p className="text-sm text-slate-600 mt-2">
+          <p className="text-sm text-[rgba(0,70,67,0.78)] mt-2">
             Phone:{" "}
             <a
               href={`tel:${settings.contactPhone.replace(/\s/g, "")}`}
@@ -51,7 +51,7 @@ export default function ContactPage() {
               {settings.contactPhone}
             </a>
           </p>
-          <p className="text-sm text-slate-600 mt-2">
+          <p className="text-sm text-[rgba(0,70,67,0.78)] mt-2">
             WhatsApp:{" "}
             <a
               href={settings.contactWhatsapp}
@@ -66,22 +66,22 @@ export default function ContactPage() {
 
         <form
           onSubmit={onSubmit}
-          className="bg-[var(--zass-card)] border border-slate-200 rounded-2xl p-6 space-y-4"
+          className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-6 space-y-4"
         >
           <div>
-            <label htmlFor="contact-name" className="text-sm font-bold text-[#0F172A]">
+            <label htmlFor="contact-name" className="text-sm font-bold text-[#004643]">
               Your name
             </label>
             <input
               id="contact-name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="mt-1 w-full border border-slate-300 rounded-xl px-3 py-2 text-sm bg-white outline-none focus:border-[var(--zass-primary)]"
+              className="mt-1 w-full border border-[rgba(0,70,67,0.25)] rounded-xl px-3 py-2 text-sm bg-white outline-none focus:border-[var(--zass-primary)]"
               placeholder="Your name"
             />
           </div>
           <div>
-            <label htmlFor="contact-message" className="text-sm font-bold text-[#0F172A]">
+            <label htmlFor="contact-message" className="text-sm font-bold text-[#004643]">
               Message
             </label>
             <textarea
@@ -90,7 +90,7 @@ export default function ContactPage() {
               onChange={(e) => setMessage(e.target.value)}
               rows={5}
               required
-              className="mt-1 w-full border border-slate-300 rounded-xl px-3 py-2 text-sm bg-white outline-none focus:border-[var(--zass-primary)]"
+              className="mt-1 w-full border border-[rgba(0,70,67,0.25)] rounded-xl px-3 py-2 text-sm bg-white outline-none focus:border-[var(--zass-primary)]"
               placeholder="Write your message..."
             />
           </div>
@@ -101,9 +101,9 @@ export default function ContactPage() {
             Send via email
           </button>
           {sentNote && (
-            <p className="text-sm text-slate-500">{sentNote}</p>
+            <p className="text-sm text-[rgba(0,70,67,0.6)]">{sentNote}</p>
           )}
-          <p className="text-xs text-slate-400">
+          <p className="text-xs text-[rgba(0,70,67,0.6)]">
             This opens your own email app — v1 has no server to receive
             messages yet.
           </p>
