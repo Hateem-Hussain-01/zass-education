@@ -107,7 +107,7 @@ export default function AboutPage() {
                     className="w-16 h-16 mx-auto rounded-full object-cover"
                   />
                   <h3 className="font-bold text-[#004643] mt-3">{m.name}</h3>
-                  <span className="text-xs text-[rgba(0,70,67,0.6)]">Team Member</span>
+                  <span className="text-xs text-[rgba(0,70,67,0.6)]">{m.role}</span>
                 </div>
               ))}
             </div>

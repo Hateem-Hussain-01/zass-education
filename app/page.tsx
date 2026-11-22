@@ -657,7 +657,7 @@ export default function HomePage() {
                   <div className="p-4 text-center">
                     <h3 className="font-extrabold text-[#004643]">{m.name}</h3>
                     <span className="mt-1 block text-xs text-[rgba(0,70,67,0.6)]">
-                      Team Member
+                      {m.role}
                     </span>
                   </div>
                 </div>

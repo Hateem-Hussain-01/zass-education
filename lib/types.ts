@@ -149,13 +149,14 @@ export const DEFAULT_SETTINGS: SiteSettings = {
   },
 };
 
-/** The Zass Education team, exactly as named by the founder. Names only;
- *  no roles, bios or quotes are invented for them. */
-export const TEAM: { name: string }[] = [
-  { name: "Zaeem Noor" },
-  { name: "Shahbaz Hussain" },
-  { name: "Alliya Shahbaz" },
-  { name: "Sufyan Munawar" },
+/** The Zass Education team, exactly as named by the founder. Roles given
+ *  by Eman (22 Nov 2026): Zaeem Noor is Founder; the other three are
+ *  Co-Founders. No bios or quotes are invented for them. */
+export const TEAM: { name: string; role: string }[] = [
+  { name: "Zaeem Noor", role: "Founder" },
+  { name: "Shahbaz Hussain", role: "Co-Founder" },
+  { name: "Alliya Shahbaz", role: "Co-Founder" },
+  { name: "Sufyan Munawar", role: "Co-Founder" },
 ];
 
 export function initials(name: string): string {
