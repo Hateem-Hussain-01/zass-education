@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState, type ReactNode } from "react";
+import Logo from "@/components/Logo";
 import {
   isAdminAuthed,
   loadAdminSetup,
@@ -73,15 +74,13 @@ function AdminShell({ children }: { children: ReactNode }) {
       {/* Sidebar (desktop) / top bar (mobile) */}
       <aside className="bg-[var(--zass-primary)] text-white md:flex md:w-64 md:shrink-0 md:flex-col md:min-h-screen">
         <div className="flex items-center justify-between px-4 py-4 md:block md:px-5 md:py-6">
-          <Link href="/admin" className="flex items-baseline gap-2">
-            <span className="text-2xl font-bold tracking-tight">Zass</span>
-            <span className="text-xs font-medium uppercase tracking-widest text-white/80">
-              Admin Portal
-            </span>
-          </Link>
+          <Logo tone="white" compact />
+          <p className="mt-2 hidden text-[11px] font-bold uppercase tracking-[0.22em] text-white/70 md:block">
+            Admin Portal
+          </p>
           <Link
             href="/"
-            className="rounded-lg border border-white/40 px-2.5 py-1 text-xs font-medium hover:bg-white/10 md:hidden"
+            className="rounded-full border border-white/40 px-2.5 py-1 text-xs font-medium hover:bg-white/10 md:hidden"
           >
             View site
           </Link>
@@ -96,7 +95,7 @@ function AdminShell({ children }: { children: ReactNode }) {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium ${
+                className={`whitespace-nowrap rounded-full px-3 py-2 text-sm font-medium ${
                   active
                     ? "bg-white text-[var(--zass-primary)]"
                     : "text-white hover:bg-white/10"
@@ -129,7 +128,7 @@ function AdminShell({ children }: { children: ReactNode }) {
       {/* Right column: persistent header + page content. The header stays
           visible on every admin tab, including while scrolling. */}
       <div className="flex min-w-0 flex-1 flex-col">
-        <header className="sticky top-0 z-30 flex items-center justify-between gap-3 border-b border-[rgba(0,70,67,0.15)] bg-[var(--zass-base)] px-4 py-3 sm:px-6 lg:px-8">
+        <header className="sticky top-0 z-30 flex items-center justify-between gap-3 border-b-2 border-[rgba(0,70,67,0.12)] bg-[var(--zass-card)] px-4 py-3 shadow-sm sm:px-6 lg:px-8">
           <div className="flex min-w-0 items-baseline gap-2">
             <span className="shrink-0 text-base font-extrabold text-[#004643]">
               Zass Admin Portal

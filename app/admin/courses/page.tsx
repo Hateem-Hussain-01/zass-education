@@ -36,7 +36,6 @@ const emptyForm = {
   subjectId: "",
   level: "A Level" as LevelValue,
   description: "",
-  price: "0",
   image: "",
 };
 
@@ -55,7 +54,6 @@ export default function CoursesAdmin() {
       subjectId: c.subjectId,
       level: c.level,
       description: c.description,
-      price: String(c.price),
       image: c.image ?? "",
     });
     setError("");
@@ -71,15 +69,13 @@ export default function CoursesAdmin() {
     e.preventDefault();
     if (!form.title.trim()) return setError("Please enter a course title.");
     if (!form.subjectId) return setError("Please choose a subject.");
-    const price = Number(form.price);
-    if (!Number.isFinite(price) || price < 0)
-      return setError("Please enter a valid price (0 = Free).");
     const course: Course = {
       id: editingId ?? uid(),
       title: form.title.trim(),
       subjectId: form.subjectId,
       description: form.description,
-      price,
+      // The site is completely free — courses never carry a price.
+      price: 0,
       level: form.level,
       image: form.image || null,
       sample: editingId
@@ -105,7 +101,8 @@ export default function CoursesAdmin() {
       <div>
         <h1 className="text-2xl font-bold text-[#004643]">Courses</h1>
         <p className="mt-1 text-sm">
-          Manage the courses shown on the public site. Price 0 means Free.
+          Manage the courses shown on the public site. All courses are
+          free — no prices anywhere on this site.
         </p>
       </div>
 
@@ -160,16 +157,6 @@ export default function CoursesAdmin() {
                 />
               </Field>
             </div>
-            <Field label="Price (PKR, 0 = Free)">
-              <input
-                className={inputCls}
-                type="number"
-                min={0}
-                inputMode="numeric"
-                value={form.price}
-                onChange={(e) => setForm({ ...form, price: e.target.value })}
-              />
-            </Field>
             <Field label="Image">
               <select
                 className={inputCls}

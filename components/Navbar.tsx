@@ -4,6 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useSettings } from "@/lib/store";
 import { BOARDS } from "@/lib/boards";
+import Logo from "./Logo";
+import TopBar from "./TopBar";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -40,24 +42,16 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-40">
+    <div>
+      <TopBar />
       {settings.announcementOn && settings.announcementText.trim() !== "" && (
         <div className="bg-[var(--zass-primary)] text-white text-center text-sm py-2 px-4">
           {settings.announcementText}
         </div>
       )}
-      <nav className="bg-[var(--zass-base)] border-b border-[rgba(0,70,67,0.15)] px-5 md:px-10 py-2 flex items-center justify-between gap-4">
-        <Link
-          href="/"
-          className="flex items-center gap-2 font-extrabold text-lg text-[#004643] shrink-0"
-        >
-          <span className="w-3 h-3 rounded-full bg-[var(--zass-accent)] inline-block" />
-          {settings.logoText}
-          <span className="hidden sm:inline text-sm font-semibold text-[rgba(0,70,67,0.6)]">
-            Education
-          </span>
-        </Link>
-        <div className="hidden lg:flex gap-5 text-sm font-semibold text-[rgba(0,70,67,0.78)] items-center">
+      <nav className="sticky top-0 z-40 bg-[var(--zass-card)] border-b border-[rgba(0,70,67,0.15)] px-5 md:px-10 py-2.5 flex items-center justify-between gap-4 shadow-[0_2px_12px_rgba(0,70,67,0.06)]">
+        <Logo />
+        <div className="hidden lg:flex gap-5 text-[15px] font-semibold text-[rgba(0,70,67,0.78)] items-center">
           {LINKS.map((l) => (
             <Link
               key={l.href}
@@ -109,14 +103,14 @@ export default function Navbar() {
             <Link
               key={a.href + a.label}
               href={a.href}
-              className={`${a.style} text-[13px] font-bold px-3.5 py-2 rounded-full whitespace-nowrap`}
+              className={`${a.style} text-[13px] font-bold px-3.5 py-2 rounded-full whitespace-nowrap hover:opacity-90`}
             >
               {a.label}
             </Link>
           ))}
         </div>
       </nav>
-      <div className="md:hidden bg-[var(--zass-base)] border-b border-[rgba(0,70,67,0.15)] px-5 py-2 flex gap-5 overflow-x-auto text-sm font-semibold text-[rgba(0,70,67,0.78)]">
+      <div className="md:hidden bg-[var(--zass-card)] border-b border-[rgba(0,70,67,0.15)] px-5 py-2 flex gap-5 overflow-x-auto text-sm font-semibold text-[rgba(0,70,67,0.78)]">
         {LINKS.map((l) => (
           <Link
             key={l.href}
@@ -140,6 +134,6 @@ export default function Navbar() {
           Find Resources
         </Link>
       </div>
-    </header>
+    </div>
   );
 }

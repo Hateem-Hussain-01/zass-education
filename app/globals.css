@@ -67,6 +67,43 @@ body {
   }
 }
 
+/* Scroll fade-up: sections start slightly lowered and transparent, then
+   rise into place when scrolled into view (Reveal component toggles the
+   .is-visible class via IntersectionObserver). */
+@keyframes zass-fade-up {
+  from {
+    transform: translateY(18px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Gentle bob for floating stat cards. */
+@keyframes zass-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+.zass-reveal {
+  opacity: 0;
+}
+
+.zass-reveal.is-visible {
+  animation: zass-fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-zass-bob {
+  animation: zass-bob 4.5s ease-in-out infinite;
+}
+
 .animate-zass-rise {
   animation: zass-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
@@ -84,6 +121,11 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .zass-reveal {
+    opacity: 1;
+  }
+  .zass-reveal.is-visible,
+  .animate-zass-bob,
   .animate-zass-rise,
   .animate-zass-fade-in,
   .animate-zass-float,

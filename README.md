@@ -9,7 +9,36 @@ notes, revision courses and a full admin portal.
 - **Brand:** "Zass" — Zass Education. Palette — exact two colours only:
   Cyprus `#004643` (primary: hero, buttons, headings, links, stars, all
   accents — flat fills, no gradients) + Sand Dune `#F0EDE5` (base/panel),
-  white `#FFFFFF` cards. Home uses the Design 2 (LearnMix) layout.
+  white `#FFFFFF` cards.
+
+## Design — Purdue layout
+
+The site follows the ThemeWagon "Purdue" template **layout** (rebuilt in
+our own code — the template's source, CSS and images are never copied).
+Every public page opens with a flat-Cyprus hero (big bold title, soft
+flat circle shapes, an arched student photo with a floating ★ badge),
+followed by sections headed with a small uppercase eyebrow line above a
+big bold Cyprus title, centred where the template centres them. Cards are
+white, `rounded-2xl`, with a Cyprus-tint border, a subtle shadow and a
+small lift on hover. Sections alternate white / Sand Dune bands with a
+2px Cyprus divider line between them, and major sections fade up on
+scroll (`components/Reveal.tsx`).
+
+- **Colours — exactly two:** Cyprus `#004643` + Sand Dune `#F0EDE5`,
+  white `#FFFFFF` cards, Cyprus-alpha text. Flat fills only — **no
+  gradients, no orange, no other colours**.
+- **Logo:** the default lockup is drawn in code
+  (`components/Logo.tsx`) — a graduation cap + **ZASS** + **EDUCATION**.
+  The admin can upload a replacement logo PNG in Settings → Site Logo
+  (PNG only, 500 KB or less, stored as a data URL in that browser only);
+  it then shows in the navbar, footer and admin header, and Remove
+  brings back the default lockup.
+- **Free, no shop:** the site is completely free for students — **no
+  shop, cart or prices anywhere**. Public course cards show level +
+  subject, never a price.
+- **No invented content:** no testimonials, no invented numbers, names
+  or quotes. Counts shown are real (papers, subjects, dashboard stats);
+  a board with no papers yet is marked "coming soon".
 
 ## Routes
 
@@ -26,13 +55,13 @@ notes, revision courses and a full admin portal.
 | `/book-session` | Book a 1-to-1 session — form saved browser-locally, listed in admin → Bookings |
 | `/admin` | Admin portal (see below) |
 
-Every public page has a proper hero section (flat Cyprus, floating 3D-style
-shapes, student photo) — home, subjects, papers, courses, about, contact,
-boards and each board page. The home hero shows a smiling student with a
-backpack (`public/images/1596495578065-6e0763fa1178.jpg`, Unsplash) that
-rises from the bottom of its arch frame on load. Home sections are visually
-separated: alternating white / Sand Dune bands with a visible Cyprus
-divider line between them.
+Every public page has a proper hero section (flat Cyprus, floating
+3D-style shapes, student photo) — home, subjects, papers, courses, about,
+contact, boards and each board page. The home hero shows a smiling student
+with a backpack (`public/images/1596495578065-6e0763fa1178.jpg`, Unsplash)
+that rises from the bottom of its arch frame on load. Inner-page sections
+are visually separated: alternating white / Sand Dune bands with a visible
+Cyprus divider line between them (see "Design — Purdue layout" above).
 
 ## Past papers catalogue
 
@@ -77,7 +106,9 @@ divider line between them.
   IndexedDB; metadata in localStorage. Download works from the public
   `/papers` page in the same browser.
 - **Subjects / Notes & Lessons / Courses:** full CRUD from the portal.
-- **Settings:** site name, logo text, tagline, hero text/buttons, stats,
+- **Settings:** site name, logo text, **site logo PNG upload** (Settings →
+  Site Logo — PNG only, 500 KB or less, browser-local; Remove restores
+  the default lockup), tagline, hero text/buttons, stats,
   announcement bar, contact + social links, footer text, SEO title /
   description, and the four palette colours. Changes apply immediately
   across the public site.

@@ -64,21 +64,24 @@ export default function AdminDashboard() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-[#004643]">Dashboard</h1>
-        <p className="mt-1 text-sm">
+        <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-[rgba(0,70,67,0.6)]">
+          Admin Portal
+        </p>
+        <h1 className="mt-1 text-2xl font-extrabold text-[#004643] md:text-[28px]">Dashboard</h1>
+        <p className="mt-1 text-sm text-[rgba(0,70,67,0.6)]">
           Manage past papers, subjects, notes, courses and site settings.
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-6">
+      <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-6">
         {stats.map((s) => (
           <Link
             key={s.label}
             href={s.href}
-            className="rounded-xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] p-4 shadow-sm hover:border-[var(--zass-primary)]"
+            className="rounded-2xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] p-4 shadow-sm hover:shadow-md hover:-translate-y-1 hover:border-[var(--zass-primary)] transition-all"
           >
-            <p className="text-2xl font-bold text-[#004643]">{s.value}</p>
-            <p className="mt-1 text-sm">{s.label}</p>
+            <p className="text-2xl font-extrabold text-[#004643]">{s.value}</p>
+            <p className="mt-1 text-sm text-[rgba(0,70,67,0.6)]">{s.label}</p>
           </Link>
         ))}
       </div>
@@ -125,7 +128,7 @@ export default function AdminDashboard() {
               <Link
                 key={a.href + a.label}
                 href={a.href}
-                className="rounded-lg bg-[var(--zass-primary)] px-4 py-2.5 text-center text-sm font-semibold text-white hover:opacity-90"
+                className="rounded-full bg-[var(--zass-primary)] px-4 py-2.5 text-center text-sm font-bold text-white hover:opacity-90"
               >
                 {a.label}
               </Link>
@@ -134,7 +137,7 @@ export default function AdminDashboard() {
         </Card>
       </div>
 
-      <div className="rounded-xl border border-[var(--zass-accent)]/40 bg-[var(--zass-accent)]/10 px-4 py-3 text-sm text-[#004643]">
+      <div className="rounded-2xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] px-5 py-4 text-sm text-[#004643] shadow-sm">
         <strong>Note:</strong> v1 stores data in this browser only
         (localStorage + IndexedDB). A shared backend is the next step — data
         does not sync to other devices yet.

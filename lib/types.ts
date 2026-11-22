@@ -86,6 +86,9 @@ export interface Palette {
 export interface SiteSettings {
   siteName: string;
   logoText: string;
+  /** Uploaded logo PNG as a data URL (browser-local). Empty = use the
+   *  default cap + ZASS + EDUCATION lockup drawn in code. */
+  siteLogo: string;
   tagline: string;
   heroBadge: string;
   heroHeadline: string;
@@ -113,6 +116,7 @@ export interface SiteSettings {
 export const DEFAULT_SETTINGS: SiteSettings = {
   siteName: "Zass Education",
   logoText: "Zass",
+  siteLogo: "",
   tagline: "O & A Level learning, made simple.",
   heroBadge: "Learn from the best",
   heroHeadline: "Learn Anywhere, Anytime\nEmpower Your Future",

@@ -1,10 +1,11 @@
 import Link from "next/link";
+import Icon from "./icons";
 
 /**
- * Shared hero for inner pages — flat Cyprus, same feel as the home hero:
- * subtle floating 3D-style shapes (CSS only, lightweight) and small cute
- * accents, all in the two palette colours. Optional small arched student
- * photo on the right. Title + description are the page's real copy.
+ * Shared hero for inner pages — Purdue style: flat Cyprus, big bold
+ * title, soft flat circle shapes (no gradients), a small arched student
+ * photo on the right with a floating star 4.8 badge. Title + description
+ * are the page's real copy.
  */
 export default function PageHero({
   title,
@@ -22,56 +23,56 @@ export default function PageHero({
   cta?: { href: string; label: string };
 }) {
   return (
-    <section className="relative overflow-hidden bg-[var(--zass-primary)] text-white px-5 md:px-14 pt-10 pb-12">
-      {/* Floating 3D-style shapes — white alpha only, no new colours. */}
+    <section className="relative overflow-hidden bg-[var(--zass-primary)] text-white px-5 md:px-14 pt-12 pb-14">
+      {/* Soft flat background shapes — white alpha circles only. */}
       <div
         aria-hidden="true"
-        className="animate-zass-float absolute left-[6%] top-8 h-10 w-10 rounded-full border-2 border-white/25"
+        className="absolute -right-16 -top-24 h-72 w-72 rounded-full border-[28px] border-white/10"
       />
       <div
         aria-hidden="true"
-        className="animate-zass-float-slow absolute right-[24%] top-6 h-8 w-8 rounded-lg bg-white/10"
+        className="animate-zass-float absolute left-[5%] top-8 h-10 w-10 rounded-full border-2 border-white/25"
       />
       <div
         aria-hidden="true"
-        className="animate-zass-float absolute bottom-8 left-[38%] h-6 w-6 rounded-full bg-white/15"
+        className="animate-zass-float-slow absolute right-[28%] top-6 h-8 w-8 rounded-lg bg-white/10"
       />
       <div
         aria-hidden="true"
-        className="animate-zass-float-slow absolute right-[8%] bottom-10 text-2xl text-white/30"
+        className="animate-zass-float absolute bottom-8 left-[42%] h-6 w-6 rounded-full bg-white/15"
+      />
+      <div
+        aria-hidden="true"
+        className="animate-zass-float-slow absolute right-[10%] bottom-8 text-white/30"
       >
-        ★
+        <Icon name="star" filled className="h-6 w-6" />
       </div>
       <div
         aria-hidden="true"
-        className="animate-zass-float absolute left-[46%] top-5 text-xl text-white/25"
+        className="animate-zass-float absolute left-[48%] top-5 text-white/25"
       >
-        ✎
+        <Icon name="pencil" className="h-5 w-5" />
       </div>
-      <div
-        aria-hidden="true"
-        className="animate-zass-float-slow absolute bottom-6 right-[38%] h-5 w-5 rounded-full border-2 border-white/20"
-      />
 
       <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-8 md:flex-row md:justify-between">
         <div className="max-w-2xl">
           {eyebrow && (
-            <span className="inline-block rounded-full border border-white/35 bg-white/15 px-3.5 py-1.5 text-xs font-bold">
+            <span className="inline-block rounded-full border border-white/35 bg-white/15 px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider">
               {eyebrow}
             </span>
           )}
-          <h1 className="mt-4 text-3xl font-extrabold leading-tight md:text-4xl">
+          <h1 className="mt-4 text-4xl font-extrabold leading-tight md:text-5xl">
             {title}
           </h1>
-          <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-white/85">
+          <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-white/85">
             {description}
           </p>
           {cta && (
             <Link
               href={cta.href}
-              className="mt-5 inline-block rounded-full bg-[var(--zass-card)] px-5 py-2.5 text-sm font-bold text-[#004643]"
+              className="mt-6 inline-block rounded-full bg-[var(--zass-card)] px-6 py-2.5 text-sm font-bold text-[#004643] hover:opacity-90"
             >
-              {cta.label}
+              {cta.label} →
             </Link>
           )}
         </div>
@@ -81,13 +82,13 @@ export default function PageHero({
             <img
               src={image}
               alt={imageAlt ?? "O & A Level student"}
-              className="animate-zass-rise h-[220px] w-[170px] object-cover rounded-t-[120px] rounded-b-3xl shadow-[0_0_0_10px_rgba(255,255,255,0.14)]"
+              className="animate-zass-rise h-[240px] w-[190px] object-cover rounded-t-[130px] rounded-b-3xl shadow-[0_0_0_10px_rgba(255,255,255,0.14)]"
             />
             <div
               aria-hidden="true"
-              className="animate-zass-float absolute -left-4 top-6 rounded-2xl bg-[var(--zass-card)] px-3 py-2 text-sm font-bold text-[#004643] shadow-xl"
+              className="animate-zass-bob absolute -left-4 top-6 flex items-center gap-1 rounded-2xl bg-[var(--zass-card)] px-3 py-2 text-sm font-bold text-[#004643] shadow-xl"
             >
-              ★ 4.8
+              <Icon name="star" filled className="h-4 w-4" /> 4.8
             </div>
           </div>
         )}
