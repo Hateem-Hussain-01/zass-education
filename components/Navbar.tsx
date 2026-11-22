@@ -9,10 +9,13 @@ import Logo from "./Logo";
 const LINKS = [
   { href: "/", label: "Home" },
   { href: "/resources", label: "Resources" },
-  { href: "/courses", label: "Courses" },
 ];
 
-/** About is rendered after the Examination Boards dropdown so it is the
+/** Courses is rendered after the Examination Boards dropdown so it is the
+ *  second-last tab in the navbar (Eman, 22 Nov 2026). */
+const COURSES = { href: "/courses", label: "Courses" };
+
+/** About is rendered after Courses so it is the
  *  last tab in the navbar (Eman, 22 Nov 2026). */
 const ABOUT = { href: "/about", label: "About" };
 
@@ -86,6 +89,16 @@ export default function Navbar() {
             </div>
           </div>
           <Link
+            href={COURSES.href}
+            className={
+              pathname === COURSES.href
+                ? "text-[var(--zass-primary)]"
+                : "hover:text-[var(--zass-primary)]"
+            }
+          >
+            {COURSES.label}
+          </Link>
+          <Link
             href={ABOUT.href}
             className={
               pathname === ABOUT.href
@@ -124,6 +137,16 @@ export default function Navbar() {
         ))}
         <Link href="/boards" className="whitespace-nowrap">
           Boards
+        </Link>
+        <Link
+          href={COURSES.href}
+          className={
+            pathname === COURSES.href
+              ? "text-[var(--zass-primary)] whitespace-nowrap"
+              : "whitespace-nowrap"
+          }
+        >
+          {COURSES.label}
         </Link>
         <Link
           href={ABOUT.href}
