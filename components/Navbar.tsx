@@ -20,12 +20,6 @@ const LINKS = [
  *  it is reachable only via its direct /admin URL. */
 const ACTIONS = [
   {
-    href: "/contact",
-    label: "Contact Us",
-    style:
-      "border-2 border-[var(--zass-primary)] text-[var(--zass-primary)] bg-transparent",
-  },
-  {
     href: "/book-session",
     label: "Book a 1-to-1 Session",
     style: "bg-[var(--zass-primary)] text-white",
