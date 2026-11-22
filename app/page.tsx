@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useCourses, useNotes, useSettings, useSubjects } from "@/lib/store";
 import { TEAM } from "@/lib/types";
 import { BOARDS } from "@/lib/boards";
@@ -142,9 +141,6 @@ export default function HomePage() {
   const { subjects } = useSubjects();
   const { courses } = useCourses();
   const { notes } = useNotes();
-  const router = useRouter();
-  const [query, setQuery] = useState("");
-
   const headlineLines = settings.heroHeadline.split("\n");
   const papersCount = CATALOGUE_PAPERS.length;
 
@@ -153,23 +149,24 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* ------------------------------------------------ Hero — flat Cyprus */}
-      <section className="relative overflow-hidden bg-[var(--zass-primary)] px-5 pb-24 pt-10 text-white md:px-14">
-        {/* Soft flat background shapes — white alpha circles only. */}
+      {/* ------------------------------------------------ Hero — light, like the reference */}
+      <section className="relative overflow-hidden bg-[var(--zass-base)] px-5 pt-14 text-[#004643] md:px-14">
+        {/* Soft flat background washes — Cyprus at very low opacity only. */}
         <div
           aria-hidden="true"
-          className="absolute -right-20 -top-28 h-80 w-80 rounded-full border-[32px] border-white/10"
+          className="absolute -right-28 -top-36 h-[520px] w-[520px] rounded-full bg-[rgba(0,70,67,0.05)]"
         />
         <div
           aria-hidden="true"
-          className="absolute -left-24 bottom-0 h-56 w-56 rounded-full bg-white/5"
+          className="absolute -left-32 top-16 h-80 w-80 rounded-full bg-[rgba(0,70,67,0.06)]"
         />
-        <div className="relative mx-auto flex max-w-6xl flex-col items-center gap-10 md:flex-row">
-          <div className="flex-1">
-            <span className="inline-block rounded-full border border-white/35 bg-white/15 px-3.5 py-1.5 text-xs font-bold">
-              {settings.heroBadge}
-            </span>
-            <h1 className="mt-5 text-4xl font-extrabold leading-tight md:text-[52px] md:leading-[1.1]">
+        <div
+          aria-hidden="true"
+          className="absolute right-[30%] top-6 h-40 w-40 rounded-full border-[24px] border-[rgba(0,70,67,0.05)]"
+        />
+        <div className="relative mx-auto flex max-w-6xl flex-col md:flex-row">
+          <div className="flex flex-1 flex-col justify-center py-8 md:py-16">
+            <h1 className="text-[44px] font-extrabold leading-[1.05] text-[#004643] md:text-[60px]">
               {headlineLines.map((line, i) => (
                 <span key={i}>
                   {line}
@@ -177,85 +174,72 @@ export default function HomePage() {
                 </span>
               ))}
             </h1>
-            <p className="mt-4 max-w-lg text-[15px] leading-relaxed text-white/85">
+            <p className="mt-5 max-w-md text-[15px] leading-relaxed text-[rgba(0,70,67,0.78)]">
               {settings.heroSubtext}
             </p>
-            <form
-              className="mt-6 flex max-w-md items-center rounded-full bg-[var(--zass-card)] p-1.5 pl-5"
-              onSubmit={(e) => {
-                e.preventDefault();
-                router.push(
-                  query.trim()
-                    ? `/papers?q=${encodeURIComponent(query.trim())}`
-                    : "/papers",
-                );
-              }}
-            >
-              <input
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder={settings.heroSearchPlaceholder}
-                className="min-w-0 flex-1 border-none bg-transparent text-sm text-[rgba(0,70,67,0.6)] outline-none"
-                aria-label="Search courses and papers"
-              />
-              <button
-                type="submit"
-                className="shrink-0 rounded-full bg-[var(--zass-accent)] px-5 py-2.5 text-sm font-bold text-white"
+            <div className="mt-7">
+              <Link
+                href="/courses"
+                className="inline-block rounded-full bg-white px-6 py-3 text-xs font-extrabold uppercase tracking-wide text-[#004643] shadow-md hover:shadow-lg"
               >
-                {settings.heroCta}
-              </button>
-            </form>
-            <Link
-              href="/courses"
-              className="mt-5 inline-block rounded-full bg-white px-6 py-2.5 text-sm font-bold text-[#004643] hover:opacity-90"
-            >
-              Explore Courses →
-            </Link>
+                Explore Courses →
+              </Link>
+            </div>
           </div>
-          <div className="relative flex shrink-0 justify-center">
-            {/* Student photo rises on load. Cut-out PNG: object-contain
-                keeps the full figure (no cropping). */}
+          <div className="relative flex shrink-0 items-center justify-center md:items-end">
+            {/* Student photo grounded: its bottom edge sits flush on the
+                hero's bottom edge (the section has no bottom padding). */}
             <div className="animate-zass-rise">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/purdue/home-image.png"
                 alt="Smiling student holding a laptop"
-                className="h-[380px] w-auto max-w-[340px] object-contain md:h-[430px]"
+                className="block h-[400px] w-auto object-contain md:h-[500px]"
               />
             </div>
-            <div className="animate-zass-fade-in animate-zass-bob absolute -left-8 top-10 rounded-2xl bg-[var(--zass-card)] px-4 py-3 text-[#004643] shadow-xl">
-              <b className="block text-lg leading-none">
-                <CountUp to={papersCount} suffix="+" />
-              </b>
-              <span className="text-[13px] text-[rgba(0,70,67,0.6)]">
-                Past Papers
+            <div className="animate-zass-fade-in animate-zass-bob absolute -right-3 top-8 flex items-center gap-2.5 rounded-xl bg-white px-3.5 py-2.5 text-[#004643] shadow-xl">
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[rgba(0,70,67,0.08)]">
+                <Icon name="file" className="h-4 w-4" />
+              </span>
+              <span>
+                <b className="block text-base leading-none">
+                  <CountUp to={papersCount} suffix="+" />
+                </b>
+                <span className="text-[11px] text-[rgba(0,70,67,0.6)]">
+                  Past Papers
+                </span>
               </span>
             </div>
-            <div className="animate-zass-fade-in animate-zass-bob absolute -right-4 bottom-12 rounded-2xl bg-[var(--zass-card)] px-4 py-3 text-[#004643] shadow-xl">
-              <b className="block text-lg leading-none">
-                <CountUp to={subjects.length} />
-              </b>
-              <span className="text-[13px] text-[rgba(0,70,67,0.6)]">
-                Subjects
+            <div className="animate-zass-fade-in animate-zass-bob absolute -left-6 top-[45%] flex items-center gap-2.5 rounded-xl bg-white px-3.5 py-2.5 text-[#004643] shadow-xl">
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[rgba(0,70,67,0.08)]">
+                <Icon name="users" className="h-4 w-4" />
+              </span>
+              <span>
+                <b className="block text-base leading-none">
+                  <CountUp to={subjects.length} />
+                </b>
+                <span className="text-[11px] text-[rgba(0,70,67,0.6)]">
+                  Subjects
+                </span>
               </span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ------------------------------------------------ Stats strip */}
-      <section className="relative z-10 mx-auto -mt-12 max-w-6xl px-5 md:px-14">
+      {/* ------------------------------------------------ Stats strip — overlaps the hero bottom edge */}
+      <section className="relative z-10 mx-auto -mt-4 max-w-6xl px-5 md:px-14">
         <Reveal>
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {[
-              { icon: "book", value: subjects.length, suffix: "", label: "Subjects" },
-              { icon: "file", value: papersCount, suffix: "", label: "Past Papers" },
-              { icon: "grid", value: BOARDS.length, suffix: "", label: "Examination Boards" },
-              { icon: "cap", value: courses.length, suffix: "", label: "Courses" },
+              { icon: "book", value: subjects.length, suffix: "", label: "Subjects", bg: "bg-[var(--zass-card)]" },
+              { icon: "file", value: papersCount, suffix: "", label: "Past Papers", bg: "bg-[var(--zass-base)]" },
+              { icon: "grid", value: BOARDS.length, suffix: "", label: "Examination Boards", bg: "bg-[rgba(0,70,67,0.08)]" },
+              { icon: "cap", value: courses.length, suffix: "", label: "Courses", bg: "bg-[var(--zass-card)]" },
             ].map((s) => (
               <div
                 key={s.label}
-                className="flex items-center gap-3 rounded-2xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] p-4 shadow-lg transition-transform hover:-translate-y-1"
+                className={`flex h-full items-center gap-3 rounded-2xl border border-[rgba(0,70,67,0.15)] ${s.bg} p-4 shadow-lg transition-transform hover:-translate-y-1`}
               >
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[var(--zass-primary)] text-white">
                   <Icon name={s.icon as IconName} className="h-5 w-5" />
