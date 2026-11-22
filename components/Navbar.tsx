@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import { useSettings } from "@/lib/store";
 import { BOARDS } from "@/lib/boards";
 import Logo from "./Logo";
-import TopBar from "./TopBar";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -37,7 +36,6 @@ export default function Navbar() {
 
   return (
     <div>
-      <TopBar />
       {settings.announcementOn && settings.announcementText.trim() !== "" && (
         <div className="bg-[var(--zass-primary)] text-white text-center text-sm py-2 px-4">
           {settings.announcementText}
