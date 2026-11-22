@@ -186,9 +186,10 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          <div className="relative flex shrink-0 items-center justify-center md:items-end">
-            {/* Student photo grounded: its bottom edge sits flush on the
-                hero's bottom edge (the section has no bottom padding). */}
+          <div className="relative flex shrink-0 items-center justify-center pb-8 md:items-end">
+            {/* Student photo: its bottom edge sits clear ABOVE the stats
+                strip's top edge (strip overlaps the hero bottom by 16px),
+                so no stats card ever covers any part of her. */}
             <div className="animate-zass-rise">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
