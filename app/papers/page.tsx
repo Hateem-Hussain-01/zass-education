@@ -1,73 +1,10 @@
 "use client";
 
-import { Suspense, useMemo, useState } from "react";
-import { useSearchParams } from "next/navigation";
-import {
-  downloadStoredFile,
-  formatBytes,
-  subjectName,
-  usePapers,
-  useSubjects,
-} from "@/lib/store";
-import { CATALOGUE_PAPERS } from "@/lib/papers-catalogue";
-import { BOARDS } from "@/lib/boards";
+import { Suspense } from "react";
 import PageHero from "@/components/PageHero";
-import Reveal from "@/components/Reveal";
+import PapersCatalogue from "@/components/PapersCatalogue";
 
-function PapersInner() {
-  const searchParams = useSearchParams();
-  const { papers } = usePapers();
-  const { subjects } = useSubjects();
-
-  // Real catalogue entries (verified archive links) come first, then the
-  // admin-uploaded papers stored in this browser.
-  const allPapers = useMemo(
-    () => [...CATALOGUE_PAPERS, ...papers],
-    [papers],
-  );
-
-  const [query, setQuery] = useState(searchParams.get("q") ?? "");
-  const [subjectFilter, setSubjectFilter] = useState(
-    searchParams.get("subject") ?? "all",
-  );
-  const [boardFilter, setBoardFilter] = useState(
-    searchParams.get("board") ?? "all",
-  );
-  const [sessionFilter, setSessionFilter] = useState("all");
-  const [yearFilter, setYearFilter] = useState("all");
-
-  const years = useMemo(
-    () =>
-      Array.from(new Set(allPapers.map((p) => p.year))).sort((a, b) => b - a),
-    [allPapers],
-  );
-
-  const filtered = allPapers.filter((p) => {
-    if (subjectFilter !== "all" && p.subjectId !== subjectFilter) return false;
-    if (boardFilter !== "all" && p.board !== boardFilter) return false;
-    if (sessionFilter !== "all" && p.session !== sessionFilter) return false;
-    if (yearFilter !== "all" && String(p.year) !== yearFilter) return false;
-    if (query.trim()) {
-      const q = query.trim().toLowerCase();
-      const hay = `${p.title} ${subjectName(subjects, p.subjectId)} ${p.board} ${p.year}`.toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
-    return true;
-  });
-
-  const [downloading, setDownloading] = useState<string | null>(null);
-  const [downloadMsg, setDownloadMsg] = useState("");
-
-  const onDownload = async (fileId: string, fileName: string, id: string) => {
-    setDownloading(id);
-    setDownloadMsg("");
-    const ok = await downloadStoredFile(fileId, fileName);
-    setDownloadMsg(
-      ok ? "" : "This file is not in this browser - upload it again from the admin portal.",
-    );
-    setDownloading(null);
-  };
-
+export default function PapersPage() {
   return (
     <div>
       <PageHero
@@ -77,174 +14,15 @@ function PapersInner() {
         image="/images/purdue/1.jpg"
         imageAlt="Students working on laptops"
       />
-      <section className="bg-[var(--zass-card)] border-t-2 border-[rgba(0,70,67,0.12)] px-5 md:px-14 py-11">
-        <div className="max-w-6xl mx-auto">
-          <Reveal>
-            <div className="text-center">
-              <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-[rgba(0,70,67,0.6)]">
-                Past Papers Library
-              </p>
-              <h2 className="mt-2 text-2xl font-extrabold text-[#004643] md:text-[28px]">
-                Find Your Paper
-              </h2>
-              <p className="mt-2 text-sm text-[rgba(0,70,67,0.6)] max-w-2xl mx-auto">
-                Search and filter the library, then download the paper you
-                need.
-              </p>
-            </div>
-
-            <div className="mt-7 bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5 shadow-sm">
-              <div className="flex flex-wrap gap-3">
-                <input
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  placeholder="Search papers..."
-                  className="border border-[rgba(0,70,67,0.25)] rounded-full px-4 py-2 text-sm flex-1 min-w-[200px] bg-white outline-none focus:border-[var(--zass-primary)]"
-                  aria-label="Search past papers"
-                />
-                <select
-                  value={boardFilter}
-                  onChange={(e) => setBoardFilter(e.target.value)}
-                  className="border border-[rgba(0,70,67,0.25)] rounded-full px-4 py-2 text-sm bg-white"
-                  aria-label="Filter by examination board"
-                >
-                  <option value="all">All boards</option>
-                  {BOARDS.map((b) => (
-                    <option key={b.slug} value={b.name}>
-                      {b.name}
-                    </option>
-                  ))}
-                </select>
-                <select
-                  value={subjectFilter}
-                  onChange={(e) => setSubjectFilter(e.target.value)}
-                  className="border border-[rgba(0,70,67,0.25)] rounded-full px-4 py-2 text-sm bg-white"
-                  aria-label="Filter by subject"
-                >
-                  <option value="all">All subjects</option>
-                  {subjects.map((s) => (
-                    <option key={s.id} value={s.id}>
-                      {s.name} ({s.level})
-                    </option>
-                  ))}
-                </select>
-                <select
-                  value={sessionFilter}
-                  onChange={(e) => setSessionFilter(e.target.value)}
-                  className="border border-[rgba(0,70,67,0.25)] rounded-full px-4 py-2 text-sm bg-white"
-                  aria-label="Filter by session"
-                >
-                  <option value="all">All sessions</option>
-                  <option value="Feb/Mar">Feb/Mar</option>
-                  <option value="May/June">May/June</option>
-                  <option value="Oct/Nov">Oct/Nov</option>
-                </select>
-                <select
-                  value={yearFilter}
-                  onChange={(e) => setYearFilter(e.target.value)}
-                  className="border border-[rgba(0,70,67,0.25)] rounded-full px-4 py-2 text-sm bg-white"
-                  aria-label="Filter by year"
-                >
-                  <option value="all">All years</option>
-                  {years.map((y) => (
-                    <option key={y} value={String(y)}>
-                      {y}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <p className="mt-4 text-sm font-bold text-[#004643]">
-                {filtered.length} paper{filtered.length === 1 ? "" : "s"} found
-              </p>
-            </div>
-
-            {downloadMsg && (
-              <p className="mt-4 text-sm text-[rgba(0,70,67,0.78)] bg-[rgba(0,70,67,0.06)] border border-[rgba(0,70,67,0.2)] rounded-xl px-4 py-3">
-                {downloadMsg}
-              </p>
-            )}
-
-            {filtered.length === 0 ? (
-              <div className="mt-6 bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-8 text-center shadow-sm">
-                <h2 className="font-bold text-[#004643]">No papers found</h2>
-                <p className="text-sm text-[rgba(0,70,67,0.6)] mt-2">
-                  {allPapers.length === 0
-                    ? "No papers uploaded yet - add them from the admin portal (Past Papers → Add paper)."
-                    : "Try a different search or filter."}
-                </p>
-              </div>
-            ) : (
-              <ul className="mt-6 space-y-3">
-                {filtered.map((p) => (
-                  <li
-                    key={p.id}
-                    className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5 flex flex-col md:flex-row md:items-center gap-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all"
-                  >
-                    <div className="flex-1 min-w-0">
-                      <div className="flex flex-wrap items-center gap-2">
-                        <h2 className="font-bold text-[#004643]">{p.title}</h2>
-                        {p.sample && (
-                          <span className="text-[11px] font-bold bg-[rgba(0,70,67,0.08)] text-[#004643] px-2 py-0.5 rounded-full">
-                            Sample
-                          </span>
-                        )}
-                      </div>
-                      <p className="text-sm text-[rgba(0,70,67,0.6)] mt-1">
-                        {subjectName(subjects, p.subjectId)} · {p.board} ·{" "}
-                        {p.session} {p.year} · {p.paperNo}
-                        {p.source ? ` · Source: ${p.source}` : ""}
-                      </p>
-                      <p className="text-xs text-[rgba(0,70,67,0.6)] mt-1">
-                        {p.fileName
-                          ? `${p.fileName} (${formatBytes(p.fileSize)})`
-                          : p.downloadUrl
-                            ? "PDF - downloads from the public archive"
-                            : "No file uploaded yet"}
-                      </p>
-                    </div>
-                    {p.downloadUrl ? (
-                      <a
-                        href={p.downloadUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="bg-[var(--zass-primary)] text-white text-sm font-bold px-5 py-2.5 rounded-full shrink-0 text-center hover:opacity-90"
-                      >
-                        Download PDF
-                      </a>
-                    ) : p.fileId && p.fileName ? (
-                      <button
-                        onClick={() => onDownload(p.fileId as string, p.fileName as string, p.id)}
-                        disabled={downloading === p.id}
-                        className="bg-[var(--zass-primary)] text-white text-sm font-bold px-5 py-2.5 rounded-full shrink-0 disabled:opacity-50 hover:opacity-90"
-                      >
-                        {downloading === p.id ? "Preparing..." : "Download PDF"}
-                      </button>
-                    ) : (
-                      <span className="text-xs text-[rgba(0,70,67,0.6)] shrink-0">
-                        File coming soon
-                      </span>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            )}
-          </Reveal>
-        </div>
-      </section>
+      <Suspense
+        fallback={
+          <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
+            <p className="text-[rgba(0,70,67,0.6)]">Loading past papers...</p>
+          </div>
+        }
+      >
+        <PapersCatalogue />
+      </Suspense>
     </div>
-  );
-}
-
-export default function PapersPage() {
-  return (
-    <Suspense
-      fallback={
-        <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
-          <p className="text-[rgba(0,70,67,0.6)]">Loading past papers...</p>
-        </div>
-      }
-    >
-      <PapersInner />
-    </Suspense>
   );
 }

@@ -8,11 +8,9 @@ import Logo from "./Logo";
 
 const LINKS = [
   { href: "/", label: "Home" },
-  { href: "/subjects", label: "Subjects" },
-  { href: "/papers", label: "Past Papers" },
+  { href: "/resources", label: "Resources" },
   { href: "/courses", label: "Courses" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
 ];
 
 /** Right-side actions. The admin portal is intentionally NOT linked here;
@@ -21,11 +19,6 @@ const ACTIONS = [
   {
     href: "/book-session",
     label: "Book a 1-to-1 Session",
-    style: "bg-[var(--zass-primary)] text-white",
-  },
-  {
-    href: "/papers",
-    label: "Find Resources",
     style: "bg-[var(--zass-primary)] text-white",
   },
 ];
@@ -121,9 +114,6 @@ export default function Navbar() {
         </Link>
         <Link href="/book-session" className="whitespace-nowrap">
           Book a 1-to-1 Session
-        </Link>
-        <Link href="/papers" className="whitespace-nowrap">
-          Find Resources
         </Link>
       </div>
     </div>
