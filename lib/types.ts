@@ -235,6 +235,28 @@ export const SEED_NOTES: Note[] = [
     sample: true,
     createdAt: 0,
   },
+  {
+    id: "note-sample-2",
+    title: "Physics 9702 — Mechanics: forces, motion & energy",
+    subjectId: "al-physics",
+    body: "Sample note. Mechanics is the study of motion and the forces that cause it — kinematics, Newton's laws and energy. Worked examples and full chapter notes can be added from the admin portal (Notes & Lessons).",
+    fileName: null,
+    fileSize: null,
+    fileId: null,
+    sample: true,
+    createdAt: 0,
+  },
+  {
+    id: "note-sample-3",
+    title: "Chemistry 9701 — Organic Chemistry: hydrocarbons & functional groups",
+    subjectId: "al-chemistry",
+    body: "Sample note. Organic chemistry is the study of carbon compounds — hydrocarbons, their functional groups and their reactions. Worked examples and full chapter notes can be added from the admin portal (Notes & Lessons).",
+    fileName: null,
+    fileSize: null,
+    fileId: null,
+    sample: true,
+    createdAt: 0,
+  },
 ];
 
 export const SEED_COURSES: Course[] = [
