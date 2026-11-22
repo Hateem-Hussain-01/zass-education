@@ -3,10 +3,11 @@
 import Link from "next/link";
 import { useSubjects } from "@/lib/store";
 import type { Level } from "@/lib/types";
+import PageHero from "@/components/PageHero";
 
 function SubjectGroup({ level, subjects }: { level: Level; subjects: { id: string; name: string; code: string }[] }) {
   return (
-    <section className="mt-10">
+    <section className="border-t-2 border-[rgba(0,70,67,0.12)] first:border-t-0 mt-10 first:mt-0 pt-10 first:pt-0">
       <h2 className="text-xl font-extrabold text-[#004643]">{level} Subjects</h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
         {subjects.map((s) => (
@@ -41,18 +42,21 @@ export default function SubjectsPage() {
   const both = subjects.filter((s) => s.level === "Both");
 
   return (
-    <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-extrabold text-[#004643]">Subjects</h1>
-      <p className="text-[rgba(0,70,67,0.6)] mt-2 max-w-2xl">
-        O &amp; A Level subjects (Cambridge). Pick a subject to see its past
-        papers, notes and courses. More subjects can be added from the admin
-        portal.
-      </p>
-      <SubjectGroup level="O Level" subjects={oLevel} />
-      <SubjectGroup level="A Level" subjects={aLevel} />
-      {both.length > 0 && (
-        <SubjectGroup level="O Level" subjects={both} />
-      )}
+    <div>
+      <PageHero
+        eyebrow="Cambridge"
+        title="Subjects"
+        description="O & A Level subjects (Cambridge). Pick a subject to see its past papers, notes and courses. More subjects can be added from the admin portal."
+        image="/images/1523240795612-9a054b0db644.jpg"
+        imageAlt="Students studying together in a library"
+      />
+      <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
+        <SubjectGroup level="O Level" subjects={oLevel} />
+        <SubjectGroup level="A Level" subjects={aLevel} />
+        {both.length > 0 && (
+          <SubjectGroup level="O Level" subjects={both} />
+        )}
+      </div>
     </div>
   );
 }

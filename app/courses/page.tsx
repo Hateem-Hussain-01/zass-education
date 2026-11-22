@@ -9,6 +9,7 @@ import {
   useNotes,
   useSubjects,
 } from "@/lib/store";
+import PageHero from "@/components/PageHero";
 
 export default function CoursesPage() {
   const { courses } = useCourses();
@@ -16,16 +17,16 @@ export default function CoursesPage() {
   const { subjects } = useSubjects();
 
   return (
-    <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-extrabold text-[#004643]">
-        Courses &amp; Notes
-      </h1>
-      <p className="text-[rgba(0,70,67,0.6)] mt-2 max-w-2xl">
-        Revision courses and chapter notes for O &amp; A Level subjects. New
-        content is added from the admin portal.
-      </p>
-
-      <h2 className="text-xl font-extrabold text-[#004643] mt-10">Courses</h2>
+    <div>
+      <PageHero
+        eyebrow="Learn"
+        title="Courses & Notes"
+        description="Revision courses and chapter notes for O & A Level subjects. New content is added from the admin portal."
+        image="/images/1558655146-9f40138edfeb.jpg"
+        imageAlt="Student working on a revision course"
+      />
+      <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
+        <h2 className="text-xl font-extrabold text-[#004643]">Courses</h2>
       {courses.length === 0 ? (
         <p className="text-sm text-[rgba(0,70,67,0.6)] mt-3">
           No courses yet — add them from the admin portal.
@@ -76,7 +77,7 @@ export default function CoursesPage() {
         </div>
       )}
 
-      <h2 className="text-xl font-extrabold text-[#004643] mt-12">
+      <h2 className="text-xl font-extrabold text-[#004643] mt-12 border-t-2 border-[rgba(0,70,67,0.12)] pt-10">
         Notes &amp; Lessons
       </h2>
       {notes.length === 0 ? (
@@ -130,6 +131,7 @@ export default function CoursesPage() {
           Browse the past papers library →
         </Link>
       </p>
+      </div>
     </div>
   );
 }

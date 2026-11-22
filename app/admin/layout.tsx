@@ -15,6 +15,7 @@ const NAV = [
   { href: "/admin/subjects", label: "Subjects" },
   { href: "/admin/notes", label: "Notes & Lessons" },
   { href: "/admin/courses", label: "Courses" },
+  { href: "/admin/bookings", label: "Bookings" },
   { href: "/admin/settings", label: "Settings" },
 ];
 
@@ -64,7 +65,7 @@ function AdminShell({ children }: { children: ReactNode }) {
 
   const signOut = () => {
     setAdminAuthed(false);
-    router.push("/admin/signin");
+    router.push("/");
   };
 
   return (
@@ -125,21 +126,42 @@ function AdminShell({ children }: { children: ReactNode }) {
         </div>
       </aside>
 
-      {/* Mobile account row */}
-      <div className="flex items-center justify-between border-b border-[rgba(0,70,67,0.15)] bg-white px-4 py-2 text-sm md:hidden">
-        <span>
-          Signed in as <strong className="text-[#004643]">{adminName || "Admin"}</strong>
-        </span>
-        <button
-          type="button"
-          onClick={signOut}
-          className="font-medium text-[var(--zass-primary)] underline"
-        >
-          Sign out
-        </button>
-      </div>
+      {/* Right column: persistent header + page content. The header stays
+          visible on every admin tab, including while scrolling. */}
+      <div className="flex min-w-0 flex-1 flex-col">
+        <header className="sticky top-0 z-30 flex items-center justify-between gap-3 border-b border-[rgba(0,70,67,0.15)] bg-[var(--zass-base)] px-4 py-3 sm:px-6 lg:px-8">
+          <div className="flex min-w-0 items-baseline gap-2">
+            <span className="shrink-0 text-base font-extrabold text-[#004643]">
+              Zass Admin Portal
+            </span>
+            <span className="truncate text-sm">
+              Signed in as{" "}
+              <strong className="text-[#004643]">{adminName || "Admin"}</strong>
+            </span>
+          </div>
+          <div className="flex shrink-0 items-center gap-2">
+            <Link
+              href="/"
+              className="rounded-full border-2 border-[var(--zass-primary)] px-3.5 py-1.5 text-[13px] font-bold text-[var(--zass-primary)]"
+            >
+              View Site
+            </Link>
+            <span
+              aria-hidden="true"
+              className="h-5 w-px bg-[rgba(0,70,67,0.25)]"
+            />
+            <button
+              type="button"
+              onClick={signOut}
+              className="rounded-full bg-[var(--zass-primary)] px-3.5 py-1.5 text-[13px] font-bold text-white"
+            >
+              Sign Out
+            </button>
+          </div>
+        </header>
 
-      <main className="min-w-0 flex-1 px-4 py-6 sm:px-6 lg:px-8">{children}</main>
+        <main className="min-w-0 flex-1 px-4 py-6 sm:px-6 lg:px-8">{children}</main>
+      </div>
     </div>
   );
 }

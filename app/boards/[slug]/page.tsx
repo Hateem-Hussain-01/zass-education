@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { BOARDS, boardBySlug } from "@/lib/boards";
 import { CATALOGUE_PAPERS } from "@/lib/papers-catalogue";
 import { SEED_SUBJECTS } from "@/lib/types";
+import PageHero from "@/components/PageHero";
 
 export function generateStaticParams() {
   return BOARDS.map((b) => ({ slug: b.slug }));
@@ -34,24 +35,26 @@ export default async function BoardPage({
     .slice(0, 10);
 
   return (
-    <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
-      <Link
-        href="/boards"
-        className="text-sm font-bold text-[#004643] hover:underline"
-      >
-        ← All examination boards
-      </Link>
-      <h1 className="text-3xl font-extrabold text-[#004643] mt-4">
-        {board.name}
-      </h1>
-      <p className="text-[rgba(0,70,67,0.6)] mt-2 max-w-2xl">
-        {board.description}
-      </p>
-      <p className="text-sm font-bold text-[#004643] mt-4">
-        {papers.length > 0
-          ? `${papers.length} paper${papers.length === 1 ? "" : "s"} available`
-          : "Coming soon — no papers added yet"}
-      </p>
+    <div>
+      <PageHero
+        eyebrow="Examination Board"
+        title={board.name}
+        description={board.description}
+        image="/images/1571260899304-425eee4c7efc.jpg"
+        imageAlt="Graduation caps in the air"
+      />
+      <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
+        <Link
+          href="/boards"
+          className="text-sm font-bold text-[#004643] hover:underline"
+        >
+          ← All examination boards
+        </Link>
+        <p className="text-sm font-bold text-[#004643] mt-4">
+          {papers.length > 0
+            ? `${papers.length} paper${papers.length === 1 ? "" : "s"} available`
+            : "Coming soon — no papers added yet"}
+        </p>
 
       {papers.length > 0 && (
         <Link
@@ -62,7 +65,7 @@ export default async function BoardPage({
         </Link>
       )}
 
-      <h2 className="text-xl font-extrabold text-[#004643] mt-10">Subjects</h2>
+      <h2 className="text-xl font-extrabold text-[#004643] mt-10 border-t-2 border-[rgba(0,70,67,0.12)] pt-10">Subjects</h2>
       {subjects.length === 0 ? (
         <p className="text-sm text-[rgba(0,70,67,0.6)] mt-3">
           Subjects coming soon — papers for this board have not been added
@@ -93,7 +96,7 @@ export default async function BoardPage({
 
       {latest.length > 0 && (
         <>
-          <h2 className="text-xl font-extrabold text-[#004643] mt-10">
+          <h2 className="text-xl font-extrabold text-[#004643] mt-10 border-t-2 border-[rgba(0,70,67,0.12)] pt-10">
             Latest papers
           </h2>
           <ul className="mt-4 space-y-3">
@@ -124,6 +127,7 @@ export default async function BoardPage({
           </ul>
         </>
       )}
+      </div>
     </div>
   );
 }

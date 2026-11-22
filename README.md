@@ -23,7 +23,16 @@ notes, revision courses and a full admin portal.
 | `/courses` | Revision courses + notes & lessons |
 | `/about` | About + Meet the Team |
 | `/contact` | Contact details + email form (opens the visitor's email app) |
+| `/book-session` | Book a 1-to-1 session — form saved browser-locally, listed in admin → Bookings |
 | `/admin` | Admin portal (see below) |
+
+Every public page has a proper hero section (flat Cyprus, floating 3D-style
+shapes, student photo) — home, subjects, papers, courses, about, contact,
+boards and each board page. The home hero shows a smiling student with a
+backpack (`public/images/1596495578065-6e0763fa1178.jpg`, Unsplash) that
+rises from the bottom of its arch frame on load. Home sections are visually
+separated: alternating white / Sand Dune bands with a visible Cyprus
+divider line between them.
 
 ## Past papers catalogue
 
@@ -60,8 +69,10 @@ notes, revision courses and a full admin portal.
   PIN. The PIN is hashed (SHA-256) and lives **only in that browser** — no
   passwords are invented or stored anywhere else. Sign-in is PIN-only;
   there is no forgot-PIN in v1.
-- **Dashboard:** real counts (subjects, papers, notes, courses, total file
-  size), recent papers, quick actions.
+- **Dashboard:** real counts (subjects, papers, notes, courses, new
+  bookings, total file size), recent papers, quick actions.
+- **Bookings:** 1-to-1 session requests from `/book-session` — status
+  (New / Contacted / Done) and delete. Stored browser-locally (v1).
 - **Past Papers:** full CRUD + real PDF upload. Files are stored as blobs in
   IndexedDB; metadata in localStorage. Download works from the public
   `/papers` page in the same browser.
@@ -70,6 +81,12 @@ notes, revision courses and a full admin portal.
   announcement bar, contact + social links, footer text, SEO title /
   description, and the four palette colours. Changes apply immediately
   across the public site.
+- **Header:** every admin tab shows a sticky header with the portal name,
+  the signed-in admin, a View Site button and a Sign Out button. Signing
+  out returns to the public home page (`/`).
+- **The admin portal is NOT linked from the public navbar** — it is
+  reachable only via its direct `/admin` URL. The navbar instead has
+  Contact Us, Book a 1-to-1 Session and Find Resources buttons.
 
 ## Run locally
 

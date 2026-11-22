@@ -6,6 +6,7 @@ import {
   formatBytes,
   subjectName,
   totalStoredBytes,
+  useBookings,
   useCourses,
   useNotes,
   usePapers,
@@ -18,6 +19,7 @@ export default function AdminDashboard() {
   const { papers } = usePapers();
   const { notes } = useNotes();
   const { courses } = useCourses();
+  const { bookings } = useBookings();
   const [storedBytes, setStoredBytes] = useState<number | null>(null);
 
   useEffect(() => {
@@ -40,6 +42,11 @@ export default function AdminDashboard() {
     { label: "Notes & Lessons", value: notes.length, href: "/admin/notes" },
     { label: "Courses", value: courses.length, href: "/admin/courses" },
     {
+      label: "Bookings",
+      value: bookings.filter((b) => b.status === "new").length,
+      href: "/admin/bookings",
+    },
+    {
       label: "Total file size",
       value: storedBytes === null ? "…" : formatBytes(storedBytes),
       href: "/admin/papers",
@@ -50,6 +57,7 @@ export default function AdminDashboard() {
     { label: "Upload paper", href: "/admin/papers" },
     { label: "Add subject", href: "/admin/subjects" },
     { label: "Add note", href: "/admin/notes" },
+    { label: "View bookings", href: "/admin/bookings" },
     { label: "Settings", href: "/admin/settings" },
   ];
 
@@ -62,7 +70,7 @@ export default function AdminDashboard() {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-5">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-6">
         {stats.map((s) => (
           <Link
             key={s.label}

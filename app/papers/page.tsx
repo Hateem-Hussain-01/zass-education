@@ -11,6 +11,7 @@ import {
 } from "@/lib/store";
 import { CATALOGUE_PAPERS } from "@/lib/papers-catalogue";
 import { BOARDS } from "@/lib/boards";
+import PageHero from "@/components/PageHero";
 
 function PapersInner() {
   const searchParams = useSearchParams();
@@ -67,18 +68,16 @@ function PapersInner() {
   };
 
   return (
-    <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-extrabold text-[#004643]">Past Papers</h1>
-      <p className="text-[rgba(0,70,67,0.6)] mt-2 max-w-2xl">
-        Past papers by board, subject, year and session. Catalogue papers
-        download directly from the public archive; files uploaded in the
-        admin portal can be downloaded here — in the same browser they were
-        uploaded from (v1 stores files locally). Papers are copyright of
-        their examination boards and are shared here for students&apos;
-        revision use.
-      </p>
-
-      <div className="flex flex-wrap gap-3 mt-6">
+    <div>
+      <PageHero
+        eyebrow="1,654 papers · 2021–2025"
+        title="Past Papers"
+        description="Past papers by board, subject, year and session. Catalogue papers download directly from the public archive; files uploaded in the admin portal can be downloaded here — in the same browser they were uploaded from (v1 stores files locally). Papers are copyright of their examination boards and are shared here for students' revision use."
+        image="/images/1519389950473-47ba0277781c.jpg"
+        imageAlt="Students working on laptops"
+      />
+      <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
+        <div className="flex flex-wrap gap-3">
         <input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
@@ -208,6 +207,7 @@ function PapersInner() {
           ))}
         </ul>
       )}
+      </div>
     </div>
   );
 }

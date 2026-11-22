@@ -19,6 +19,7 @@ import {
   SEED_NOTES,
   SEED_PAPERS,
   SEED_SUBJECTS,
+  type Booking,
   type Course,
   type Note,
   type Paper,
@@ -32,6 +33,7 @@ export const KEYS = {
   papers: "zass.papers.v1",
   notes: "zass.notes.v1",
   courses: "zass.courses.v1",
+  bookings: "zass.bookings.v1",
   admin: "zass.admin.v1",
   adminSession: "zass.admin.session",
 } as const;
@@ -242,6 +244,14 @@ export function useCourses() {
     SEED_COURSES,
   );
   return { courses: items, setCourses: replace, saveCourse: upsert, deleteCourse: remove };
+}
+
+export function useBookings() {
+  const [items, replace, upsert, remove] = useCollection<Booking>(
+    KEYS.bookings,
+    [],
+  );
+  return { bookings: items, setBookings: replace, saveBooking: upsert, deleteBooking: remove };
 }
 
 export function subjectName(subjects: Subject[], id: string): string {

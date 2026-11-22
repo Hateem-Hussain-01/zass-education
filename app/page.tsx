@@ -31,6 +31,10 @@ const WHY_ZASS = [
   },
 ];
 
+/* Section bands alternate so every section reads as its own block:
+   white / Sand Dune, each separated by a visible Cyprus divider line. */
+const BAND_DIVIDER = "border-t-2 border-[rgba(0,70,67,0.12)]";
+
 export default function HomePage() {
   const { settings } = useSettings();
   const { subjects } = useSubjects();
@@ -93,13 +97,16 @@ export default function HomePage() {
             </form>
           </div>
           <div className="relative flex justify-center">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/images/1522202176988-66273c2fd55f.jpg"
-              alt="O & A Level students studying together"
-              className="w-[300px] h-[360px] object-cover rounded-t-[200px] rounded-b-3xl shadow-[0_0_0_12px_rgba(255,255,255,0.14)]"
-            />
-            <div className="absolute left-[-30px] bottom-[90px] bg-[var(--zass-card)] text-[#004643] rounded-2xl shadow-xl px-4 py-3 text-[13px]">
+            {/* Student photo rises from the bottom of the frame on load. */}
+            <div className="animate-zass-rise overflow-hidden rounded-t-[200px] rounded-b-3xl shadow-[0_0_0_12px_rgba(255,255,255,0.14)]">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/1596495578065-6e0763fa1178.jpg"
+                alt="Smiling A Level student with a backpack, studying with books"
+                className="w-[300px] h-[360px] object-cover"
+              />
+            </div>
+            <div className="animate-zass-fade-in absolute left-[-30px] bottom-[90px] bg-[var(--zass-card)] text-[#004643] rounded-2xl shadow-xl px-4 py-3 text-[13px]">
               <b className="text-lg block">{settings.statsRating} ★</b>
               <span className="text-[rgba(0,70,67,0.6)]">
                 Rated by students for
@@ -107,7 +114,7 @@ export default function HomePage() {
                 quality learning
               </span>
             </div>
-            <div className="absolute right-[-14px] top-[60px] bg-[var(--zass-card)] text-[#004643] rounded-2xl shadow-xl px-4 py-3 text-[13px]">
+            <div className="animate-zass-fade-in absolute right-[-14px] top-[60px] bg-[var(--zass-card)] text-[#004643] rounded-2xl shadow-xl px-4 py-3 text-[13px]">
               <b className="text-lg block">{settings.statsLearners}</b>
               <span className="text-[#004643]">★★★★★</span>
               <br />
@@ -121,148 +128,156 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Subjects */}
-      <section className="px-5 md:px-14 py-11 max-w-6xl mx-auto">
-        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
-          Explore Our Top Subjects
-        </h2>
-        <p className="text-center text-[rgba(0,70,67,0.6)] text-sm mt-2">
-          O &amp; A Level (Cambridge) — from Mathematics to Biology, notes and
-          papers in one place.
-        </p>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-7">
-          {FEATURED_SUBJECTS.map((s) => (
-            <Link
-              key={s.name}
-              href="/subjects"
-              className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={s.image}
-                alt={`${s.name} students`}
-                className="h-[130px] w-full object-cover"
-              />
-              <div className="p-4 text-center">
-                <h3 className="font-bold text-[#004643]">{s.name}</h3>
-                <span className="text-[13px] text-[rgba(0,70,67,0.6)]">
-                  Cambridge {codesFor(s.name) || "O & A Level"}
-                </span>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Courses */}
-      <section className="px-5 md:px-14 py-4 max-w-6xl mx-auto">
-        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
-          Explore Most Popular Courses
-        </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-7">
-          {courses.slice(0, 4).map((c) => (
-            <Link
-              key={c.id}
-              href="/courses"
-              className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
-            >
-              <div className="relative h-[110px]">
-                {c.image ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={c.image}
-                    alt={c.title}
-                    className="h-full w-full object-cover"
-                  />
-                ) : (
-                  <div className="h-full w-full bg-[var(--zass-primary)]" />
-                )}
-                <span className="absolute left-3 bottom-3 bg-white/90 text-[var(--zass-primary)] text-[11px] font-extrabold px-2.5 py-1 rounded-full">
-                  {c.level}
-                </span>
-              </div>
-              <div className="p-3.5">
-                <h3 className="text-sm font-bold leading-snug text-[#004643]">
-                  {c.title}
-                </h3>
-                <div className="text-xs text-[rgba(0,70,67,0.6)] mt-1.5">{c.level}</div>
-                <div className="text-[15px] font-extrabold text-[var(--zass-primary)] mt-2">
-                  {c.price === 0 ? "Free" : `Rs ${c.price.toLocaleString()}`}
+      {/* Subjects — white band */}
+      <section className={`bg-[var(--zass-card)] ${BAND_DIVIDER} px-5 md:px-14 py-11`}>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
+            Explore Our Top Subjects
+          </h2>
+          <p className="text-center text-[rgba(0,70,67,0.6)] text-sm mt-2">
+            O &amp; A Level (Cambridge) — from Mathematics to Biology, notes and
+            papers in one place.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-7 items-stretch">
+            {FEATURED_SUBJECTS.map((s) => (
+              <Link
+                key={s.name}
+                href="/subjects"
+                className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col h-full"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={s.image}
+                  alt={`${s.name} students`}
+                  className="h-[130px] w-full object-cover shrink-0"
+                />
+                <div className="p-4 text-center flex-1 flex flex-col justify-center">
+                  <h3 className="font-bold text-[#004643]">{s.name}</h3>
+                  <span className="text-[13px] text-[rgba(0,70,67,0.6)]">
+                    Cambridge {codesFor(s.name) || "O & A Level"}
+                  </span>
                 </div>
-              </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Courses — Sand Dune band */}
+      <section className={`bg-[var(--zass-base)] ${BAND_DIVIDER} px-5 md:px-14 py-11`}>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
+            Explore Most Popular Courses
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-7 items-stretch">
+            {courses.slice(0, 4).map((c) => (
+              <Link
+                key={c.id}
+                href="/courses"
+                className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col h-full"
+              >
+                <div className="relative h-[110px] shrink-0">
+                  {c.image ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={c.image}
+                      alt={c.title}
+                      className="h-full w-full object-cover"
+                    />
+                  ) : (
+                    <div className="h-full w-full bg-[var(--zass-primary)]" />
+                  )}
+                  <span className="absolute left-3 bottom-3 bg-white/90 text-[var(--zass-primary)] text-[11px] font-extrabold px-2.5 py-1 rounded-full">
+                    {c.level}
+                  </span>
+                </div>
+                <div className="p-3.5 flex-1 flex flex-col">
+                  <h3 className="text-sm font-bold leading-snug text-[#004643]">
+                    {c.title}
+                  </h3>
+                  <div className="text-xs text-[rgba(0,70,67,0.6)] mt-1.5">{c.level}</div>
+                  <div className="text-[15px] font-extrabold text-[var(--zass-primary)] mt-auto pt-2">
+                    {c.price === 0 ? "Free" : `Rs ${c.price.toLocaleString()}`}
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-6">
+            <Link
+              href="/courses"
+              className="inline-block bg-[var(--zass-primary)] text-white font-bold text-sm px-6 py-2.5 rounded-full"
+            >
+              View all courses &amp; notes
             </Link>
-          ))}
-        </div>
-        <div className="text-center mt-6">
-          <Link
-            href="/courses"
-            className="inline-block bg-[var(--zass-primary)] text-white font-bold text-sm px-6 py-2.5 rounded-full"
-          >
-            View all courses &amp; notes
-          </Link>
+          </div>
         </div>
       </section>
 
-      {/* Why Zass */}
-      <section className="px-5 md:px-14 py-11 max-w-6xl mx-auto">
-        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
-          Why Zass Education
-        </h2>
-        <div className="grid sm:grid-cols-3 gap-5 mt-7">
-          {WHY_ZASS.map((f) => (
-            <div
-              key={f.title}
-              className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5 shadow-sm"
-            >
-              <div className="w-11 h-11 rounded-xl bg-[var(--zass-primary)] text-white flex items-center justify-center text-xl font-bold">
-                {f.glyph}
+      {/* Why Zass — white band */}
+      <section className={`bg-[var(--zass-card)] ${BAND_DIVIDER} px-5 md:px-14 py-11`}>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
+            Why Zass Education
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-5 mt-7 items-stretch">
+            {WHY_ZASS.map((f) => (
+              <div
+                key={f.title}
+                className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5 shadow-sm h-full"
+              >
+                <div className="w-11 h-11 rounded-xl bg-[var(--zass-primary)] text-white flex items-center justify-center text-xl font-bold">
+                  {f.glyph}
+                </div>
+                <h3 className="font-bold text-[#004643] mt-3">{f.title}</h3>
+                <p className="text-sm text-[rgba(0,70,67,0.6)] mt-1.5 leading-relaxed">
+                  {f.text}
+                </p>
               </div>
-              <h3 className="font-bold text-[#004643] mt-3">{f.title}</h3>
-              <p className="text-sm text-[rgba(0,70,67,0.6)] mt-1.5 leading-relaxed">
-                {f.text}
-              </p>
-            </div>
-          ))}
-        </div>
-        <div className="text-center mt-8">
-          <Link
-            href="/papers"
-            className="inline-block border-2 border-[var(--zass-primary)] text-[var(--zass-primary)] font-bold text-sm px-6 py-2.5 rounded-full"
-          >
-            Browse past papers
-          </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link
+              href="/papers"
+              className="inline-block border-2 border-[var(--zass-primary)] text-[var(--zass-primary)] font-bold text-sm px-6 py-2.5 rounded-full"
+            >
+              Browse past papers
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* Team strip */}
-      <section className="px-5 md:px-14 pb-12 max-w-6xl mx-auto">
-        <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
-          Meet the Team
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-7">
-          {TEAM.map((m) => (
-            <div
-              key={m.name}
-              className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5 text-center shadow-sm"
-            >
-              <div className="w-14 h-14 mx-auto rounded-full bg-[var(--zass-primary)] text-white flex items-center justify-center text-lg font-extrabold">
-                {initials(m.name)}
+      {/* Team strip — Sand Dune band */}
+      <section className={`bg-[var(--zass-base)] ${BAND_DIVIDER} px-5 md:px-14 py-11`}>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-center text-2xl md:text-[26px] font-extrabold text-[#004643]">
+            Meet the Team
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-7 items-stretch">
+            {TEAM.map((m) => (
+              <div
+                key={m.name}
+                className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5 text-center shadow-sm h-full"
+              >
+                <div className="w-14 h-14 mx-auto rounded-full bg-[var(--zass-primary)] text-white flex items-center justify-center text-lg font-extrabold">
+                  {initials(m.name)}
+                </div>
+                <h3 className="font-bold text-[#004643] mt-3 text-sm">
+                  {m.name}
+                </h3>
+                <span className="text-xs text-[rgba(0,70,67,0.6)]">Team Member</span>
               </div>
-              <h3 className="font-bold text-[#004643] mt-3 text-sm">
-                {m.name}
-              </h3>
-              <span className="text-xs text-[rgba(0,70,67,0.6)]">Team Member</span>
-            </div>
-          ))}
+            ))}
+          </div>
+          <p className="text-center mt-5">
+            <Link
+              href="/about"
+              className="text-sm font-semibold text-[var(--zass-primary)] hover:underline"
+            >
+              More about Zass Education →
+            </Link>
+          </p>
         </div>
-        <p className="text-center mt-5">
-          <Link
-            href="/about"
-            className="text-sm font-semibold text-[var(--zass-primary)] hover:underline"
-          >
-            More about Zass Education →
-          </Link>
-        </p>
       </section>
     </div>
   );

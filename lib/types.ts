@@ -62,6 +62,20 @@ export interface Course {
   createdAt: number;
 }
 
+/** A 1-to-1 session booking request, stored browser-locally (v1). */
+export interface Booking {
+  id: string;
+  name: string;
+  whatsapp: string;
+  email: string;
+  subjectId: string;
+  preferredDay: string;
+  preferredTime: string;
+  message: string;
+  status: "new" | "contacted" | "done";
+  createdAt: number;
+}
+
 export interface Palette {
   base: string;
   card: string;

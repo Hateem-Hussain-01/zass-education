@@ -98,14 +98,6 @@ export default function Footer() {
                 ))}
               </li>
             )}
-            <li className="pt-2">
-              <Link
-                href="/admin"
-                className="text-sm font-semibold text-[rgba(0,70,67,0.6)] hover:text-[var(--zass-primary)]"
-              >
-                Admin Portal
-              </Link>
-            </li>
           </ul>
         </div>
       </div>

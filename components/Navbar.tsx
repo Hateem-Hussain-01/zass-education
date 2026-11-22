@@ -14,6 +14,27 @@ const LINKS = [
   { href: "/contact", label: "Contact" },
 ];
 
+/** Right-side actions. The admin portal is intentionally NOT linked here —
+ *  it is reachable only via its direct /admin URL. */
+const ACTIONS = [
+  {
+    href: "/contact",
+    label: "Contact Us",
+    style:
+      "border-2 border-[var(--zass-primary)] text-[var(--zass-primary)] bg-transparent",
+  },
+  {
+    href: "/book-session",
+    label: "Book a 1-to-1 Session",
+    style: "bg-[var(--zass-primary)] text-white",
+  },
+  {
+    href: "/papers",
+    label: "Find Resources",
+    style: "bg-[var(--zass-primary)] text-white",
+  },
+];
+
 export default function Navbar() {
   const { settings } = useSettings();
   const pathname = usePathname();
@@ -25,10 +46,10 @@ export default function Navbar() {
           {settings.announcementText}
         </div>
       )}
-      <nav className="bg-[var(--zass-base)] border-b border-[rgba(0,70,67,0.15)] px-5 md:px-14 py-3 flex items-center justify-between gap-4">
+      <nav className="bg-[var(--zass-base)] border-b border-[rgba(0,70,67,0.15)] px-5 md:px-10 py-2 flex items-center justify-between gap-4">
         <Link
           href="/"
-          className="flex items-center gap-2 font-extrabold text-xl text-[#004643]"
+          className="flex items-center gap-2 font-extrabold text-lg text-[#004643] shrink-0"
         >
           <span className="w-3 h-3 rounded-full bg-[var(--zass-accent)] inline-block" />
           {settings.logoText}
@@ -36,7 +57,7 @@ export default function Navbar() {
             Education
           </span>
         </Link>
-        <div className="hidden md:flex gap-6 text-sm font-semibold text-[rgba(0,70,67,0.78)] items-center">
+        <div className="hidden lg:flex gap-5 text-sm font-semibold text-[rgba(0,70,67,0.78)] items-center">
           {LINKS.map((l) => (
             <Link
               key={l.href}
@@ -83,12 +104,17 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-        <Link
-          href="/admin"
-          className="bg-[var(--zass-primary)] text-white text-sm font-bold px-4 py-2 rounded-full shrink-0"
-        >
-          Admin
-        </Link>
+        <div className="hidden md:flex items-center gap-2 shrink-0">
+          {ACTIONS.map((a) => (
+            <Link
+              key={a.href + a.label}
+              href={a.href}
+              className={`${a.style} text-[13px] font-bold px-3.5 py-2 rounded-full whitespace-nowrap`}
+            >
+              {a.label}
+            </Link>
+          ))}
+        </div>
       </nav>
       <div className="md:hidden bg-[var(--zass-base)] border-b border-[rgba(0,70,67,0.15)] px-5 py-2 flex gap-5 overflow-x-auto text-sm font-semibold text-[rgba(0,70,67,0.78)]">
         {LINKS.map((l) => (
@@ -106,6 +132,12 @@ export default function Navbar() {
         ))}
         <Link href="/boards" className="whitespace-nowrap">
           Boards
+        </Link>
+        <Link href="/book-session" className="whitespace-nowrap">
+          Book a 1-to-1 Session
+        </Link>
+        <Link href="/papers" className="whitespace-nowrap">
+          Find Resources
         </Link>
       </div>
     </header>

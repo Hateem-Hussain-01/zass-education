@@ -2,28 +2,28 @@
 
 import { useSettings } from "@/lib/store";
 import { TEAM, initials } from "@/lib/types";
+import PageHero from "@/components/PageHero";
 
 export default function AboutPage() {
   const { settings } = useSettings();
 
   return (
-    <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-extrabold text-[#004643]">
-        About {settings.siteName}
-      </h1>
-      <p className="text-[rgba(0,70,67,0.78)] mt-4 max-w-3xl leading-relaxed">
-        {settings.siteName} is a learning platform for O &amp; A Level
-        (Cambridge) students. We bring past papers, chapter notes and revision
-        courses together in one place — so students can find what they need
-        without hunting across ten different websites.
-      </p>
-      <p className="text-[rgba(0,70,67,0.78)] mt-3 max-w-3xl leading-relaxed">
-        {settings.tagline}
-      </p>
+    <div>
+      <PageHero
+        eyebrow="About"
+        title={`About ${settings.siteName}`}
+        description={`${settings.siteName} is a learning platform for O & A Level (Cambridge) students. We bring past papers, chapter notes and revision courses together in one place — so students can find what they need without hunting across ten different websites.`}
+        image="/images/1522202176988-66273c2fd55f.jpg"
+        imageAlt="O & A Level students studying together"
+      />
+      <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
+        <p className="text-[rgba(0,70,67,0.78)] max-w-3xl leading-relaxed">
+          {settings.tagline}
+        </p>
 
-      <h2 className="text-xl font-extrabold text-[#004643] mt-10">
-        What you get here
-      </h2>
+        <h2 className="text-xl font-extrabold text-[#004643] mt-10 border-t-2 border-[rgba(0,70,67,0.12)] pt-10">
+          What you get here
+        </h2>
       <div className="grid sm:grid-cols-3 gap-5 mt-4">
         <div className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5">
           <h3 className="font-bold text-[#004643]">Past Papers</h3>
@@ -45,7 +45,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <h2 className="text-xl font-extrabold text-[#004643] mt-12">
+      <h2 className="text-xl font-extrabold text-[#004643] mt-12 border-t-2 border-[rgba(0,70,67,0.12)] pt-10">
         Meet the Team
       </h2>
       <p className="text-sm text-[rgba(0,70,67,0.6)] mt-2">
@@ -66,7 +66,7 @@ export default function AboutPage() {
         ))}
       </div>
 
-      <h2 className="text-xl font-extrabold text-[#004643] mt-12">Contact</h2>
+      <h2 className="text-xl font-extrabold text-[#004643] mt-12 border-t-2 border-[rgba(0,70,67,0.12)] pt-10">Contact</h2>
       <div className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5 mt-4 max-w-xl">
         <p className="text-sm text-[rgba(0,70,67,0.78)]">
           Email:{" "}
@@ -97,6 +97,7 @@ export default function AboutPage() {
             Chat on WhatsApp
           </a>
         </p>
+      </div>
       </div>
     </div>
   );

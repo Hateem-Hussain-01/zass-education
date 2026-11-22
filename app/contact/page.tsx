@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useSettings } from "@/lib/store";
+import PageHero from "@/components/PageHero";
 
 export default function ContactPage() {
   const { settings } = useSettings();
@@ -24,11 +25,15 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-extrabold text-[#004643]">Contact</h1>
-      <p className="text-[rgba(0,70,67,0.6)] mt-2 max-w-2xl">
-        Questions about a subject, a past paper or a course? Send us a message.
-      </p>
+    <div>
+      <PageHero
+        eyebrow="Get in touch"
+        title="Contact"
+        description="Questions about a subject, a past paper or a course? Send us a message."
+        image="/images/1524995997946-a1c2e315a42f.jpg"
+        imageAlt="Books on a study desk"
+      />
+      <div className="px-5 md:px-14 py-10 max-w-6xl mx-auto">
 
       <div className="grid md:grid-cols-2 gap-8 mt-8">
         <div className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-6 h-fit">
@@ -108,6 +113,7 @@ export default function ContactPage() {
             messages yet.
           </p>
         </form>
+      </div>
       </div>
     </div>
   );
