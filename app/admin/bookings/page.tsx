@@ -23,14 +23,14 @@ export default function BookingsAdmin() {
         <h1 className="text-2xl font-bold text-[#004643]">Bookings</h1>
         <p className="mt-1 text-sm">
           1-to-1 session requests from the Book a Session page
-          {newCount > 0 ? ` — ${newCount} new.` : "."}
+          {newCount > 0 ? ` - ${newCount} new.` : "."}
         </p>
       </div>
 
       <Card title="Session requests">
         {sorted.length === 0 ? (
           <p className="text-sm">
-            No booking requests yet — they appear here when a student books a
+            No booking requests yet - they appear here when a student books a
             1-to-1 session.
           </p>
         ) : (
@@ -93,7 +93,7 @@ export default function BookingsAdmin() {
       </Card>
 
       <p className="text-sm">
-        Bookings are stored in this browser only (v1) — the same device that
+        Bookings are stored in this browser only (v1) - the same device that
         received them.
       </p>
     </div>

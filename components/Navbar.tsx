@@ -15,7 +15,7 @@ const LINKS = [
   { href: "/contact", label: "Contact" },
 ];
 
-/** Right-side actions. The admin portal is intentionally NOT linked here —
+/** Right-side actions. The admin portal is intentionally NOT linked here;
  *  it is reachable only via its direct /admin URL. */
 const ACTIONS = [
   {

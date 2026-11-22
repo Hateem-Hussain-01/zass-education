@@ -139,7 +139,7 @@ export default function AdminDashboard() {
 
       <div className="rounded-2xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] px-5 py-4 text-sm text-[#004643] shadow-sm">
         <strong>Note:</strong> v1 stores data in this browser only
-        (localStorage + IndexedDB). A shared backend is the next step — data
+        (localStorage + IndexedDB). A shared backend is the next step - data
         does not sync to other devices yet.
       </div>
     </div>

@@ -32,7 +32,7 @@ export default function AdminSigninPage() {
         setAdminAuthed(true);
         router.push("/admin");
       } else {
-        setError("Wrong PIN — please try again.");
+        setError("Wrong PIN - please try again.");
         setPin("");
       }
     } finally {

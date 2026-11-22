@@ -5,7 +5,7 @@ import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "Examination Boards — Zass Education",
+  title: "Examination Boards - Zass Education",
   description:
     "Past papers by examination board: Cambridge International, AQA GCSE, OxfordAQA, Oxford Education and IB Diploma Programme.",
 };
@@ -16,7 +16,7 @@ export default function BoardsPage() {
       <PageHero
         eyebrow="Five boards"
         title="Examination Boards"
-        description="Past papers, mark schemes and grade thresholds by examination board. Counts shown are real — a board with no papers yet is marked coming soon."
+        description="Past papers, mark schemes and grade thresholds by examination board. Counts shown are real - a board with no papers yet is marked coming soon."
         image="/images/purdue/2.jpg"
         imageAlt="Graduation caps in the air"
       />
@@ -52,7 +52,7 @@ export default function BoardsPage() {
                     <p className="text-sm font-bold text-[#004643] mt-4">
                       {count > 0
                         ? `${count} paper${count === 1 ? "" : "s"} available`
-                        : "Coming soon — no papers added yet"}
+                        : "Coming soon - no papers added yet"}
                     </p>
                     <span className="inline-block mt-3 text-sm font-semibold text-[var(--zass-primary)]">
                       View board →

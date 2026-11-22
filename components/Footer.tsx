@@ -27,7 +27,7 @@ function NewsletterBand() {
         window.localStorage.setItem(NEWSLETTER_KEY, JSON.stringify(list));
       }
     } catch {
-      // browser storage unavailable — still confirm in this session
+      // browser storage unavailable - still confirm in this session
     }
     setError("");
     setDone(true);
@@ -39,12 +39,12 @@ function NewsletterBand() {
         Subscribe to our newsletter, We don&apos;t make any spam.
       </h2>
       <p className="mx-auto mt-3 max-w-md text-[15px] leading-relaxed text-white/85">
-        New past papers, notes and courses — straight to your inbox, only when
+        New past papers, notes and courses - straight to your inbox, only when
         there is something new.
       </p>
       {done ? (
         <p className="mx-auto mt-6 inline-block rounded-full bg-white px-6 py-3 text-sm font-bold text-[#004643]">
-          Thanks for subscribing — you&apos;re on the list.
+          Thanks for subscribing - you&apos;re on the list.
         </p>
       ) : (
         <form
@@ -75,7 +75,7 @@ function NewsletterBand() {
 export default function Footer() {
   const { settings } = useSettings();
   const { courses } = useCourses();
-  // Current year is read after mount — Next forbids new Date() during prerender.
+  // Current year is read after mount - Next forbids new Date() during prerender.
   const [year, setYear] = useState("");
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect -- Next instructs moving the Date read into an effect (see above)
@@ -126,7 +126,7 @@ export default function Footer() {
               {courses.slice(0, 5).map((c) => (
                 <li key={c.id}>
                   <Link href="/courses" className="hover:text-[var(--zass-primary)]">
-                    {c.title.split(" — ")[0]}
+                    {c.title.split(" - ")[0]}
                   </Link>
                 </li>
               ))}

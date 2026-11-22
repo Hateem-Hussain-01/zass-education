@@ -63,13 +63,13 @@ export default function SettingsAdmin() {
     setLogoError("");
     if (!file) return;
     if (file.type !== "image/png") {
-      setLogoError("Please choose a PNG file — only .png logos are accepted.");
+      setLogoError("Please choose a PNG file - only .png logos are accepted.");
       setLogoInputKey((k) => k + 1);
       return;
     }
     if (file.size > MAX_LOGO_BYTES) {
       setLogoError(
-        "That PNG is over 500 KB — please choose a smaller file (500 KB or less).",
+        "That PNG is over 500 KB - please choose a smaller file (500 KB or less).",
       );
       setLogoInputKey((k) => k + 1);
       return;
@@ -79,7 +79,7 @@ export default function SettingsAdmin() {
       set("siteLogo", String(reader.result ?? ""));
     };
     reader.onerror = () => {
-      setLogoError("That file could not be read — please try another PNG.");
+      setLogoError("That file could not be read - please try another PNG.");
     };
     reader.readAsDataURL(file);
   };

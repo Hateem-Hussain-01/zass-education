@@ -1,4 +1,4 @@
-// Shared admin UI bits (not a route — only page.tsx / layout.tsx are routes).
+// Shared admin UI bits (not a route - only page.tsx / layout.tsx are routes).
 import type { ButtonHTMLAttributes, ReactNode } from "react";
 
 export const inputCls =

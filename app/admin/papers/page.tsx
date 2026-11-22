@@ -199,7 +199,7 @@ export default function PapersAdmin() {
                   className={inputCls}
                   value={form.title}
                   onChange={(e) => setForm({ ...form, title: e.target.value })}
-                  placeholder="e.g. Mathematics 9709 — Paper 1 (Pure Mathematics 1)"
+                  placeholder="e.g. Mathematics 9709 - Paper 1 (Pure Mathematics 1)"
                 />
               </Field>
             </div>
@@ -260,7 +260,7 @@ export default function PapersAdmin() {
               label="PDF file"
               hint={
                 existingFileName && !file
-                  ? `Current file: ${existingFileName} — leave empty to keep it.`
+                  ? `Current file: ${existingFileName} - leave empty to keep it.`
                   : "PDF only."
               }
             >

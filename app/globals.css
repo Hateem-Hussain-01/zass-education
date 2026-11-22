@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* Zass Education palette — exact two colours only: Cyprus #004643 + Sand Dune #F0EDE5.
+/* Zass Education palette - exact two colours only: Cyprus #004643 + Sand Dune #F0EDE5.
    Defaults; the SettingsProvider overwrites these four variables at runtime
    from the admin settings. */
 :root {

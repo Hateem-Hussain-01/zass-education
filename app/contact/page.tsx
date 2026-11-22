@@ -14,7 +14,7 @@ export default function ContactPage() {
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const subject = encodeURIComponent(
-      `Message from ${name || "a student"} — ${settings.siteName}`,
+      `Message from ${name || "a student"} - ${settings.siteName}`,
     );
     const body = encodeURIComponent(
       `Name: ${name}\n\n${message}`,
@@ -123,7 +123,7 @@ export default function ContactPage() {
                   <p className="text-sm text-[rgba(0,70,67,0.6)]">{sentNote}</p>
                 )}
                 <p className="text-xs text-[rgba(0,70,67,0.6)]">
-                  This opens your own email app — v1 has no server to receive
+                  This opens your own email app - v1 has no server to receive
                   messages yet.
                 </p>
               </form>

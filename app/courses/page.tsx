@@ -58,11 +58,11 @@ export default function CoursesPage() {
             <SectionHeading
               eyebrow="Revision Courses"
               title="Explore Our Courses"
-              sub="Structured revision for the subjects that matter most — free for every student."
+              sub="Structured revision for the subjects that matter most - free for every student."
             />
             {courses.length === 0 ? (
               <p className="text-sm text-[rgba(0,70,67,0.6)] mt-7 text-center">
-                No courses yet — add them from the admin portal.
+                No courses yet - add them from the admin portal.
               </p>
             ) : (
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-7">
@@ -120,7 +120,7 @@ export default function CoursesPage() {
             />
             {notes.length === 0 ? (
               <p className="text-sm text-[rgba(0,70,67,0.6)] mt-7 text-center">
-                No notes yet — add them from the admin portal (Notes &amp; Lessons).
+                No notes yet - add them from the admin portal (Notes &amp; Lessons).
               </p>
             ) : (
               <ul className="mt-7 space-y-3">

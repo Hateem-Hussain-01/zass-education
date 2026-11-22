@@ -2,7 +2,7 @@ import Link from "next/link";
 import Icon from "./icons";
 
 /**
- * Shared hero for inner pages — Purdue style: flat Cyprus, big bold
+ * Shared hero for inner pages - Purdue style: flat Cyprus, big bold
  * title, soft flat circle shapes (no gradients), a small arched student
  * photo on the right with a floating star 4.8 badge. Title + description
  * are the page's real copy.
@@ -24,7 +24,7 @@ export default function PageHero({
 }) {
   return (
     <section className="relative overflow-hidden bg-[var(--zass-primary)] text-white px-5 md:px-14 pt-12 pb-14">
-      {/* Soft flat background shapes — white alpha circles only. */}
+      {/* Soft flat background shapes - white alpha circles only. */}
       <div
         aria-hidden="true"
         className="absolute -right-16 -top-24 h-72 w-72 rounded-full border-[28px] border-white/10"

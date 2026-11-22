@@ -53,7 +53,7 @@ export default function BookSessionPage() {
       <PageHero
         eyebrow="1-to-1 Session"
         title="Book a 1-to-1 Session"
-        description="Sit down with a tutor for one focused hour — your subject, your questions, your pace. Fill in the form and we will confirm your slot."
+        description="Sit down with a tutor for one focused hour - your subject, your questions, your pace. Fill in the form and we will confirm your slot."
         image="/images/purdue/3.jpg"
         imageAlt="O & A Level students studying together"
       />
@@ -84,7 +84,7 @@ export default function BookSessionPage() {
                     Request Your 1-to-1 Session
                   </h2>
                   <p className="mt-2 text-sm text-[rgba(0,70,67,0.6)] max-w-2xl mx-auto">
-                    Tell us the subject and when suits you — we will confirm
+                    Tell us the subject and when suits you - we will confirm
                     your slot on WhatsApp or email.
                   </p>
                 </div>
@@ -133,7 +133,7 @@ export default function BookSessionPage() {
                     </div>
                   </div>
                   <p className="text-xs text-[rgba(0,70,67,0.6)]">
-                    WhatsApp or email — at least one is needed so we can confirm
+                    WhatsApp or email - at least one is needed so we can confirm
                     your slot.
                   </p>
                   <div>

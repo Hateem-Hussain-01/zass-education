@@ -1,4 +1,4 @@
-// Zass Education — browser-local store (v1).
+// Zass Education - browser-local store (v1).
 // All data lives in THIS browser only: JSON in localStorage, uploaded file
 // bytes in IndexedDB. There is no server and no sync between devices yet.
 // A shared backend (Supabase) is the planned next step.
@@ -45,7 +45,7 @@ export function uid(): string {
 }
 
 export function formatBytes(size: number | null | undefined): string {
-  if (!size && size !== 0) return "—";
+  if (!size && size !== 0) return "-";
   if (size < 1024) return `${size} B`;
   if (size < 1024 * 1024) return `${(size / 1024).toFixed(1)} KB`;
   return `${(size / (1024 * 1024)).toFixed(1)} MB`;
@@ -78,7 +78,7 @@ function saveJSON(key: string, value: unknown) {
   try {
     window.localStorage.setItem(key, JSON.stringify(value));
   } catch {
-    // storage full / unavailable — v1 keeps data best-effort in this browser
+    // storage full / unavailable - v1 keeps data best-effort in this browser
   }
 }
 
@@ -255,11 +255,11 @@ export function useBookings() {
 }
 
 export function subjectName(subjects: Subject[], id: string): string {
-  return subjects.find((s) => s.id === id)?.name ?? "—";
+  return subjects.find((s) => s.id === id)?.name ?? "-";
 }
 
 // ---------------------------------------------------------------------------
-// Uploaded files — IndexedDB (file bytes; metadata lives in localStorage)
+// Uploaded files - IndexedDB (file bytes; metadata lives in localStorage)
 // ---------------------------------------------------------------------------
 
 const DB_NAME = "zass-files";
@@ -355,7 +355,7 @@ export async function totalStoredBytes(): Promise<number> {
 }
 
 // ---------------------------------------------------------------------------
-// Admin auth — first-run setup with a PIN (hashed, lives only in this browser)
+// Admin auth - first-run setup with a PIN (hashed, lives only in this browser)
 // ---------------------------------------------------------------------------
 
 export interface AdminSetup {

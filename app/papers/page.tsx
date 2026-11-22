@@ -63,7 +63,7 @@ function PapersInner() {
     setDownloadMsg("");
     const ok = await downloadStoredFile(fileId, fileName);
     setDownloadMsg(
-      ok ? "" : "This file is not in this browser — upload it again from the admin portal.",
+      ok ? "" : "This file is not in this browser - upload it again from the admin portal.",
     );
     setDownloading(null);
   };
@@ -71,9 +71,9 @@ function PapersInner() {
   return (
     <div>
       <PageHero
-        eyebrow="1,654 papers · 2021–2025"
+        eyebrow="1,654 papers · 2021-2025"
         title="Past Papers"
-        description="Past papers by board, subject, year and session. Catalogue papers download directly from the public archive; files uploaded in the admin portal can be downloaded here — in the same browser they were uploaded from (v1 stores files locally). Papers are copyright of their examination boards and are shared here for students' revision use."
+        description="Past papers by board, subject, year and session. Catalogue papers download directly from the public archive; files uploaded in the admin portal can be downloaded here - in the same browser they were uploaded from (v1 stores files locally). Papers are copyright of their examination boards and are shared here for students' revision use."
         image="/images/purdue/1.jpg"
         imageAlt="Students working on laptops"
       />
@@ -169,7 +169,7 @@ function PapersInner() {
                 <h2 className="font-bold text-[#004643]">No papers found</h2>
                 <p className="text-sm text-[rgba(0,70,67,0.6)] mt-2">
                   {allPapers.length === 0
-                    ? "No papers uploaded yet — add them from the admin portal (Past Papers → Add paper)."
+                    ? "No papers uploaded yet - add them from the admin portal (Past Papers → Add paper)."
                     : "Try a different search or filter."}
                 </p>
               </div>
@@ -198,7 +198,7 @@ function PapersInner() {
                         {p.fileName
                           ? `${p.fileName} (${formatBytes(p.fileSize)})`
                           : p.downloadUrl
-                            ? "PDF — downloads from the public archive"
+                            ? "PDF - downloads from the public archive"
                             : "No file uploaded yet"}
                       </p>
                     </div>

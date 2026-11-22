@@ -1,4 +1,4 @@
-// Zass Education — real past-papers catalogue (generated, not hand-written).
+// Zass Education - real past-papers catalogue (generated, not hand-written).
 //
 // Every entry here is a paper that was actually downloaded and verified
 // (%PDF header + sane size) from a public past-paper archive, or linked to
@@ -9,20 +9,20 @@
 // Papers are copyright of Cambridge University Press & Assessment and are
 // linked here for students' revision use.
 // Per-year ZIPs (one per subject-year) are kept in the workspace at
-// ~/workspace/zass-papers/<code>/zips/ — release-asset upload is not
+// ~/workspace/zass-papers/<code>/zips/ - release-asset upload is not
 // possible with the project's stored credential (uploads.github.com is
 // outside the credential's allowed hosts), so the site links each paper
 // directly to its verified archive URL.
 //
 // This file is REGENERATED from the download manifests in
-// ~/workspace/zass-papers/<code>/manifest.json — do not edit by hand.
+// ~/workspace/zass-papers/<code>/manifest.json - do not edit by hand.
 
 import type { Paper } from "./types";
 
 export const CATALOGUE_PAPERS: Paper[] = [
   {
     id: "cat-9700-m21-gt",
-    title: "Biology 9700 — Grade Thresholds (Feb/Mar 2021)",
+    title: "Biology 9700 - Grade Thresholds (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -37,7 +37,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m21-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Feb/Mar 2021)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -52,7 +52,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m21-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Feb/Mar 2021)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -67,7 +67,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m21-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Feb/Mar 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -82,7 +82,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m21-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Feb/Mar 2021)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -97,7 +97,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m21-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Feb/Mar 2021)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -112,7 +112,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m21-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (Feb/Mar 2021)",
+    title: "Biology 9700 - Paper 1 Question Paper (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -127,7 +127,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m21-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (Feb/Mar 2021)",
+    title: "Biology 9700 - Paper 2 Question Paper (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -142,7 +142,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m21-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (Feb/Mar 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -157,7 +157,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m21-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (Feb/Mar 2021)",
+    title: "Biology 9700 - Paper 4 Question Paper (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -172,7 +172,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m21-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (Feb/Mar 2021)",
+    title: "Biology 9700 - Paper 5 Question Paper (Feb/Mar 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -187,7 +187,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-gt",
-    title: "Chemistry 9701 — Grade Thresholds (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Grade Thresholds (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -202,7 +202,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -217,7 +217,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -232,7 +232,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -247,7 +247,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -262,7 +262,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -277,7 +277,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -292,7 +292,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -307,7 +307,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -322,7 +322,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -337,7 +337,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m21-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Feb/Mar 2021)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Feb/Mar 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -352,7 +352,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-gt",
-    title: "Mathematics 9709 — Grade Thresholds (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Grade Thresholds (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -367,7 +367,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -382,7 +382,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -397,7 +397,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -412,7 +412,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -427,7 +427,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -442,7 +442,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -457,7 +457,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -472,7 +472,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -487,7 +487,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -502,7 +502,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -517,7 +517,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -532,7 +532,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m21-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Feb/Mar 2021)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Feb/Mar 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -547,7 +547,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-gt",
-    title: "Physics 9702 — Grade Thresholds (Feb/Mar 2021)",
+    title: "Physics 9702 - Grade Thresholds (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -562,7 +562,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Feb/Mar 2021)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -577,7 +577,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Feb/Mar 2021)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -592,7 +592,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Feb/Mar 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -607,7 +607,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Feb/Mar 2021)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -622,7 +622,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Feb/Mar 2021)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -637,7 +637,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (Feb/Mar 2021)",
+    title: "Physics 9702 - Paper 1 Question Paper (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -652,7 +652,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (Feb/Mar 2021)",
+    title: "Physics 9702 - Paper 2 Question Paper (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -667,7 +667,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (Feb/Mar 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -682,7 +682,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (Feb/Mar 2021)",
+    title: "Physics 9702 - Paper 4 Question Paper (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -697,7 +697,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m21-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (Feb/Mar 2021)",
+    title: "Physics 9702 - Paper 5 Question Paper (Feb/Mar 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -712,7 +712,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-gt",
-    title: "Biology 9700 — Grade Thresholds (May/June 2021)",
+    title: "Biology 9700 - Grade Thresholds (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -727,7 +727,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-11",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -742,7 +742,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -757,7 +757,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-13",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -772,7 +772,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-21",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -787,7 +787,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -802,7 +802,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-23",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -817,7 +817,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-31",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -832,7 +832,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-32",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -847,7 +847,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -862,7 +862,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-34",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -877,7 +877,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-35",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -892,7 +892,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-41",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -907,7 +907,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -922,7 +922,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-43",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -937,7 +937,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-51",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -952,7 +952,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -967,7 +967,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-ms-53",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -982,7 +982,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-11",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -997,7 +997,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1012,7 +1012,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-13",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1027,7 +1027,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-21",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1042,7 +1042,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1057,7 +1057,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-23",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1072,7 +1072,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-31",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1087,7 +1087,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-32",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1102,7 +1102,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1117,7 +1117,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-34",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1132,7 +1132,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-35",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1147,7 +1147,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-41",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1162,7 +1162,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1177,7 +1177,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-43",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1192,7 +1192,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-51",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1207,7 +1207,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1222,7 +1222,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s21-qp-53",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2021)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -1237,7 +1237,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-gt",
-    title: "Chemistry 9701 — Grade Thresholds (May/June 2021)",
+    title: "Chemistry 9701 - Grade Thresholds (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1252,7 +1252,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-11",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1267,7 +1267,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1282,7 +1282,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-13",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1297,7 +1297,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-21",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1312,7 +1312,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1327,7 +1327,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-23",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1342,7 +1342,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-31",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1357,7 +1357,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-32",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1372,7 +1372,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1387,7 +1387,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-34",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1402,7 +1402,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-35",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1417,7 +1417,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-41",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1432,7 +1432,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1447,7 +1447,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-43",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1462,7 +1462,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-51",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1477,7 +1477,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1492,7 +1492,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-ms-53",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1507,7 +1507,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-11",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1522,7 +1522,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1537,7 +1537,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-13",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1552,7 +1552,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-21",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1567,7 +1567,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1582,7 +1582,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-23",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1597,7 +1597,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-31",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1612,7 +1612,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-32",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1627,7 +1627,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1642,7 +1642,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-34",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1657,7 +1657,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-35",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1672,7 +1672,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-41",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1687,7 +1687,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1702,7 +1702,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-43",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1717,7 +1717,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-51",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1732,7 +1732,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1747,7 +1747,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s21-qp-53",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2021)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -1762,7 +1762,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-gt",
-    title: "Mathematics 9709 — Grade Thresholds (May/June 2021)",
+    title: "Mathematics 9709 - Grade Thresholds (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1777,7 +1777,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-11",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1792,7 +1792,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1807,7 +1807,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-13",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1822,7 +1822,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-21",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1837,7 +1837,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1852,7 +1852,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-23",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1867,7 +1867,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-31",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1882,7 +1882,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1897,7 +1897,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-33",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1912,7 +1912,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-41",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1927,7 +1927,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1942,7 +1942,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-43",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1957,7 +1957,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-51",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1972,7 +1972,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -1987,7 +1987,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-53",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2002,7 +2002,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-61",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2017,7 +2017,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2032,7 +2032,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-ms-63",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2021)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2047,7 +2047,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-11",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2062,7 +2062,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2077,7 +2077,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-13",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2092,7 +2092,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-21",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2107,7 +2107,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2122,7 +2122,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-23",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2137,7 +2137,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-31",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2152,7 +2152,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2167,7 +2167,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-33",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2182,7 +2182,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-41",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2197,7 +2197,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2212,7 +2212,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-43",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2227,7 +2227,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-51",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2242,7 +2242,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2257,7 +2257,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-53",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2272,7 +2272,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-61",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2287,7 +2287,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2302,7 +2302,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s21-qp-63",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2021)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -2317,7 +2317,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-gt",
-    title: "Physics 9702 — Grade Thresholds (May/June 2021)",
+    title: "Physics 9702 - Grade Thresholds (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2332,7 +2332,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-11",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2347,7 +2347,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2362,7 +2362,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-13",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2377,7 +2377,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-21",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2392,7 +2392,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2407,7 +2407,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-23",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2422,7 +2422,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-31",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2437,7 +2437,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-32",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2452,7 +2452,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2467,7 +2467,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-34",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2482,7 +2482,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-35",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2497,7 +2497,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-41",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2512,7 +2512,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2527,7 +2527,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-43",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2542,7 +2542,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-51",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2557,7 +2557,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2572,7 +2572,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-ms-53",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2021)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2587,7 +2587,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-11",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2602,7 +2602,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2617,7 +2617,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-13",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2632,7 +2632,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-21",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2647,7 +2647,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2662,7 +2662,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-23",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2677,7 +2677,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-31",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2692,7 +2692,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-32",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2707,7 +2707,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2722,7 +2722,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-34",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2737,7 +2737,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-35",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2752,7 +2752,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-41",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2767,7 +2767,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2782,7 +2782,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-43",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2797,7 +2797,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-51",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2812,7 +2812,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2827,7 +2827,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s21-qp-53",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2021)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -2842,7 +2842,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-gt",
-    title: "Biology 9700 — Grade Thresholds (Oct/Nov 2021)",
+    title: "Biology 9700 - Grade Thresholds (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -2857,7 +2857,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-11",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -2872,7 +2872,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -2887,7 +2887,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-13",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -2902,7 +2902,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-21",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -2917,7 +2917,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -2932,7 +2932,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-23",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -2947,7 +2947,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-31",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -2962,7 +2962,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -2977,7 +2977,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-34",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -2992,7 +2992,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-35",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3007,7 +3007,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-36",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3022,7 +3022,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-41",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3037,7 +3037,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3052,7 +3052,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-43",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3067,7 +3067,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-51",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3082,7 +3082,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3097,7 +3097,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-ms-53",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3112,7 +3112,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-11",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3127,7 +3127,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3142,7 +3142,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-13",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3157,7 +3157,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-21",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3172,7 +3172,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3187,7 +3187,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-23",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3202,7 +3202,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-31",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3217,7 +3217,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3232,7 +3232,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-34",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3247,7 +3247,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-35",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3262,7 +3262,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-36",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3277,7 +3277,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-41",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3292,7 +3292,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3307,7 +3307,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-43",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3322,7 +3322,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-51",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3337,7 +3337,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3352,7 +3352,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w21-qp-53",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2021,
@@ -3367,7 +3367,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-gt",
-    title: "Chemistry 9701 — Grade Thresholds (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Grade Thresholds (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3382,7 +3382,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-11",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3397,7 +3397,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3412,7 +3412,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-13",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3427,7 +3427,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-21",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3442,7 +3442,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3457,7 +3457,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-23",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3472,7 +3472,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-31",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3487,7 +3487,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3502,7 +3502,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-34",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3517,7 +3517,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-35",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3532,7 +3532,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-36",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3547,7 +3547,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-41",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3562,7 +3562,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3577,7 +3577,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-43",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3592,7 +3592,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-51",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3607,7 +3607,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3622,7 +3622,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-ms-53",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3637,7 +3637,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-11",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3652,7 +3652,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3667,7 +3667,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-13",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3682,7 +3682,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-21",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3697,7 +3697,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3712,7 +3712,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-23",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3727,7 +3727,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-31",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3742,7 +3742,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3757,7 +3757,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-34",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3772,7 +3772,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-35",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3787,7 +3787,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-36",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3802,7 +3802,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-41",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3817,7 +3817,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3832,7 +3832,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-43",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3847,7 +3847,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-51",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3862,7 +3862,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3877,7 +3877,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w21-qp-53",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2021,
@@ -3892,7 +3892,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-gt",
-    title: "Mathematics 9709 — Grade Thresholds (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Grade Thresholds (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -3907,7 +3907,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-11",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -3922,7 +3922,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -3937,7 +3937,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-13",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -3952,7 +3952,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-21",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -3967,7 +3967,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -3982,7 +3982,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-23",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -3997,7 +3997,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-31",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4012,7 +4012,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4027,7 +4027,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-33",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4042,7 +4042,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-41",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4057,7 +4057,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4072,7 +4072,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-43",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4087,7 +4087,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-51",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4102,7 +4102,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4117,7 +4117,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-53",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4132,7 +4132,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-61",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4147,7 +4147,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4162,7 +4162,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-ms-63",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4177,7 +4177,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-11",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4192,7 +4192,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4207,7 +4207,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-13",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4222,7 +4222,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-21",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4237,7 +4237,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4252,7 +4252,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-23",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4267,7 +4267,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-31",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4282,7 +4282,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4297,7 +4297,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-33",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4312,7 +4312,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-41",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4327,7 +4327,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4342,7 +4342,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-43",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4357,7 +4357,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-51",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4372,7 +4372,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4387,7 +4387,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-53",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4402,7 +4402,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-61",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4417,7 +4417,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4432,7 +4432,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w21-qp-63",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2021)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2021)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2021,
@@ -4447,7 +4447,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-gt",
-    title: "Physics 9702 — Grade Thresholds (Oct/Nov 2021)",
+    title: "Physics 9702 - Grade Thresholds (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4462,7 +4462,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-11",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4477,7 +4477,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4492,7 +4492,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-13",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4507,7 +4507,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-21",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4522,7 +4522,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4537,7 +4537,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-23",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4552,7 +4552,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-31",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4567,7 +4567,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4582,7 +4582,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-34",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4597,7 +4597,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-35",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4612,7 +4612,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-36",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4627,7 +4627,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-41",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4642,7 +4642,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4657,7 +4657,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-43",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4672,7 +4672,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-51",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4687,7 +4687,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4702,7 +4702,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-ms-53",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4717,7 +4717,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-11",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4732,7 +4732,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4747,7 +4747,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-13",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4762,7 +4762,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-21",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4777,7 +4777,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4792,7 +4792,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-23",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4807,7 +4807,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-31",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4822,7 +4822,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4837,7 +4837,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-34",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4852,7 +4852,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-35",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4867,7 +4867,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-36",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4882,7 +4882,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-41",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4897,7 +4897,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4912,7 +4912,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-43",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4927,7 +4927,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-51",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4942,7 +4942,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4957,7 +4957,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w21-qp-53",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2021)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2021)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2021,
@@ -4972,7 +4972,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-gt",
-    title: "Biology 9700 — Grade Thresholds (Feb/Mar 2022)",
+    title: "Biology 9700 - Grade Thresholds (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -4987,7 +4987,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Feb/Mar 2022)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5002,7 +5002,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Feb/Mar 2022)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5017,7 +5017,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Feb/Mar 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5032,7 +5032,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Feb/Mar 2022)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5047,7 +5047,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Feb/Mar 2022)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5062,7 +5062,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (Feb/Mar 2022)",
+    title: "Biology 9700 - Paper 1 Question Paper (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5077,7 +5077,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (Feb/Mar 2022)",
+    title: "Biology 9700 - Paper 2 Question Paper (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5092,7 +5092,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (Feb/Mar 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5107,7 +5107,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (Feb/Mar 2022)",
+    title: "Biology 9700 - Paper 4 Question Paper (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5122,7 +5122,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m22-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (Feb/Mar 2022)",
+    title: "Biology 9700 - Paper 5 Question Paper (Feb/Mar 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5137,7 +5137,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-gt",
-    title: "Chemistry 9701 — Grade Thresholds (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Grade Thresholds (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5152,7 +5152,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5167,7 +5167,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5182,7 +5182,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5197,7 +5197,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5212,7 +5212,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5227,7 +5227,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5242,7 +5242,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5257,7 +5257,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5272,7 +5272,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5287,7 +5287,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m22-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Feb/Mar 2022)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Feb/Mar 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -5302,7 +5302,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-gt",
-    title: "Mathematics 9709 — Grade Thresholds (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Grade Thresholds (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5317,7 +5317,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5332,7 +5332,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5347,7 +5347,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5362,7 +5362,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5377,7 +5377,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5392,7 +5392,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5407,7 +5407,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5422,7 +5422,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5437,7 +5437,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5452,7 +5452,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5467,7 +5467,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5482,7 +5482,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m22-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Feb/Mar 2022)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Feb/Mar 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -5497,7 +5497,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-gt",
-    title: "Physics 9702 — Grade Thresholds (Feb/Mar 2022)",
+    title: "Physics 9702 - Grade Thresholds (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5512,7 +5512,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Feb/Mar 2022)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5527,7 +5527,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Feb/Mar 2022)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5542,7 +5542,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Feb/Mar 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5557,7 +5557,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Feb/Mar 2022)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5572,7 +5572,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Feb/Mar 2022)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5587,7 +5587,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (Feb/Mar 2022)",
+    title: "Physics 9702 - Paper 1 Question Paper (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5602,7 +5602,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (Feb/Mar 2022)",
+    title: "Physics 9702 - Paper 2 Question Paper (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5617,7 +5617,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (Feb/Mar 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5632,7 +5632,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (Feb/Mar 2022)",
+    title: "Physics 9702 - Paper 4 Question Paper (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5647,7 +5647,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m22-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (Feb/Mar 2022)",
+    title: "Physics 9702 - Paper 5 Question Paper (Feb/Mar 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -5662,7 +5662,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-gt",
-    title: "Biology 9700 — Grade Thresholds (May/June 2022)",
+    title: "Biology 9700 - Grade Thresholds (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5677,7 +5677,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-11",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5692,7 +5692,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5707,7 +5707,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-13",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5722,7 +5722,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-21",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5737,7 +5737,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5752,7 +5752,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-23",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5767,7 +5767,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-31",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5782,7 +5782,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-32",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5797,7 +5797,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5812,7 +5812,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-34",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5827,7 +5827,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-35",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5842,7 +5842,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-41",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5857,7 +5857,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5872,7 +5872,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-43",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5887,7 +5887,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-51",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5902,7 +5902,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5917,7 +5917,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-ms-53",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5932,7 +5932,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-11",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5947,7 +5947,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5962,7 +5962,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-13",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5977,7 +5977,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-21",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -5992,7 +5992,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6007,7 +6007,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-23",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6022,7 +6022,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-31",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6037,7 +6037,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-32",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6052,7 +6052,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6067,7 +6067,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-34",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6082,7 +6082,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-35",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6097,7 +6097,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-41",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6112,7 +6112,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6127,7 +6127,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-43",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6142,7 +6142,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-51",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6157,7 +6157,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6172,7 +6172,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s22-qp-53",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2022)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -6187,7 +6187,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-gt",
-    title: "Chemistry 9701 — Grade Thresholds (May/June 2022)",
+    title: "Chemistry 9701 - Grade Thresholds (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6202,7 +6202,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-11",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6217,7 +6217,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6232,7 +6232,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-13",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6247,7 +6247,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-21",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6262,7 +6262,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6277,7 +6277,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-23",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6292,7 +6292,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-31",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6307,7 +6307,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-32",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6322,7 +6322,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6337,7 +6337,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-34",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6352,7 +6352,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-35",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6367,7 +6367,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-41",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6382,7 +6382,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6397,7 +6397,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-43",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6412,7 +6412,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-51",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6427,7 +6427,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6442,7 +6442,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-ms-53",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6457,7 +6457,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-11",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6472,7 +6472,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6487,7 +6487,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-13",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6502,7 +6502,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-21",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6517,7 +6517,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6532,7 +6532,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-23",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6547,7 +6547,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-31",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6562,7 +6562,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-32",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6577,7 +6577,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6592,7 +6592,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-34",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6607,7 +6607,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-35",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6622,7 +6622,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-41",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6637,7 +6637,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6652,7 +6652,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-43",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6667,7 +6667,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-51",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6682,7 +6682,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6697,7 +6697,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s22-qp-53",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2022)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -6712,7 +6712,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-gt",
-    title: "Mathematics 9709 — Grade Thresholds (May/June 2022)",
+    title: "Mathematics 9709 - Grade Thresholds (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6727,7 +6727,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-11",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6742,7 +6742,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6757,7 +6757,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-13",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6772,7 +6772,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-21",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6787,7 +6787,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6802,7 +6802,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-23",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6817,7 +6817,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-31",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6832,7 +6832,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6847,7 +6847,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-33",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6862,7 +6862,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-41",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6877,7 +6877,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6892,7 +6892,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-43",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6907,7 +6907,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-51",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6922,7 +6922,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6937,7 +6937,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-53",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6952,7 +6952,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-61",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6967,7 +6967,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6982,7 +6982,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-ms-63",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2022)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -6997,7 +6997,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-11",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7012,7 +7012,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7027,7 +7027,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-13",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7042,7 +7042,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-21",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7057,7 +7057,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7072,7 +7072,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-23",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7087,7 +7087,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-31",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7102,7 +7102,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7117,7 +7117,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-33",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7132,7 +7132,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-41",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7147,7 +7147,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7162,7 +7162,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-43",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7177,7 +7177,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-51",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7192,7 +7192,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7207,7 +7207,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-53",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7222,7 +7222,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-61",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7237,7 +7237,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7252,7 +7252,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s22-qp-63",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2022)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -7267,7 +7267,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-gt",
-    title: "Physics 9702 — Grade Thresholds (May/June 2022)",
+    title: "Physics 9702 - Grade Thresholds (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7282,7 +7282,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-11",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7297,7 +7297,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7312,7 +7312,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-13",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7327,7 +7327,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-21",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7342,7 +7342,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7357,7 +7357,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-23",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7372,7 +7372,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-31",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7387,7 +7387,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-32",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7402,7 +7402,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7417,7 +7417,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-34",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7432,7 +7432,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-35",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7447,7 +7447,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-41",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7462,7 +7462,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7477,7 +7477,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-43",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7492,7 +7492,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-51",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7507,7 +7507,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7522,7 +7522,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-ms-53",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2022)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7537,7 +7537,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-11",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7552,7 +7552,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7567,7 +7567,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-13",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7582,7 +7582,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-21",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7597,7 +7597,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7612,7 +7612,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-23",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7627,7 +7627,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-31",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7642,7 +7642,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-32",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7657,7 +7657,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7672,7 +7672,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-34",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7687,7 +7687,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-35",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7702,7 +7702,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-41",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7717,7 +7717,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7732,7 +7732,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-43",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7747,7 +7747,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-51",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7762,7 +7762,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7777,7 +7777,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s22-qp-53",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2022)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -7792,7 +7792,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-gt",
-    title: "Biology 9700 — Grade Thresholds (Oct/Nov 2022)",
+    title: "Biology 9700 - Grade Thresholds (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7807,7 +7807,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-11",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7822,7 +7822,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7837,7 +7837,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-13",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7852,7 +7852,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-21",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7867,7 +7867,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7882,7 +7882,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-23",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7897,7 +7897,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-31",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7912,7 +7912,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7927,7 +7927,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-34",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7942,7 +7942,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-35",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7957,7 +7957,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-36",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7972,7 +7972,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-41",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -7987,7 +7987,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8002,7 +8002,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-43",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8017,7 +8017,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-51",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8032,7 +8032,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8047,7 +8047,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-ms-53",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8062,7 +8062,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-11",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8077,7 +8077,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8092,7 +8092,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-13",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8107,7 +8107,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-21",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8122,7 +8122,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8137,7 +8137,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-23",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8152,7 +8152,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-31",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8167,7 +8167,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8182,7 +8182,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-34",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8197,7 +8197,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-35",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8212,7 +8212,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-36",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8227,7 +8227,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-41",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8242,7 +8242,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8257,7 +8257,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-43",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8272,7 +8272,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-51",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8287,7 +8287,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8302,7 +8302,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w22-qp-53",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2022,
@@ -8317,7 +8317,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-gt",
-    title: "Chemistry 9701 — Grade Thresholds (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Grade Thresholds (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8332,7 +8332,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-11",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8347,7 +8347,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8362,7 +8362,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-13",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8377,7 +8377,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-21",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8392,7 +8392,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8407,7 +8407,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-23",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8422,7 +8422,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-31",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8437,7 +8437,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8452,7 +8452,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-34",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8467,7 +8467,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-35",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8482,7 +8482,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-36",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8497,7 +8497,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-41",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8512,7 +8512,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8527,7 +8527,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-43",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8542,7 +8542,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-51",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8557,7 +8557,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8572,7 +8572,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-ms-53",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8587,7 +8587,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-11",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8602,7 +8602,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8617,7 +8617,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-13",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8632,7 +8632,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-21",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8647,7 +8647,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8662,7 +8662,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-23",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8677,7 +8677,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-31",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8692,7 +8692,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8707,7 +8707,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-34",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8722,7 +8722,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-35",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8737,7 +8737,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-36",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8752,7 +8752,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-41",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8767,7 +8767,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8782,7 +8782,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-43",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8797,7 +8797,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-51",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8812,7 +8812,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8827,7 +8827,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w22-qp-53",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2022,
@@ -8842,7 +8842,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-gt",
-    title: "Mathematics 9709 — Grade Thresholds (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Grade Thresholds (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -8857,7 +8857,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-11",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -8872,7 +8872,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -8887,7 +8887,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-13",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -8902,7 +8902,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-21",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -8917,7 +8917,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -8932,7 +8932,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-23",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -8947,7 +8947,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-31",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -8962,7 +8962,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -8977,7 +8977,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-33",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -8992,7 +8992,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-41",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9007,7 +9007,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9022,7 +9022,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-43",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9037,7 +9037,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-51",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9052,7 +9052,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9067,7 +9067,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-53",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9082,7 +9082,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-61",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9097,7 +9097,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9112,7 +9112,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-ms-63",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9127,7 +9127,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-11",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9142,7 +9142,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9157,7 +9157,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-13",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9172,7 +9172,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-21",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9187,7 +9187,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9202,7 +9202,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-23",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9217,7 +9217,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-31",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9232,7 +9232,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9247,7 +9247,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-33",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9262,7 +9262,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-41",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9277,7 +9277,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9292,7 +9292,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-43",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9307,7 +9307,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-51",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9322,7 +9322,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9337,7 +9337,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-53",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9352,7 +9352,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-61",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9367,7 +9367,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9382,7 +9382,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w22-qp-63",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2022)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2022)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2022,
@@ -9397,7 +9397,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-gt",
-    title: "Physics 9702 — Grade Thresholds (Oct/Nov 2022)",
+    title: "Physics 9702 - Grade Thresholds (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9412,7 +9412,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-11",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9427,7 +9427,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9442,7 +9442,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-13",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9457,7 +9457,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-21",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9472,7 +9472,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9487,7 +9487,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-23",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9502,7 +9502,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-31",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9517,7 +9517,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9532,7 +9532,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-34",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9547,7 +9547,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-35",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9562,7 +9562,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-36",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9577,7 +9577,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-41",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9592,7 +9592,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9607,7 +9607,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-43",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9622,7 +9622,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-51",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9637,7 +9637,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9652,7 +9652,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-ms-53",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9667,7 +9667,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-11",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9682,7 +9682,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9697,7 +9697,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-13",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9712,7 +9712,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-21",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9727,7 +9727,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9742,7 +9742,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-23",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9757,7 +9757,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-31",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9772,7 +9772,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9787,7 +9787,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-34",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9802,7 +9802,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-35",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9817,7 +9817,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-36",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9832,7 +9832,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-41",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9847,7 +9847,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9862,7 +9862,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-43",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9877,7 +9877,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-51",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9892,7 +9892,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9907,7 +9907,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w22-qp-53",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2022)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2022)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2022,
@@ -9922,7 +9922,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-gt",
-    title: "Biology 9700 — Grade Thresholds (Feb/Mar 2023)",
+    title: "Biology 9700 - Grade Thresholds (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -9937,7 +9937,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Feb/Mar 2023)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -9952,7 +9952,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Feb/Mar 2023)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -9967,7 +9967,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Feb/Mar 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -9982,7 +9982,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Feb/Mar 2023)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -9997,7 +9997,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Feb/Mar 2023)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10012,7 +10012,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (Feb/Mar 2023)",
+    title: "Biology 9700 - Paper 1 Question Paper (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10027,7 +10027,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (Feb/Mar 2023)",
+    title: "Biology 9700 - Paper 2 Question Paper (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10042,7 +10042,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (Feb/Mar 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10057,7 +10057,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (Feb/Mar 2023)",
+    title: "Biology 9700 - Paper 4 Question Paper (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10072,7 +10072,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-m23-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (Feb/Mar 2023)",
+    title: "Biology 9700 - Paper 5 Question Paper (Feb/Mar 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10087,7 +10087,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-gt",
-    title: "Chemistry 9701 — Grade Thresholds (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Grade Thresholds (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10102,7 +10102,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10117,7 +10117,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10132,7 +10132,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10147,7 +10147,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10162,7 +10162,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10177,7 +10177,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10192,7 +10192,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10207,7 +10207,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10222,7 +10222,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10237,7 +10237,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-m23-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Feb/Mar 2023)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Feb/Mar 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -10252,7 +10252,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-gt",
-    title: "Mathematics 9709 — Grade Thresholds (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Grade Thresholds (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10267,7 +10267,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10282,7 +10282,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10297,7 +10297,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10312,7 +10312,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10327,7 +10327,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10342,7 +10342,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10357,7 +10357,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10372,7 +10372,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10387,7 +10387,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10402,7 +10402,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10417,7 +10417,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10432,7 +10432,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-m23-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Feb/Mar 2023)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Feb/Mar 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -10447,7 +10447,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-gt",
-    title: "Physics 9702 — Grade Thresholds (Feb/Mar 2023)",
+    title: "Physics 9702 - Grade Thresholds (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10462,7 +10462,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Feb/Mar 2023)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10477,7 +10477,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Feb/Mar 2023)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10492,7 +10492,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Feb/Mar 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10507,7 +10507,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Feb/Mar 2023)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10522,7 +10522,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Feb/Mar 2023)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10537,7 +10537,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (Feb/Mar 2023)",
+    title: "Physics 9702 - Paper 1 Question Paper (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10552,7 +10552,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (Feb/Mar 2023)",
+    title: "Physics 9702 - Paper 2 Question Paper (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10567,7 +10567,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (Feb/Mar 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10582,7 +10582,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (Feb/Mar 2023)",
+    title: "Physics 9702 - Paper 4 Question Paper (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10597,7 +10597,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-m23-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (Feb/Mar 2023)",
+    title: "Physics 9702 - Paper 5 Question Paper (Feb/Mar 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -10612,7 +10612,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-gt",
-    title: "Biology 9700 — Grade Thresholds (May/June 2023)",
+    title: "Biology 9700 - Grade Thresholds (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10627,7 +10627,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-11",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10642,7 +10642,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10657,7 +10657,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-13",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10672,7 +10672,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-21",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10687,7 +10687,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10702,7 +10702,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-23",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10717,7 +10717,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-31",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10732,7 +10732,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-32",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10747,7 +10747,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10762,7 +10762,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-34",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10777,7 +10777,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-35",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10792,7 +10792,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-41",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10807,7 +10807,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10822,7 +10822,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-43",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10837,7 +10837,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-51",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10852,7 +10852,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10867,7 +10867,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-ms-53",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10882,7 +10882,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-11",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10897,7 +10897,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10912,7 +10912,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-13",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10927,7 +10927,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-21",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10942,7 +10942,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10957,7 +10957,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-23",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10972,7 +10972,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-31",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -10987,7 +10987,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-32",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -11002,7 +11002,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -11017,7 +11017,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-34",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -11032,7 +11032,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-35",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -11047,7 +11047,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-41",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -11062,7 +11062,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -11077,7 +11077,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-43",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -11092,7 +11092,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-51",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -11107,7 +11107,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -11122,7 +11122,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s23-qp-53",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2023)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -11137,7 +11137,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-gt",
-    title: "Chemistry 9701 — Grade Thresholds (May/June 2023)",
+    title: "Chemistry 9701 - Grade Thresholds (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11152,7 +11152,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-11",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11167,7 +11167,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11182,7 +11182,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-13",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11197,7 +11197,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-21",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11212,7 +11212,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11227,7 +11227,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-23",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11242,7 +11242,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-31",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11257,7 +11257,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-32",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11272,7 +11272,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11287,7 +11287,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-34",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11302,7 +11302,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-35",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11317,7 +11317,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-41",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11332,7 +11332,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11347,7 +11347,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-43",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11362,7 +11362,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-51",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11377,7 +11377,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11392,7 +11392,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-ms-53",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11407,7 +11407,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-11",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11422,7 +11422,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11437,7 +11437,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-13",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11452,7 +11452,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-21",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11467,7 +11467,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11482,7 +11482,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-23",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11497,7 +11497,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-31",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11512,7 +11512,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-32",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11527,7 +11527,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11542,7 +11542,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-34",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11557,7 +11557,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-35",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11572,7 +11572,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-41",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11587,7 +11587,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11602,7 +11602,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-43",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11617,7 +11617,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-51",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11632,7 +11632,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11647,7 +11647,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s23-qp-53",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2023)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -11662,7 +11662,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-gt",
-    title: "Mathematics 9709 — Grade Thresholds (May/June 2023)",
+    title: "Mathematics 9709 - Grade Thresholds (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11677,7 +11677,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-11",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11692,7 +11692,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11707,7 +11707,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-13",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11722,7 +11722,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-21",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11737,7 +11737,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11752,7 +11752,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-23",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11767,7 +11767,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-31",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11782,7 +11782,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11797,7 +11797,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-33",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11812,7 +11812,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-41",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11827,7 +11827,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11842,7 +11842,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-43",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11857,7 +11857,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-51",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11872,7 +11872,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11887,7 +11887,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-53",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11902,7 +11902,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-61",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11917,7 +11917,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11932,7 +11932,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-ms-63",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2023)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11947,7 +11947,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-11",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11962,7 +11962,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11977,7 +11977,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-13",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -11992,7 +11992,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-21",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12007,7 +12007,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12022,7 +12022,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-23",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12037,7 +12037,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-31",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12052,7 +12052,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12067,7 +12067,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-33",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12082,7 +12082,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-41",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12097,7 +12097,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12112,7 +12112,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-43",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12127,7 +12127,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-51",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12142,7 +12142,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12157,7 +12157,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-53",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12172,7 +12172,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-61",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12187,7 +12187,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12202,7 +12202,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s23-qp-63",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2023)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -12217,7 +12217,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-gt",
-    title: "Physics 9702 — Grade Thresholds (May/June 2023)",
+    title: "Physics 9702 - Grade Thresholds (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12232,7 +12232,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-11",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12247,7 +12247,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12262,7 +12262,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-13",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12277,7 +12277,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-21",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12292,7 +12292,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12307,7 +12307,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-23",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12322,7 +12322,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-31",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12337,7 +12337,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-32",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12352,7 +12352,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12367,7 +12367,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-34",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12382,7 +12382,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-35",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12397,7 +12397,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-41",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12412,7 +12412,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12427,7 +12427,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-43",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12442,7 +12442,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-51",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12457,7 +12457,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12472,7 +12472,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-ms-53",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2023)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12487,7 +12487,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-11",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12502,7 +12502,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12517,7 +12517,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-13",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12532,7 +12532,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-21",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12547,7 +12547,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12562,7 +12562,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-23",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12577,7 +12577,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-31",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12592,7 +12592,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-32",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12607,7 +12607,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12622,7 +12622,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-34",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12637,7 +12637,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-35",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12652,7 +12652,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-41",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12667,7 +12667,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12682,7 +12682,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-43",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12697,7 +12697,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-51",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12712,7 +12712,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12727,7 +12727,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s23-qp-53",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2023)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -12742,7 +12742,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-gt",
-    title: "Biology 9700 — Grade Thresholds (Oct/Nov 2023)",
+    title: "Biology 9700 - Grade Thresholds (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12757,7 +12757,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-11",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12772,7 +12772,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12787,7 +12787,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-13",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12802,7 +12802,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-21",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12817,7 +12817,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12832,7 +12832,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-23",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12847,7 +12847,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-31",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12862,7 +12862,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12877,7 +12877,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-34",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12892,7 +12892,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-35",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12907,7 +12907,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-36",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12922,7 +12922,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-41",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12937,7 +12937,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12952,7 +12952,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-43",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12967,7 +12967,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-51",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12982,7 +12982,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -12997,7 +12997,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-ms-53",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13012,7 +13012,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-11",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13027,7 +13027,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13042,7 +13042,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-13",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13057,7 +13057,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-21",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13072,7 +13072,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13087,7 +13087,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-23",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13102,7 +13102,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-31",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13117,7 +13117,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13132,7 +13132,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-34",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13147,7 +13147,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-35",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13162,7 +13162,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-36",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13177,7 +13177,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-41",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13192,7 +13192,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13207,7 +13207,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-43",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13222,7 +13222,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-51",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13237,7 +13237,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13252,7 +13252,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w23-qp-53",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2023,
@@ -13267,7 +13267,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-gt",
-    title: "Chemistry 9701 — Grade Thresholds (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Grade Thresholds (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13282,7 +13282,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-11",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13297,7 +13297,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13312,7 +13312,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-13",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13327,7 +13327,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-21",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13342,7 +13342,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13357,7 +13357,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-23",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13372,7 +13372,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-31",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13387,7 +13387,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13402,7 +13402,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-34",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13417,7 +13417,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-35",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13432,7 +13432,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-36",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13447,7 +13447,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-41",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13462,7 +13462,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13477,7 +13477,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-43",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13492,7 +13492,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-51",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13507,7 +13507,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13522,7 +13522,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-ms-53",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13537,7 +13537,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-11",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13552,7 +13552,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13567,7 +13567,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-13",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13582,7 +13582,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-21",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13597,7 +13597,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13612,7 +13612,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-23",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13627,7 +13627,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-31",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13642,7 +13642,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13657,7 +13657,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-34",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13672,7 +13672,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-35",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13687,7 +13687,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-36",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13702,7 +13702,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-41",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13717,7 +13717,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13732,7 +13732,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-43",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13747,7 +13747,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-51",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13762,7 +13762,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13777,7 +13777,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w23-qp-53",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2023,
@@ -13792,7 +13792,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-gt",
-    title: "Mathematics 9709 — Grade Thresholds (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Grade Thresholds (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13807,7 +13807,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-11",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13822,7 +13822,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13837,7 +13837,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-13",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13852,7 +13852,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-21",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13867,7 +13867,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13882,7 +13882,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-23",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13897,7 +13897,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-31",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13912,7 +13912,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13927,7 +13927,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-33",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13942,7 +13942,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-41",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13957,7 +13957,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13972,7 +13972,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-43",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -13987,7 +13987,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-51",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14002,7 +14002,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14017,7 +14017,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-53",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14032,7 +14032,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-61",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14047,7 +14047,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14062,7 +14062,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-ms-63",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14077,7 +14077,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-11",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14092,7 +14092,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14107,7 +14107,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-13",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14122,7 +14122,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-21",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14137,7 +14137,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14152,7 +14152,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-23",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14167,7 +14167,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-31",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14182,7 +14182,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14197,7 +14197,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-33",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14212,7 +14212,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-41",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14227,7 +14227,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14242,7 +14242,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-43",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14257,7 +14257,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-51",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14272,7 +14272,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14287,7 +14287,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-53",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14302,7 +14302,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-61",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14317,7 +14317,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14332,7 +14332,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w23-qp-63",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2023)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2023)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2023,
@@ -14347,7 +14347,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-gt",
-    title: "Physics 9702 — Grade Thresholds (Oct/Nov 2023)",
+    title: "Physics 9702 - Grade Thresholds (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14362,7 +14362,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-11",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14377,7 +14377,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14392,7 +14392,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-13",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14407,7 +14407,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-21",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14422,7 +14422,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14437,7 +14437,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-23",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14452,7 +14452,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-31",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14467,7 +14467,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14482,7 +14482,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-34",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14497,7 +14497,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-35",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14512,7 +14512,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-36",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14527,7 +14527,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-41",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14542,7 +14542,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14557,7 +14557,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-43",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14572,7 +14572,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-51",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14587,7 +14587,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14602,7 +14602,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-ms-53",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14617,7 +14617,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-11",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14632,7 +14632,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14647,7 +14647,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-13",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14662,7 +14662,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-21",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14677,7 +14677,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14692,7 +14692,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-23",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14707,7 +14707,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-31",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14722,7 +14722,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14737,7 +14737,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-34",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14752,7 +14752,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-35",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14767,7 +14767,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-36",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14782,7 +14782,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-41",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14797,7 +14797,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14812,7 +14812,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-43",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14827,7 +14827,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-51",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14842,7 +14842,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14857,7 +14857,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w23-qp-53",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2023)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2023)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2023,
@@ -14872,7 +14872,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-gt",
-    title: "Biology 9700 — Grade Thresholds (May/June 2024)",
+    title: "Biology 9700 - Grade Thresholds (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -14887,7 +14887,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-11",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -14902,7 +14902,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -14917,7 +14917,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-13",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -14932,7 +14932,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-21",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -14947,7 +14947,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -14962,7 +14962,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-23",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -14977,7 +14977,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-31",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -14992,7 +14992,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-32",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15007,7 +15007,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15022,7 +15022,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-34",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15037,7 +15037,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-35",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15052,7 +15052,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-41",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15067,7 +15067,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15082,7 +15082,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-43",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15097,7 +15097,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-51",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15112,7 +15112,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15127,7 +15127,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-ms-53",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15142,7 +15142,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-11",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15157,7 +15157,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15172,7 +15172,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-13",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15187,7 +15187,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-21",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15202,7 +15202,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15217,7 +15217,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-23",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15232,7 +15232,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-31",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15247,7 +15247,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-32",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15262,7 +15262,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15277,7 +15277,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-34",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15292,7 +15292,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-35",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15307,7 +15307,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-41",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15322,7 +15322,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15337,7 +15337,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-43",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15352,7 +15352,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-51",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15367,7 +15367,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15382,7 +15382,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s24-qp-53",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2024)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -15397,7 +15397,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-gt",
-    title: "Chemistry 9701 — Grade Thresholds (May/June 2024)",
+    title: "Chemistry 9701 - Grade Thresholds (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15412,7 +15412,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-11",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15427,7 +15427,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15442,7 +15442,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-13",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15457,7 +15457,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-21",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15472,7 +15472,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15487,7 +15487,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-23",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15502,7 +15502,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-31",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15517,7 +15517,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-32",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15532,7 +15532,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15547,7 +15547,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-34",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15562,7 +15562,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-35",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15577,7 +15577,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-41",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15592,7 +15592,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15607,7 +15607,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-43",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15622,7 +15622,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-51",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15637,7 +15637,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15652,7 +15652,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-ms-53",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15667,7 +15667,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-11",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15682,7 +15682,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15697,7 +15697,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-13",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15712,7 +15712,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-21",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15727,7 +15727,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15742,7 +15742,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-23",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15757,7 +15757,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-31",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15772,7 +15772,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-32",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15787,7 +15787,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15802,7 +15802,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-34",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15817,7 +15817,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-35",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15832,7 +15832,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-41",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15847,7 +15847,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15862,7 +15862,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-43",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15877,7 +15877,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-51",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15892,7 +15892,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15907,7 +15907,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s24-qp-53",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2024)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -15922,7 +15922,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-gt",
-    title: "Mathematics 9709 — Grade Thresholds (May/June 2024)",
+    title: "Mathematics 9709 - Grade Thresholds (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -15937,7 +15937,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-11",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -15952,7 +15952,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -15967,7 +15967,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-13",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -15982,7 +15982,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-21",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -15997,7 +15997,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16012,7 +16012,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-23",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16027,7 +16027,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-31",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16042,7 +16042,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16057,7 +16057,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-33",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16072,7 +16072,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-41",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16087,7 +16087,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16102,7 +16102,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-43",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16117,7 +16117,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-51",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16132,7 +16132,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16147,7 +16147,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-53",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16162,7 +16162,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-61",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16177,7 +16177,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16192,7 +16192,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-ms-63",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2024)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16207,7 +16207,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-11",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16222,7 +16222,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16237,7 +16237,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-13",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16252,7 +16252,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-21",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16267,7 +16267,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16282,7 +16282,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-23",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16297,7 +16297,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-31",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16312,7 +16312,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16327,7 +16327,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-33",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16342,7 +16342,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-41",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16357,7 +16357,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16372,7 +16372,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-43",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16387,7 +16387,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-51",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16402,7 +16402,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16417,7 +16417,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-53",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16432,7 +16432,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-61",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16447,7 +16447,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16462,7 +16462,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s24-qp-63",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2024)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -16477,7 +16477,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-gt",
-    title: "Physics 9702 — Grade Thresholds (May/June 2024)",
+    title: "Physics 9702 - Grade Thresholds (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16492,7 +16492,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-11",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16507,7 +16507,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16522,7 +16522,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-13",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16537,7 +16537,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-21",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16552,7 +16552,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16567,7 +16567,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-23",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16582,7 +16582,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-31",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16597,7 +16597,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-32",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16612,7 +16612,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16627,7 +16627,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-34",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16642,7 +16642,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-35",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16657,7 +16657,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-41",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16672,7 +16672,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16687,7 +16687,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-43",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16702,7 +16702,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-51",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16717,7 +16717,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16732,7 +16732,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-ms-53",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2024)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16747,7 +16747,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-11",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16762,7 +16762,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16777,7 +16777,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-13",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16792,7 +16792,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-21",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16807,7 +16807,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16822,7 +16822,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-23",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16837,7 +16837,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-31",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16852,7 +16852,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-32",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16867,7 +16867,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16882,7 +16882,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-34",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16897,7 +16897,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-35",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16912,7 +16912,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-41",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16927,7 +16927,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16942,7 +16942,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-43",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16957,7 +16957,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-51",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16972,7 +16972,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -16987,7 +16987,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s24-qp-53",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2024)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -17002,7 +17002,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-gt",
-    title: "Biology 9700 — Grade Thresholds (Oct/Nov 2024)",
+    title: "Biology 9700 - Grade Thresholds (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17017,7 +17017,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-11",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17032,7 +17032,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17047,7 +17047,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-13",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17062,7 +17062,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-21",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17077,7 +17077,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17092,7 +17092,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-23",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17107,7 +17107,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-31",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17122,7 +17122,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17137,7 +17137,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-34",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17152,7 +17152,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-35",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17167,7 +17167,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-36",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17182,7 +17182,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-41",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17197,7 +17197,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17212,7 +17212,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-43",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17227,7 +17227,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-51",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17242,7 +17242,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17257,7 +17257,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-ms-53",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17272,7 +17272,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-11",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17287,7 +17287,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17302,7 +17302,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-13",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17317,7 +17317,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-21",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17332,7 +17332,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17347,7 +17347,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-23",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17362,7 +17362,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-31",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17377,7 +17377,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17392,7 +17392,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-34",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17407,7 +17407,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-35",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17422,7 +17422,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-36",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17437,7 +17437,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-41",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17452,7 +17452,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17467,7 +17467,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-43",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17482,7 +17482,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-51",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17497,7 +17497,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17512,7 +17512,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w24-qp-53",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2024,
@@ -17527,7 +17527,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-gt",
-    title: "Chemistry 9701 — Grade Thresholds (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Grade Thresholds (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17542,7 +17542,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-11",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17557,7 +17557,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17572,7 +17572,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-13",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17587,7 +17587,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-21",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17602,7 +17602,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17617,7 +17617,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-23",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17632,7 +17632,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-31",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17647,7 +17647,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17662,7 +17662,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-34",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17677,7 +17677,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-35",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17692,7 +17692,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-36",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17707,7 +17707,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-41",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17722,7 +17722,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17737,7 +17737,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-43",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17752,7 +17752,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-51",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17767,7 +17767,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17782,7 +17782,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-ms-53",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17797,7 +17797,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-11",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17812,7 +17812,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17827,7 +17827,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-13",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17842,7 +17842,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-21",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17857,7 +17857,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17872,7 +17872,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-23",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17887,7 +17887,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-31",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17902,7 +17902,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17917,7 +17917,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-34",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17932,7 +17932,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-35",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17947,7 +17947,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-36",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17962,7 +17962,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-41",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17977,7 +17977,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -17992,7 +17992,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-43",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -18007,7 +18007,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-51",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -18022,7 +18022,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -18037,7 +18037,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w24-qp-53",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2024,
@@ -18052,7 +18052,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-gt",
-    title: "Mathematics 9709 — Grade Thresholds (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Grade Thresholds (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18067,7 +18067,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-11",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18082,7 +18082,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18097,7 +18097,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-13",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18112,7 +18112,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-21",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18127,7 +18127,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18142,7 +18142,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-23",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18157,7 +18157,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-31",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18172,7 +18172,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18187,7 +18187,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-33",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18202,7 +18202,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-41",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18217,7 +18217,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18232,7 +18232,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-43",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18247,7 +18247,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-51",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18262,7 +18262,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18277,7 +18277,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-53",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18292,7 +18292,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-61",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18307,7 +18307,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18322,7 +18322,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-ms-63",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18337,7 +18337,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-11",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18352,7 +18352,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18367,7 +18367,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-13",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18382,7 +18382,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-21",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18397,7 +18397,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18412,7 +18412,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-23",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18427,7 +18427,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-31",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18442,7 +18442,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18457,7 +18457,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-33",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18472,7 +18472,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-41",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18487,7 +18487,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18502,7 +18502,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-43",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18517,7 +18517,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-51",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18532,7 +18532,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18547,7 +18547,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-53",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18562,7 +18562,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-61",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18577,7 +18577,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18592,7 +18592,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w24-qp-63",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2024)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2024)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -18607,7 +18607,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-gt",
-    title: "Physics 9702 — Grade Thresholds (Oct/Nov 2024)",
+    title: "Physics 9702 - Grade Thresholds (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18622,7 +18622,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-11",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18637,7 +18637,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18652,7 +18652,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-13",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18667,7 +18667,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-21",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18682,7 +18682,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18697,7 +18697,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-23",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18712,7 +18712,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-31",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18727,7 +18727,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18742,7 +18742,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-34",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18757,7 +18757,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-35",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18772,7 +18772,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-36",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18787,7 +18787,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-41",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18802,7 +18802,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18817,7 +18817,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-43",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18832,7 +18832,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-51",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18847,7 +18847,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18862,7 +18862,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-ms-53",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18877,7 +18877,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-11",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18892,7 +18892,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18907,7 +18907,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-13",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18922,7 +18922,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-21",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18937,7 +18937,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18952,7 +18952,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-23",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18967,7 +18967,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-31",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18982,7 +18982,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -18997,7 +18997,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-34",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -19012,7 +19012,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-35",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -19027,7 +19027,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-36",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -19042,7 +19042,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-41",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -19057,7 +19057,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -19072,7 +19072,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-43",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -19087,7 +19087,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-51",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -19102,7 +19102,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -19117,7 +19117,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w24-qp-53",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2024)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2024)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -19132,7 +19132,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-gt",
-    title: "Biology 9700 — Grade Thresholds (May/June 2025)",
+    title: "Biology 9700 - Grade Thresholds (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19147,7 +19147,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-11",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19162,7 +19162,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19177,7 +19177,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-13",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19192,7 +19192,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-14",
-    title: "Biology 9700 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19207,7 +19207,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-21",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19222,7 +19222,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19237,7 +19237,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-23",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19252,7 +19252,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-24",
-    title: "Biology 9700 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19267,7 +19267,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-31",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19282,7 +19282,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-32",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19297,7 +19297,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19312,7 +19312,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-34",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19327,7 +19327,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-35",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19342,7 +19342,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-37",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19357,7 +19357,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-38",
-    title: "Biology 9700 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19372,7 +19372,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-41",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19387,7 +19387,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19402,7 +19402,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-43",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19417,7 +19417,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-44",
-    title: "Biology 9700 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19432,7 +19432,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-51",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19447,7 +19447,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19462,7 +19462,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-53",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19477,7 +19477,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-ms-54",
-    title: "Biology 9700 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19492,7 +19492,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-11",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19507,7 +19507,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19522,7 +19522,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-13",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19537,7 +19537,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-14",
-    title: "Biology 9700 — Paper 1 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19552,7 +19552,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-21",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19567,7 +19567,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19582,7 +19582,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-23",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19597,7 +19597,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-24",
-    title: "Biology 9700 — Paper 2 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19612,7 +19612,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-31",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19627,7 +19627,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-32",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19642,7 +19642,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19657,7 +19657,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-34",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19672,7 +19672,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-35",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19687,7 +19687,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-37",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19702,7 +19702,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-38",
-    title: "Biology 9700 — Paper 3 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19717,7 +19717,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-41",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19732,7 +19732,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19747,7 +19747,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-43",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19762,7 +19762,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-44",
-    title: "Biology 9700 — Paper 4 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19777,7 +19777,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-51",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19792,7 +19792,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19807,7 +19807,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-53",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19822,7 +19822,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-s25-qp-54",
-    title: "Biology 9700 — Paper 5 Question Paper (May/June 2025)",
+    title: "Biology 9700 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -19837,7 +19837,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-gt",
-    title: "Chemistry 9701 — Grade Thresholds (May/June 2025)",
+    title: "Chemistry 9701 - Grade Thresholds (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -19852,7 +19852,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-11",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -19867,7 +19867,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -19882,7 +19882,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-13",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -19897,7 +19897,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-14",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -19912,7 +19912,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-21",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -19927,7 +19927,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -19942,7 +19942,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-23",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -19957,7 +19957,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-24",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -19972,7 +19972,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-31",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -19987,7 +19987,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-32",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20002,7 +20002,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20017,7 +20017,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-34",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20032,7 +20032,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-35",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20047,7 +20047,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-37",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20062,7 +20062,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-38",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20077,7 +20077,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-41",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20092,7 +20092,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20107,7 +20107,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-43",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20122,7 +20122,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-44",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20137,7 +20137,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-51",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20152,7 +20152,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20167,7 +20167,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-53",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20182,7 +20182,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-ms-54",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20197,7 +20197,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-11",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20212,7 +20212,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20227,7 +20227,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-13",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20242,7 +20242,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-14",
-    title: "Chemistry 9701 — Paper 1 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20257,7 +20257,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-21",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20272,7 +20272,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20287,7 +20287,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-23",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20302,7 +20302,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-24",
-    title: "Chemistry 9701 — Paper 2 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20317,7 +20317,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-31",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20332,7 +20332,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-32",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20347,7 +20347,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20362,7 +20362,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-34",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20377,7 +20377,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-35",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20392,7 +20392,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-37",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20407,7 +20407,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-38",
-    title: "Chemistry 9701 — Paper 3 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20422,7 +20422,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-41",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20437,7 +20437,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20452,7 +20452,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-43",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20467,7 +20467,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-44",
-    title: "Chemistry 9701 — Paper 4 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20482,7 +20482,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-51",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20497,7 +20497,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20512,7 +20512,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-53",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20527,7 +20527,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-s25-qp-54",
-    title: "Chemistry 9701 — Paper 5 Question Paper (May/June 2025)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -20542,7 +20542,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-gt",
-    title: "Mathematics 9709 — Grade Thresholds (May/June 2025)",
+    title: "Mathematics 9709 - Grade Thresholds (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20557,7 +20557,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-11",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20572,7 +20572,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20587,7 +20587,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-13",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20602,7 +20602,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-15",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20617,7 +20617,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-21",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20632,7 +20632,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20647,7 +20647,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-23",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20662,7 +20662,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-25",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20677,7 +20677,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-31",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20692,7 +20692,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20707,7 +20707,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-33",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20722,7 +20722,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-35",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20737,7 +20737,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-41",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20752,7 +20752,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20767,7 +20767,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-43",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20782,7 +20782,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-45",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20797,7 +20797,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-51",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20812,7 +20812,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20827,7 +20827,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-53",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20842,7 +20842,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-55",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20857,7 +20857,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-61",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20872,7 +20872,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20887,7 +20887,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-63",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20902,7 +20902,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-ms-65",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (May/June 2025)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20917,7 +20917,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-11",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20932,7 +20932,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20947,7 +20947,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-13",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20962,7 +20962,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-15",
-    title: "Mathematics 9709 — Paper 1 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20977,7 +20977,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-21",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -20992,7 +20992,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21007,7 +21007,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-23",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21022,7 +21022,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-25",
-    title: "Mathematics 9709 — Paper 2 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21037,7 +21037,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-31",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21052,7 +21052,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21067,7 +21067,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-33",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21082,7 +21082,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-35",
-    title: "Mathematics 9709 — Paper 3 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21097,7 +21097,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-41",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21112,7 +21112,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21127,7 +21127,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-43",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21142,7 +21142,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-45",
-    title: "Mathematics 9709 — Paper 4 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21157,7 +21157,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-51",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21172,7 +21172,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21187,7 +21187,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-53",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21202,7 +21202,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-55",
-    title: "Mathematics 9709 — Paper 5 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21217,7 +21217,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-61",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21232,7 +21232,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21247,7 +21247,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-63",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21262,7 +21262,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-s25-qp-65",
-    title: "Mathematics 9709 — Paper 6 Question Paper (May/June 2025)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (May/June 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -21277,7 +21277,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-gt",
-    title: "Physics 9702 — Grade Thresholds (May/June 2025)",
+    title: "Physics 9702 - Grade Thresholds (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21292,7 +21292,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-11",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21307,7 +21307,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21322,7 +21322,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-13",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21337,7 +21337,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-14",
-    title: "Physics 9702 — Paper 1 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21352,7 +21352,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-21",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21367,7 +21367,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21382,7 +21382,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-23",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21397,7 +21397,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-24",
-    title: "Physics 9702 — Paper 2 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21412,7 +21412,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-31",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21427,7 +21427,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-32",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21442,7 +21442,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21457,7 +21457,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-34",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21472,7 +21472,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-35",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21487,7 +21487,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-37",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21502,7 +21502,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-38",
-    title: "Physics 9702 — Paper 3 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21517,7 +21517,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-41",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21532,7 +21532,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21547,7 +21547,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-43",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21562,7 +21562,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-44",
-    title: "Physics 9702 — Paper 4 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21577,7 +21577,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-51",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21592,7 +21592,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21607,7 +21607,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-53",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21622,7 +21622,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-ms-54",
-    title: "Physics 9702 — Paper 5 Mark Scheme (May/June 2025)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21637,7 +21637,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-11",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21652,7 +21652,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21667,7 +21667,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-13",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21682,7 +21682,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-14",
-    title: "Physics 9702 — Paper 1 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 1 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21697,7 +21697,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-21",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21712,7 +21712,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21727,7 +21727,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-23",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21742,7 +21742,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-24",
-    title: "Physics 9702 — Paper 2 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 2 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21757,7 +21757,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-31",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21772,7 +21772,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-32",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21787,7 +21787,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21802,7 +21802,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-34",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21817,7 +21817,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-35",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21832,7 +21832,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-37",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21847,7 +21847,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-38",
-    title: "Physics 9702 — Paper 3 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21862,7 +21862,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-41",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21877,7 +21877,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21892,7 +21892,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-43",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21907,7 +21907,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-44",
-    title: "Physics 9702 — Paper 4 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 4 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21922,7 +21922,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-51",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21937,7 +21937,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21952,7 +21952,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-53",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21967,7 +21967,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-s25-qp-54",
-    title: "Physics 9702 — Paper 5 Question Paper (May/June 2025)",
+    title: "Physics 9702 - Paper 5 Question Paper (May/June 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -21982,7 +21982,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-gt",
-    title: "Biology 9700 — Grade Thresholds (Oct/Nov 2025)",
+    title: "Biology 9700 - Grade Thresholds (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -21997,7 +21997,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-11",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22012,7 +22012,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-12",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22027,7 +22027,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-13",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22042,7 +22042,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-14",
-    title: "Biology 9700 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22057,7 +22057,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-21",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22072,7 +22072,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-22",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22087,7 +22087,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-23",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22102,7 +22102,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-24",
-    title: "Biology 9700 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22117,7 +22117,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-31",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22132,7 +22132,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-33",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22147,7 +22147,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-34",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22162,7 +22162,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-35",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22177,7 +22177,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-36",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22192,7 +22192,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-37",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22207,7 +22207,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-38",
-    title: "Biology 9700 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22222,7 +22222,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-41",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22237,7 +22237,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-42",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22252,7 +22252,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-43",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22267,7 +22267,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-44",
-    title: "Biology 9700 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22282,7 +22282,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-51",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22297,7 +22297,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-52",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22312,7 +22312,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-53",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22327,7 +22327,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-ms-54",
-    title: "Biology 9700 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22342,7 +22342,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-11",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22357,7 +22357,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-12",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22372,7 +22372,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-13",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22387,7 +22387,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-14",
-    title: "Biology 9700 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22402,7 +22402,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-21",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22417,7 +22417,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-22",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22432,7 +22432,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-23",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22447,7 +22447,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-24",
-    title: "Biology 9700 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22462,7 +22462,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-31",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22477,7 +22477,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-33",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22492,7 +22492,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-34",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22507,7 +22507,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-35",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22522,7 +22522,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-36",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22537,7 +22537,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-37",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22552,7 +22552,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-38",
-    title: "Biology 9700 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22567,7 +22567,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-41",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22582,7 +22582,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-42",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22597,7 +22597,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-43",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22612,7 +22612,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-44",
-    title: "Biology 9700 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22627,7 +22627,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-51",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22642,7 +22642,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-52",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22657,7 +22657,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-53",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22672,7 +22672,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9700-w25-qp-54",
-    title: "Biology 9700 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Biology 9700 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-biology",
     board: "Cambridge International",
     year: 2025,
@@ -22687,7 +22687,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-gt",
-    title: "Chemistry 9701 — Grade Thresholds (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Grade Thresholds (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22702,7 +22702,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-11",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22717,7 +22717,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-12",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22732,7 +22732,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-13",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22747,7 +22747,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-14",
-    title: "Chemistry 9701 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22762,7 +22762,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-21",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22777,7 +22777,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-22",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22792,7 +22792,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-23",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22807,7 +22807,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-24",
-    title: "Chemistry 9701 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22822,7 +22822,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-31",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22837,7 +22837,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-33",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22852,7 +22852,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-34",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22867,7 +22867,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-35",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22882,7 +22882,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-36",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22897,7 +22897,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-37",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22912,7 +22912,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-38",
-    title: "Chemistry 9701 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22927,7 +22927,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-41",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22942,7 +22942,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-42",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22957,7 +22957,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-43",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22972,7 +22972,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-44",
-    title: "Chemistry 9701 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -22987,7 +22987,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-51",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23002,7 +23002,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-52",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23017,7 +23017,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-53",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23032,7 +23032,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-ms-54",
-    title: "Chemistry 9701 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23047,7 +23047,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-11",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23062,7 +23062,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-12",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23077,7 +23077,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-13",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23092,7 +23092,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-14",
-    title: "Chemistry 9701 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23107,7 +23107,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-21",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23122,7 +23122,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-22",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23137,7 +23137,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-23",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23152,7 +23152,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-24",
-    title: "Chemistry 9701 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23167,7 +23167,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-31",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23182,7 +23182,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-33",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23197,7 +23197,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-34",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23212,7 +23212,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-35",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23227,7 +23227,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-36",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23242,7 +23242,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-37",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23257,7 +23257,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-38",
-    title: "Chemistry 9701 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23272,7 +23272,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-41",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23287,7 +23287,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-42",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23302,7 +23302,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-43",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23317,7 +23317,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-44",
-    title: "Chemistry 9701 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23332,7 +23332,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-51",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23347,7 +23347,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-52",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23362,7 +23362,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-53",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23377,7 +23377,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9701-w25-qp-54",
-    title: "Chemistry 9701 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Chemistry 9701 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-chemistry",
     board: "Cambridge International",
     year: 2025,
@@ -23392,7 +23392,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-gt",
-    title: "Mathematics 9709 — Grade Thresholds (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Grade Thresholds (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23407,7 +23407,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-11",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23422,7 +23422,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-12",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23437,7 +23437,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-13",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23452,7 +23452,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-15",
-    title: "Mathematics 9709 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23467,7 +23467,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-21",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23482,7 +23482,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-22",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23497,7 +23497,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-23",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23512,7 +23512,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-25",
-    title: "Mathematics 9709 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23527,7 +23527,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-31",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23542,7 +23542,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-32",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23557,7 +23557,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-33",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23572,7 +23572,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-35",
-    title: "Mathematics 9709 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23587,7 +23587,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-41",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23602,7 +23602,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-42",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23617,7 +23617,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-43",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23632,7 +23632,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-45",
-    title: "Mathematics 9709 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23647,7 +23647,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-51",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23662,7 +23662,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-52",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23677,7 +23677,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-53",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23692,7 +23692,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-55",
-    title: "Mathematics 9709 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23707,7 +23707,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-61",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23722,7 +23722,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-62",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23737,7 +23737,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-63",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23752,7 +23752,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-ms-65",
-    title: "Mathematics 9709 — Paper 6 Mark Scheme (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 6 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23767,7 +23767,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-11",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23782,7 +23782,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-12",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23797,7 +23797,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-13",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23812,7 +23812,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-15",
-    title: "Mathematics 9709 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23827,7 +23827,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-21",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23842,7 +23842,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-22",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23857,7 +23857,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-23",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23872,7 +23872,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-25",
-    title: "Mathematics 9709 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23887,7 +23887,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-31",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23902,7 +23902,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-32",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23917,7 +23917,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-33",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23932,7 +23932,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-35",
-    title: "Mathematics 9709 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23947,7 +23947,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-41",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23962,7 +23962,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-42",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23977,7 +23977,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-43",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -23992,7 +23992,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-45",
-    title: "Mathematics 9709 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -24007,7 +24007,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-51",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -24022,7 +24022,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-52",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -24037,7 +24037,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-53",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -24052,7 +24052,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-55",
-    title: "Mathematics 9709 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -24067,7 +24067,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-61",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -24082,7 +24082,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-62",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -24097,7 +24097,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-63",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -24112,7 +24112,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9709-w25-qp-65",
-    title: "Mathematics 9709 — Paper 6 Question Paper (Oct/Nov 2025)",
+    title: "Mathematics 9709 - Paper 6 Question Paper (Oct/Nov 2025)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2025,
@@ -24127,7 +24127,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-gt",
-    title: "Physics 9702 — Grade Thresholds (Oct/Nov 2025)",
+    title: "Physics 9702 - Grade Thresholds (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24142,7 +24142,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-11",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24157,7 +24157,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-12",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24172,7 +24172,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-13",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24187,7 +24187,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-14",
-    title: "Physics 9702 — Paper 1 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 1 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24202,7 +24202,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-21",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24217,7 +24217,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-22",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24232,7 +24232,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-23",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24247,7 +24247,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-24",
-    title: "Physics 9702 — Paper 2 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 2 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24262,7 +24262,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-31",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24277,7 +24277,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-33",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24292,7 +24292,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-34",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24307,7 +24307,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-35",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24322,7 +24322,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-36",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24337,7 +24337,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-37",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24352,7 +24352,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-38",
-    title: "Physics 9702 — Paper 3 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24367,7 +24367,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-41",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24382,7 +24382,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-42",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24397,7 +24397,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-43",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24412,7 +24412,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-44",
-    title: "Physics 9702 — Paper 4 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 4 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24427,7 +24427,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-51",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24442,7 +24442,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-52",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24457,7 +24457,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-53",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24472,7 +24472,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-ms-54",
-    title: "Physics 9702 — Paper 5 Mark Scheme (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 5 Mark Scheme (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24487,7 +24487,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-11",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24502,7 +24502,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-12",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24517,7 +24517,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-13",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24532,7 +24532,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-14",
-    title: "Physics 9702 — Paper 1 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 1 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24547,7 +24547,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-21",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24562,7 +24562,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-22",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24577,7 +24577,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-23",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24592,7 +24592,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-24",
-    title: "Physics 9702 — Paper 2 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 2 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24607,7 +24607,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-31",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24622,7 +24622,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-33",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24637,7 +24637,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-34",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24652,7 +24652,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-35",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24667,7 +24667,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-36",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24682,7 +24682,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-37",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24697,7 +24697,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-38",
-    title: "Physics 9702 — Paper 3 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 3 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24712,7 +24712,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-41",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24727,7 +24727,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-42",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24742,7 +24742,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-43",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24757,7 +24757,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-44",
-    title: "Physics 9702 — Paper 4 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 4 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24772,7 +24772,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-51",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24787,7 +24787,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-52",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24802,7 +24802,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-53",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,
@@ -24817,7 +24817,7 @@ export const CATALOGUE_PAPERS: Paper[] = [
   },
   {
     id: "cat-9702-w25-qp-54",
-    title: "Physics 9702 — Paper 5 Question Paper (Oct/Nov 2025)",
+    title: "Physics 9702 - Paper 5 Question Paper (Oct/Nov 2025)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2025,

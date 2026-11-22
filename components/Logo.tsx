@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useSettings } from "@/lib/store";
 
 /**
- * Zass brand lockup — drawn in code (never the template's logo file):
+ * Zass brand lockup - drawn in code (never the template's logo file):
  * a graduation cap (mortarboard + tassel) in Cyprus, the wordmark ZASS
  * in bold, and EDUCATION in small capitals underneath. When the admin
  * has uploaded a logo PNG (Settings → Site Logo), that image replaces
@@ -59,7 +59,7 @@ export default function Logo({
 
   if (settings.siteLogo) {
     return (
-      <Link href="/" className="flex shrink-0 items-center" aria-label="Zass Education — home">
+      <Link href="/" className="flex shrink-0 items-center" aria-label="Zass Education - home">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={settings.siteLogo}
@@ -74,10 +74,10 @@ export default function Logo({
     <Link
       href="/"
       className="flex shrink-0 items-start gap-2"
-      aria-label="Zass Education — home"
+      aria-label="Zass Education - home"
     >
       {/* Tall cap (full lockup only): h-12 so the cap spans both text
-          lines — its band bottom lands level with the E of EDUCATION.
+          lines - its band bottom lands level with the E of EDUCATION.
           Compact (admin sidebar, no EDUCATION line) keeps the h-9 cap. */}
       <CapIcon
         className={compact ? "h-9 w-9 shrink-0" : "h-12 w-12 shrink-0"}

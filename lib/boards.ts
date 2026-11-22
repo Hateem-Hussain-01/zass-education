@@ -1,6 +1,6 @@
-// Zass Education — examination boards.
+// Zass Education - examination boards.
 // The five boards the site covers (founder's order, 22 Nov 2026).
-// Paper counts on board pages are computed from the real catalogue —
+// Paper counts on board pages are computed from the real catalogue;
 // a board with no papers yet shows as "coming soon", never with
 // invented numbers.
 
@@ -17,14 +17,14 @@ export const BOARDS: Board[] = [
     name: "Cambridge International",
     short: "Cambridge",
     description:
-      "Cambridge International AS & A Level and O Level — past papers, mark schemes and grade thresholds.",
+      "Cambridge International AS & A Level and O Level - past papers, mark schemes and grade thresholds.",
   },
   {
     slug: "aqa-gcse",
     name: "AQA GCSE",
     short: "AQA GCSE",
     description:
-      "AQA GCSE past papers — question papers and mark schemes. Coming soon.",
+      "AQA GCSE past papers - question papers and mark schemes. Coming soon.",
   },
   {
     slug: "oxfordaqa",

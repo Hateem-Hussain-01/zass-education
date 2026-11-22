@@ -151,7 +151,7 @@ export default function NotesAdmin() {
               label="Attachment (optional, any file)"
               hint={
                 existingFileName && !file
-                  ? `Current file: ${existingFileName} — leave empty to keep it.`
+                  ? `Current file: ${existingFileName} - leave empty to keep it.`
                   : undefined
               }
             >

@@ -75,7 +75,7 @@ export default async function BoardPage({
             <p className="text-sm font-bold text-[#004643] mt-4 text-center">
               {papers.length > 0
                 ? `${papers.length} paper${papers.length === 1 ? "" : "s"} available`
-                : "Coming soon — no papers added yet"}
+                : "Coming soon - no papers added yet"}
             </p>
 
             {papers.length > 0 && (
@@ -93,7 +93,7 @@ export default async function BoardPage({
               <SectionHeading eyebrow="Subjects" title="Subjects" />
               {subjects.length === 0 ? (
                 <p className="text-sm text-[rgba(0,70,67,0.6)] mt-7 text-center">
-                  Subjects coming soon — papers for this board have not been added
+                  Subjects coming soon - papers for this board have not been added
                   yet.
                 </p>
               ) : (

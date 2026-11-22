@@ -74,7 +74,7 @@ export default function CoursesAdmin() {
       title: form.title.trim(),
       subjectId: form.subjectId,
       description: form.description,
-      // The site is completely free — courses never carry a price.
+      // The site is completely free - courses never carry a price.
       price: 0,
       level: form.level,
       image: form.image || null,
@@ -102,7 +102,7 @@ export default function CoursesAdmin() {
         <h1 className="text-2xl font-bold text-[#004643]">Courses</h1>
         <p className="mt-1 text-sm">
           Manage the courses shown on the public site. All courses are
-          free — no prices anywhere on this site.
+          free - no prices anywhere on this site.
         </p>
       </div>
 
@@ -115,7 +115,7 @@ export default function CoursesAdmin() {
                   className={inputCls}
                   value={form.title}
                   onChange={(e) => setForm({ ...form, title: e.target.value })}
-                  placeholder="e.g. Mathematics 9709 — Full Revision Course"
+                  placeholder="e.g. Mathematics 9709 - Full Revision Course"
                 />
               </Field>
             </div>

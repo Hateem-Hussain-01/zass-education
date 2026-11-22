@@ -7,7 +7,7 @@ import Reveal from "@/components/Reveal";
 
 /* Same team photos as the home page: matched by the person, not by
    file order (the template ships 2 men + 2 women; the team is 3 men +
-   1 woman — Sufyan uses an existing repo portrait of a smiling man). */
+   1 woman - Sufyan uses an existing repo portrait of a smiling man). */
 const TEAM_PHOTOS: Record<string, string> = {
   "Zaeem Noor": "/images/purdue/team1.jpg",
   "Shahbaz Hussain": "/images/purdue/team3.jpg",
@@ -49,7 +49,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About"
         title={`About ${settings.siteName}`}
-        description={`${settings.siteName} is a learning platform for O & A Level (Cambridge) students. We bring past papers, chapter notes and revision courses together in one place — so students can find what they need without hunting across ten different websites.`}
+        description={`${settings.siteName} is a learning platform for O & A Level (Cambridge) students. We bring past papers, chapter notes and revision courses together in one place - so students can find what they need without hunting across ten different websites.`}
         image="/images/purdue/c3.png"
         imageAlt="O & A Level students studying together"
       />

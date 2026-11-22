@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 /**
  * Inline SVG icons in the template's Themify style (24×24, stroke
- * currentColor) — drawn in our code. The Themify icon font CSS Eman's
+ * currentColor) - drawn in our code. The Themify icon font CSS Eman's
  * zip references was NOT copied: its font files were not supplied, so
  * the CSS cannot render as a font. These SVGs are the same shapes
  * (book, medal, users, headphones, checkmark, star, cap, …) in Cyprus.

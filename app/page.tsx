@@ -34,7 +34,7 @@ function CountUp({ to, suffix = "" }: { to: number; suffix?: string }) {
       };
       requestAnimationFrame(tick);
     };
-    // Already in view on load — count immediately instead of waiting
+    // Already in view on load - count immediately instead of waiting
     // for a scroll event that will never come.
     const rect = el.getBoundingClientRect();
     if (rect.top < window.innerHeight && rect.bottom > 0) {
@@ -113,7 +113,7 @@ const TILE_STYLES = [
 ];
 
 /* Team photos: the template ships 2 men + 2 women, but the team is
-   3 men + 1 woman — so the photos are matched by the person, not by
+   3 men + 1 woman - so the photos are matched by the person, not by
    file order. Sufyan uses an existing repo portrait of a smiling man
    (the template has no third male photo). */
 const TEAM_PHOTOS: Record<string, string> = {
@@ -149,9 +149,9 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* ------------------------------------------------ Hero — light, like the reference */}
+      {/* ------------------------------------------------ Hero - light, like the reference */}
       <section className="relative overflow-hidden bg-[var(--zass-base)] px-5 pt-14 text-[#004643] md:px-14">
-        {/* Soft flat background washes — Cyprus at very low opacity only. */}
+        {/* Soft flat background washes - Cyprus at very low opacity only. */}
         <div
           aria-hidden="true"
           className="absolute -right-28 -top-36 h-[520px] w-[520px] rounded-full bg-[rgba(0,70,67,0.05)]"
@@ -227,7 +227,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ------------------------------------------------ Stats strip — overlaps the hero bottom edge */}
+      {/* ------------------------------------------------ Stats strip - overlaps the hero bottom edge */}
       <section className="relative z-10 mx-auto -mt-4 max-w-6xl px-5 md:px-14">
         <Reveal>
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
@@ -291,7 +291,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-3 max-w-lg text-[15px] leading-relaxed text-[rgba(0,70,67,0.78)]">
               Past papers, notes and revision courses for O &amp; A Level
-              (Cambridge) — everything in one place, free for every student.
+              (Cambridge) - everything in one place, free for every student.
             </p>
             <div className="mt-6 space-y-5">
               <div className="flex gap-4">
@@ -317,7 +317,7 @@ export default function HomePage() {
                     Build a real community
                   </h3>
                   <p className="mt-1 text-sm leading-relaxed text-[rgba(0,70,67,0.6)]">
-                    Learn with other O &amp; A Level students — and book a
+                    Learn with other O &amp; A Level students - and book a
                     1-to-1 session when you need a tutor.
                   </p>
                 </div>
@@ -347,7 +347,7 @@ export default function HomePage() {
               {
                 icon: "medal",
                 title: "Verified Past Papers",
-                text: "1,654 real Cambridge papers from 2021–2025, with mark schemes and grade thresholds.",
+                text: "1,654 real Cambridge papers from 2021-2025, with mark schemes and grade thresholds.",
                 href: "/papers",
               },
               {
@@ -365,7 +365,7 @@ export default function HomePage() {
               {
                 icon: "heart",
                 title: "Free for Everyone",
-                text: "No fees, no shop, no cart — past papers, notes and courses cost nothing.",
+                text: "No fees, no shop, no cart - past papers, notes and courses cost nothing.",
                 href: "/contact",
               },
             ].map((f) => (
@@ -457,7 +457,7 @@ export default function HomePage() {
               {
                 icon: "book",
                 title: "Learn Anywhere",
-                text: "Past papers and notes open on any device — phone, tablet or laptop.",
+                text: "Past papers and notes open on any device - phone, tablet or laptop.",
                 href: "/papers",
               },
               {
@@ -481,13 +481,13 @@ export default function HomePage() {
               {
                 icon: "file",
                 title: "Past Paper Practice",
-                text: "Question papers, mark schemes and grade thresholds — practise like the real exam.",
+                text: "Question papers, mark schemes and grade thresholds - practise like the real exam.",
                 href: "/papers",
               },
               {
                 icon: "headphones",
                 title: "Free Support",
-                text: "Stuck somewhere? Message us — Zass is free, and so is the help.",
+                text: "Stuck somewhere? Message us - Zass is free, and so is the help.",
                 href: "/contact",
               },
             ].map((f) => (
@@ -602,7 +602,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-3 max-w-lg text-[15px] leading-relaxed text-[rgba(0,70,67,0.78)]">
               Everything an O &amp; A Level student needs to revise with
-              confidence — in one place, and free.
+              confidence - in one place, and free.
             </p>
             <ul className="mt-6 space-y-3">
               {[
@@ -748,7 +748,7 @@ export default function HomePage() {
                   Get Free Courses
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-[rgba(0,70,67,0.6)]">
-                  Learn at your own pace — past papers, notes and courses,
+                  Learn at your own pace - past papers, notes and courses,
                   all free.
                 </p>
                 <Link

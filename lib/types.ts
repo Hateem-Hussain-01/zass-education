@@ -1,4 +1,4 @@
-// Zass Education — shared types, defaults and seed data (v1, browser-local).
+// Zass Education - shared types, defaults and seed data (v1, browser-local).
 // No backend yet: everything in this file is seed/default content stored in
 // the visitor's own browser (localStorage). Nothing here is fetched from a server.
 
@@ -32,7 +32,7 @@ export interface Paper {
   downloadUrl?: string | null;
   /** Where the file came from, e.g. "papers.xtremepape.rs". */
   source?: string | null;
-  /** True for built-in demo rows — always shown with a "Sample" badge. */
+  /** True for built-in demo rows - always shown with a "Sample" badge. */
   sample?: boolean;
   createdAt: number;
 }
@@ -121,12 +121,12 @@ export const DEFAULT_SETTINGS: SiteSettings = {
   heroBadge: "Learn from the best",
   heroHeadline: "Learn Anywhere, Anytime\nEmpower Your Future",
   heroSubtext:
-    "Join thousands of O & A Level students getting past papers, notes and revision courses — all in one place.",
+    "Join thousands of O & A Level students getting past papers, notes and revision courses - all in one place.",
   heroSearchPlaceholder: "Search your Course...",
   heroCta: "Search",
   statsRating: "4.8",
   statsLearners: "60k+",
-  announcementText: "Admissions open — new O & A Level batches starting soon.",
+  announcementText: "Admissions open - new O & A Level batches starting soon.",
   announcementOn: false,
   contactEmail: "hello@zasseducation.com",
   contactPhone: "+92 300 0000000",
@@ -137,8 +137,8 @@ export const DEFAULT_SETTINGS: SiteSettings = {
   socialLinkedin: "",
   socialYoutube: "",
   footerText:
-    "Zass Education — past papers, notes and courses for O & A Level (Cambridge) students.",
-  seoTitle: "Zass Education — O & A Level Learning (Cambridge)",
+    "Zass Education - past papers, notes and courses for O & A Level (Cambridge) students.",
+  seoTitle: "Zass Education - O & A Level Learning (Cambridge)",
   seoDescription:
     "Past papers, notes, mock tests and courses for O & A Level students. Learn anywhere, anytime.",
   palette: {
@@ -149,7 +149,7 @@ export const DEFAULT_SETTINGS: SiteSettings = {
   },
 };
 
-/** The Zass Education team, exactly as named by the founder. Names only —
+/** The Zass Education team, exactly as named by the founder. Names only;
  *  no roles, bios or quotes are invented for them. */
 export const TEAM: { name: string }[] = [
   { name: "Zaeem Noor" },
@@ -195,7 +195,7 @@ export const SEED_SUBJECTS: Subject[] = [
 export const SEED_PAPERS: Paper[] = [
   {
     id: "paper-sample-1",
-    title: "Mathematics 9709 — Paper 1 (Pure Mathematics 1)",
+    title: "Mathematics 9709 - Paper 1 (Pure Mathematics 1)",
     subjectId: "al-mathematics",
     board: "Cambridge International",
     year: 2024,
@@ -209,7 +209,7 @@ export const SEED_PAPERS: Paper[] = [
   },
   {
     id: "paper-sample-2",
-    title: "Physics 9702 — Paper 2 (AS Structured Questions)",
+    title: "Physics 9702 - Paper 2 (AS Structured Questions)",
     subjectId: "al-physics",
     board: "Cambridge International",
     year: 2024,
@@ -226,7 +226,7 @@ export const SEED_PAPERS: Paper[] = [
 export const SEED_NOTES: Note[] = [
   {
     id: "note-sample-1",
-    title: "Mathematics 9709 — Functions: key definitions & worked examples",
+    title: "Mathematics 9709 - Functions: key definitions & worked examples",
     subjectId: "al-mathematics",
     body: "Sample note. Functions map every input to exactly one output. A function f is one-to-one if f(a) = f(b) implies a = b. Worked examples and full chapter notes can be added from the admin portal (Notes & Lessons).",
     fileName: null,
@@ -237,9 +237,9 @@ export const SEED_NOTES: Note[] = [
   },
   {
     id: "note-sample-2",
-    title: "Physics 9702 — Mechanics: forces, motion & energy",
+    title: "Physics 9702 - Mechanics: forces, motion & energy",
     subjectId: "al-physics",
-    body: "Sample note. Mechanics is the study of motion and the forces that cause it — kinematics, Newton's laws and energy. Worked examples and full chapter notes can be added from the admin portal (Notes & Lessons).",
+    body: "Sample note. Mechanics is the study of motion and the forces that cause it - kinematics, Newton's laws and energy. Worked examples and full chapter notes can be added from the admin portal (Notes & Lessons).",
     fileName: null,
     fileSize: null,
     fileId: null,
@@ -248,9 +248,9 @@ export const SEED_NOTES: Note[] = [
   },
   {
     id: "note-sample-3",
-    title: "Chemistry 9701 — Organic Chemistry: hydrocarbons & functional groups",
+    title: "Chemistry 9701 - Organic Chemistry: hydrocarbons & functional groups",
     subjectId: "al-chemistry",
-    body: "Sample note. Organic chemistry is the study of carbon compounds — hydrocarbons, their functional groups and their reactions. Worked examples and full chapter notes can be added from the admin portal (Notes & Lessons).",
+    body: "Sample note. Organic chemistry is the study of carbon compounds - hydrocarbons, their functional groups and their reactions. Worked examples and full chapter notes can be added from the admin portal (Notes & Lessons).",
     fileName: null,
     fileSize: null,
     fileId: null,
@@ -262,10 +262,10 @@ export const SEED_NOTES: Note[] = [
 export const SEED_COURSES: Course[] = [
   {
     id: "course-maths",
-    title: "Mathematics 9709 — Full Revision Course",
+    title: "Mathematics 9709 - Full Revision Course",
     subjectId: "al-mathematics",
     description:
-      "Complete A Level Mathematics revision: Pure Maths 1–3, Mechanics and Statistics, with worked examples and practice questions.",
+      "Complete A Level Mathematics revision: Pure Maths 1-3, Mechanics and Statistics, with worked examples and practice questions.",
     price: 0,
     level: "A Level",
     image: "/images/1516321318423-f06f85e504b3.jpg",
@@ -274,10 +274,10 @@ export const SEED_COURSES: Course[] = [
   },
   {
     id: "course-physics",
-    title: "Physics 9702 — AS & A Level Masterclass",
+    title: "Physics 9702 - AS & A Level Masterclass",
     subjectId: "al-physics",
     description:
-      "Mechanics, waves, electricity and modern physics — concept videos, notes and past-paper practice for AS & A Level.",
+      "Mechanics, waves, electricity and modern physics - concept videos, notes and past-paper practice for AS & A Level.",
     price: 0,
     level: "A Level",
     image: "/images/1531482615713-2afd69097998.jpg",
@@ -286,10 +286,10 @@ export const SEED_COURSES: Course[] = [
   },
   {
     id: "course-chemistry",
-    title: "Chemistry 9701 — Organic & Physical Essentials",
+    title: "Chemistry 9701 - Organic & Physical Essentials",
     subjectId: "al-chemistry",
     description:
-      "Physical, inorganic and organic chemistry made simple — with reaction maps, notes and exam-style questions.",
+      "Physical, inorganic and organic chemistry made simple - with reaction maps, notes and exam-style questions.",
     price: 0,
     level: "A Level",
     image: "/images/1460925895917-afdab827c52f.jpg",
@@ -298,10 +298,10 @@ export const SEED_COURSES: Course[] = [
   },
   {
     id: "course-biology",
-    title: "Biology 9700 — Cells to Ecosystems",
+    title: "Biology 9700 - Cells to Ecosystems",
     subjectId: "al-biology",
     description:
-      "Cell structure, biological molecules, genetics, ecology and more — clear notes and diagrams for AS & A Level Biology.",
+      "Cell structure, biological molecules, genetics, ecology and more - clear notes and diagrams for AS & A Level Biology.",
     price: 0,
     level: "A Level",
     image: "/images/1524995997946-a1c2e315a42f.jpg",

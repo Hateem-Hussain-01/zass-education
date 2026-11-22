@@ -24,7 +24,7 @@ export default function Reveal({
       return;
     }
     // Already in view on load (e.g. above the fold, or a very tall
-    // viewport) — show immediately instead of waiting for a scroll
+    // viewport) - show immediately instead of waiting for a scroll
     // event that will never come.
     const rect = el.getBoundingClientRect();
     if (rect.top < window.innerHeight && rect.bottom > 0) {
