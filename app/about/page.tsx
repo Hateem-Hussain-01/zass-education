@@ -5,6 +5,7 @@ import { TEAM } from "@/lib/types";
 import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 import TeamLinkedIn from "@/components/TeamLinkedIn";
+import ContactSection from "@/components/ContactSection";
 
 /* Same team photos as the home page: matched by the person, not by
    file order (the template ships 2 men + 2 women; the team is 3 men +
@@ -48,11 +49,12 @@ export default function AboutPage() {
   return (
     <div>
       <PageHero
-        eyebrow="About"
-        title={`About ${settings.siteName}`}
+        eyebrow="About Zass"
+        title="About Zass"
         description={`${settings.siteName} is a learning platform for O & A Level (Cambridge) students. We bring past papers, chapter notes and revision courses together in one place - so students can find what they need without hunting across ten different websites.`}
         image="/images/purdue/c3.png"
         imageAlt="O & A Level students studying together"
+        cta={{ href: "#contact-us", label: "Contact Us" }}
       />
       <section className="bg-[var(--zass-card)] border-t-2 border-[rgba(0,70,67,0.12)] px-5 md:px-14 py-11">
         <div className="max-w-6xl mx-auto">
@@ -61,7 +63,7 @@ export default function AboutPage() {
               {settings.tagline}
             </p>
             <div className="mt-10">
-              <SectionHeading eyebrow="What We Offer" title="What You Get Here" />
+              <SectionHeading eyebrow="About Zass" title="What You Get Here" />
               <div className="grid sm:grid-cols-3 gap-5 mt-7">
                 <div className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-5 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
                   <h3 className="font-bold text-[#004643]">Past Papers</h3>
@@ -90,8 +92,42 @@ export default function AboutPage() {
       <section className="bg-[var(--zass-base)] border-t-2 border-[rgba(0,70,67,0.12)] px-5 md:px-14 py-11">
         <div className="max-w-6xl mx-auto">
           <Reveal>
+            <SectionHeading eyebrow="About Zass" title="Founder's Message" />
+            <div className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-6 md:p-8 mt-7 max-w-3xl mx-auto shadow-sm">
+              <div className="flex flex-col items-center text-center">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={TEAM_PHOTOS["Zaeem Noor"]}
+                  alt="Zaeem Noor"
+                  className="w-28 h-28 rounded-full object-cover"
+                />
+                <h3 className="mt-4 font-bold text-lg text-[#004643]">Zaeem Noor</h3>
+                <span className="mt-1 text-sm text-[rgba(0,70,67,0.6)]">Founder</span>
+              </div>
+              <div className="mt-6 space-y-4 text-[rgba(0,70,67,0.78)] leading-relaxed">
+                <p>
+                  I started Zass Education with one simple belief: every O and A Level student should have the papers and practice they need, without paying for them.
+                </p>
+                <p>
+                  Here you will find real Cambridge past papers, practice material and guidance, all in one place and completely free. No fees, no catches - just everything you need to prepare with confidence.
+                </p>
+                <p>
+                  Study well, practise often, and trust yourself. Your future is worth the effort.
+                </p>
+                <p className="font-bold text-[#004643]">
+                  - Zaeem Noor, Founder, Zass Education
+                </p>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      <section className="bg-[var(--zass-card)] border-t-2 border-[rgba(0,70,67,0.12)] px-5 md:px-14 py-11">
+        <div className="max-w-6xl mx-auto">
+          <Reveal>
             <SectionHeading
-              eyebrow="Our Team"
+              eyebrow="About Zass"
               title="Meet the Team"
               sub={`The people behind ${settings.siteName}.`}
             />
@@ -119,44 +155,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-[var(--zass-card)] border-t-2 border-[rgba(0,70,67,0.12)] px-5 md:px-14 py-11">
-        <div className="max-w-6xl mx-auto">
-          <Reveal>
-            <SectionHeading eyebrow="Get In Touch" title="Contact" />
-            <div className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-6 mt-7 max-w-xl mx-auto shadow-sm">
-              <p className="text-sm text-[rgba(0,70,67,0.78)]">
-                Email:{" "}
-                <a
-                  href={`mailto:${settings.contactEmail}`}
-                  className="font-semibold text-[var(--zass-primary)]"
-                >
-                  {settings.contactEmail}
-                </a>
-              </p>
-              <p className="text-sm text-[rgba(0,70,67,0.78)] mt-2">
-                Phone:{" "}
-                <a
-                  href={`tel:${settings.contactPhone.replace(/\s/g, "")}`}
-                  className="font-semibold text-[var(--zass-primary)]"
-                >
-                  {settings.contactPhone}
-                </a>
-              </p>
-              <p className="text-sm text-[rgba(0,70,67,0.78)] mt-2">
-                WhatsApp:{" "}
-                <a
-                  href={settings.contactWhatsapp}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-semibold text-[var(--zass-primary)]"
-                >
-                  Chat on WhatsApp
-                </a>
-              </p>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      <ContactSection
+        id="contact-us"
+        eyebrow="About Zass"
+        title="Contact Us"
+        sectionClassName="bg-[var(--zass-base)]"
+      />
     </div>
   );
 }
