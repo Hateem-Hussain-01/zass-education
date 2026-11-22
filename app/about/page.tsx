@@ -93,30 +93,32 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto">
           <Reveal>
             <SectionHeading eyebrow="About Zass" title="Founder's Message" />
-            <div className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-6 md:p-8 mt-7 max-w-3xl mx-auto shadow-sm">
-              <div className="flex flex-col items-center text-center">
+            <div className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl mt-7 max-w-4xl mx-auto shadow-sm overflow-hidden">
+              <div className="grid md:grid-cols-[300px_1fr]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={TEAM_PHOTOS["Zaeem Noor"]}
-                  alt="Zaeem Noor"
-                  className="w-28 h-28 rounded-full object-cover"
+                  src="/images/purdue/zaeem-founder-standing.jpg"
+                  alt="Zaeem Noor standing"
+                  className="w-full h-80 md:h-full object-cover object-top"
                 />
-                <h3 className="mt-4 font-bold text-lg text-[#004643]">Zaeem Noor</h3>
-                <span className="mt-1 text-sm text-[rgba(0,70,67,0.6)]">Founder</span>
-              </div>
-              <div className="mt-6 space-y-4 text-[rgba(0,70,67,0.78)] leading-relaxed">
-                <p>
-                  I started Zass Education with one simple belief: every O and A Level student should have the papers and practice they need, without paying for them.
-                </p>
-                <p>
-                  Here you will find real Cambridge past papers, practice material and guidance, all in one place and completely free. No fees, no catches - just everything you need to prepare with confidence.
-                </p>
-                <p>
-                  Study well, practise often, and trust yourself. Your future is worth the effort.
-                </p>
-                <p className="font-bold text-[#004643]">
-                  - Zaeem Noor, Founder, Zass Education
-                </p>
+                <div className="p-6 md:p-8">
+                  <h3 className="font-bold text-lg text-[#004643]">Zaeem Noor</h3>
+                  <span className="mt-1 block text-sm text-[rgba(0,70,67,0.6)]">Founder</span>
+                  <div className="mt-5 space-y-4 text-[rgba(0,70,67,0.78)] leading-relaxed">
+                    <p>
+                      I started Zass Education with one simple belief: every O and A Level student should have the papers and practice they need, without paying for them.
+                    </p>
+                    <p>
+                      Here you will find real Cambridge past papers, practice material and guidance, all in one place and completely free. No fees, no catches - just everything you need to prepare with confidence.
+                    </p>
+                    <p>
+                      Study well, practise often, and trust yourself. Your future is worth the effort.
+                    </p>
+                    <p className="font-bold text-[#004643]">
+                      - Zaeem Noor, Founder, Zass Education
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </Reveal>
