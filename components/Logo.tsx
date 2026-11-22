@@ -73,33 +73,32 @@ export default function Logo({
   return (
     <Link
       href="/"
-      className="flex shrink-0 flex-col"
+      className="flex shrink-0 items-start gap-2"
       aria-label="Zass Education — home"
     >
-      <span className="flex items-center gap-2 leading-none">
-        <CapIcon className="h-9 w-9 shrink-0" color={color} />
+      {/* Tall cap (full lockup only): h-12 so the cap spans both text
+          lines — its band bottom lands level with the E of EDUCATION.
+          Compact (admin sidebar, no EDUCATION line) keeps the h-9 cap. */}
+      <CapIcon
+        className={compact ? "h-9 w-9 shrink-0" : "h-12 w-12 shrink-0"}
+        color={color}
+      />
+      <span className="flex flex-col leading-none">
         <span
           className="text-[22px] font-extrabold tracking-tight"
           style={{ color }}
         >
           {(settings.logoText || "Zass").toUpperCase()}
         </span>
+        {!compact && (
+          <span
+            className="mt-1 text-[10px] font-bold uppercase"
+            style={{ color: subColor, letterSpacing: "0.32em" }}
+          >
+            Education
+          </span>
+        )}
       </span>
-      {!compact && (
-        /* EDUCATION is justified across the FULL lockup width: its first
-           letter starts at the cap's left edge and its last letter ends
-           at the wordmark's final S (flex justify-between over the
-           lockup width does this by construction). */
-        <span
-          className="mt-1 flex justify-between text-[10px] font-bold uppercase leading-none"
-          style={{ color: subColor }}
-          aria-hidden="true"
-        >
-          {"EDUCATION".split("").map((ch, i) => (
-            <span key={i}>{ch}</span>
-          ))}
-        </span>
-      )}
     </Link>
   );
 }
