@@ -6,7 +6,7 @@ import { useSettings } from "@/lib/store";
 /**
  * Zass brand lockup - drawn in code (never the template's logo file):
  * a graduation cap (mortarboard + tassel) in Cyprus, the wordmark ZASS
- * in bold, and EDUCATION in small capitals underneath. When the admin
+ * in bold, and LEARNING in small capitals underneath. When the admin
  * has uploaded a logo PNG (Settings → Site Logo), that image replaces
  * this lockup everywhere; Remove/Reset in Settings brings it back.
  */
@@ -49,7 +49,7 @@ export default function Logo({
 }: {
   /** "cyprus" on light backgrounds, "white" on Cyprus backgrounds. */
   tone?: "cyprus" | "white";
-  /** Compact hides the EDUCATION line (tight spots like the admin sidebar). */
+  /** Compact hides the LEARNING line (tight spots like the admin sidebar). */
   compact?: boolean;
 }) {
   const { settings } = useSettings();
@@ -77,8 +77,8 @@ export default function Logo({
       aria-label="Zass Education - home"
     >
       {/* Tall cap (full lockup only): h-12 so the cap spans both text
-          lines - its band bottom lands level with the E of EDUCATION.
-          Compact (admin sidebar, no EDUCATION line) keeps the h-9 cap. */}
+          lines - its band bottom lands level with the L of LEARNING.
+          Compact (admin sidebar, no LEARNING line) keeps the h-9 cap. */}
       <CapIcon
         className={compact ? "h-9 w-9 shrink-0" : "h-12 w-12 shrink-0"}
         color={color}
@@ -95,7 +95,7 @@ export default function Logo({
             className="mt-1 text-[10px] font-bold uppercase"
             style={{ color: subColor, letterSpacing: "0.32em" }}
           >
-            Education
+            Learning
           </span>
         )}
       </span>
