@@ -234,8 +234,8 @@ export default function HomePage() {
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {[
               { icon: "book", value: subjects.length, suffix: "", label: "Subjects", bg: "bg-[var(--zass-card)]" },
-              { icon: "file", value: papersCount, suffix: "", label: "Past Papers", bg: "bg-[var(--zass-base)]" },
-              { icon: "grid", value: BOARDS.length, suffix: "", label: "Examination Boards", bg: "bg-[rgba(0,70,67,0.08)]" },
+              { icon: "file", value: papersCount, suffix: "", label: "Past Papers", bg: "bg-[var(--zass-card)]" },
+              { icon: "grid", value: BOARDS.length, suffix: "", label: "Examination Boards", bg: "bg-[var(--zass-card)]" },
               { icon: "cap", value: courses.length, suffix: "", label: "Courses", bg: "bg-[var(--zass-card)]" },
             ].map((s) => (
               <div
