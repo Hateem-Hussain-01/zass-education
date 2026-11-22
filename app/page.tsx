@@ -349,39 +349,35 @@ export default function HomePage() {
                 title: "Verified Past Papers",
                 text: "1,654 real Cambridge papers from 2021–2025, with mark schemes and grade thresholds.",
                 href: "/papers",
-                offset: "",
               },
               {
                 icon: "pencil",
                 title: "Quality Notes & Lessons",
                 text: "Clear chapter notes for O & A Level, written in simple language.",
                 href: "/courses",
-                offset: "lg:translate-y-6",
               },
               {
                 icon: "users",
                 title: "Expert Team",
                 text: "A small team that knows the Cambridge syllabus inside out.",
                 href: "/about",
-                offset: "",
               },
               {
                 icon: "heart",
                 title: "Free for Everyone",
                 text: "No fees, no shop, no cart — past papers, notes and courses cost nothing.",
                 href: "/contact",
-                offset: "lg:translate-y-6",
               },
             ].map((f) => (
-              <Reveal key={f.title} className={f.offset}>
+              <Reveal key={f.title} className="h-full">
                 <div className="flex h-full flex-col rounded-2xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] p-5 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md">
                   <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[var(--zass-primary)] text-white">
                     <Icon name={f.icon as IconName} className="h-5 w-5" />
                   </span>
-                  <h3 className="mt-4 font-extrabold text-[#004643]">
+                  <h3 className="mt-4 line-clamp-2 min-h-[3rem] font-extrabold leading-snug text-[#004643]">
                     {f.title}
                   </h3>
-                  <p className="mt-2 flex-1 text-sm leading-relaxed text-[rgba(0,70,67,0.6)]">
+                  <p className="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-[rgba(0,70,67,0.6)]">
                     {f.text}
                   </p>
                   <Link
@@ -408,13 +404,13 @@ export default function HomePage() {
           </Reveal>
           <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
             {CATEGORIES.map((c, i) => (
-              <Reveal key={c.code}>
+              <Reveal key={c.code} className="h-full">
                 <Link
                   href={`/papers?subject=${c.subjectId}`}
-                  className={`flex h-full min-h-[150px] flex-col items-center justify-center gap-3 rounded-2xl p-5 text-center shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md ${TILE_STYLES[i % TILE_STYLES.length]}`}
+                  className={`flex h-full min-h-[176px] flex-col items-center justify-center gap-3 rounded-2xl p-5 text-center shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md ${TILE_STYLES[i % TILE_STYLES.length]}`}
                 >
-                  <span className="text-lg font-extrabold leading-snug">
-                    {c.name}
+                  <span className="block min-h-[3.1rem] text-lg font-extrabold leading-snug">
+                    <span className="line-clamp-2">{c.name}</span>
                     <span className="block text-sm font-semibold opacity-70">
                       {c.level} · {c.code}
                     </span>
@@ -495,15 +491,15 @@ export default function HomePage() {
                 href: "/contact",
               },
             ].map((f) => (
-              <Reveal key={f.title}>
+              <Reveal key={f.title} className="h-full">
                 <div className="flex h-full flex-col items-center rounded-2xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] p-6 text-center shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md">
                   <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--zass-primary)] text-white">
                     <Icon name={f.icon as IconName} className="h-5 w-5" />
                   </span>
-                  <h3 className="mt-4 text-lg font-extrabold text-[#004643]">
+                  <h3 className="mt-4 line-clamp-2 min-h-[3.5rem] text-lg font-extrabold leading-snug text-[#004643]">
                     {f.title}
                   </h3>
-                  <p className="mt-2 flex-1 text-sm leading-relaxed text-[rgba(0,70,67,0.6)]">
+                  <p className="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-[rgba(0,70,67,0.6)]">
                     {f.text}
                   </p>
                   <Link
@@ -530,7 +526,7 @@ export default function HomePage() {
           </Reveal>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {courses.slice(0, 4).map((c, i) => (
-              <Reveal key={c.id}>
+              <Reveal key={c.id} className="h-full">
                 <Link
                   href="/courses"
                   className="flex h-full flex-col overflow-hidden rounded-2xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md"
@@ -547,7 +543,7 @@ export default function HomePage() {
                     </span>
                   </div>
                   <div className="flex flex-1 flex-col p-4">
-                    <h3 className="text-[15px] font-bold leading-snug text-[#004643]">
+                    <h3 className="line-clamp-2 min-h-[2.5rem] text-[15px] font-bold leading-snug text-[#004643]">
                       {c.title}
                     </h3>
                     <div className="mt-2 flex items-center gap-1.5 text-sm font-bold text-[#004643]">
@@ -646,7 +642,7 @@ export default function HomePage() {
           </Reveal>
           <div className="mt-10 grid grid-cols-2 gap-5 lg:grid-cols-4">
             {TEAM.map((m) => (
-              <Reveal key={m.name}>
+              <Reveal key={m.name} className="h-full">
                 <div className="h-full overflow-hidden rounded-2xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md">
                   <div className="h-[220px] overflow-hidden bg-[rgba(0,70,67,0.08)]">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -678,7 +674,7 @@ export default function HomePage() {
             </Reveal>
             <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {notes.slice(0, 3).map((n, i) => (
-                <Reveal key={n.id}>
+                <Reveal key={n.id} className="h-full">
                   <Link
                     href="/courses"
                     className="flex h-full flex-col overflow-hidden rounded-2xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md"
@@ -696,7 +692,7 @@ export default function HomePage() {
                         {subjectName(n.subjectId)}
                         {n.sample ? " · Sample" : ""}
                       </span>
-                      <h3 className="mt-2 flex-1 text-[15px] font-bold leading-snug text-[#004643]">
+                      <h3 className="mt-2 line-clamp-2 min-h-[2.5rem] flex-1 text-[15px] font-bold leading-snug text-[#004643]">
                         {n.title}
                       </h3>
                       <span className="mt-3 text-[13px] font-bold text-[var(--zass-primary)]">
@@ -714,7 +710,7 @@ export default function HomePage() {
       {/* ------------------------------------------------------- Two CTA cards */}
       <section className={`bg-[var(--zass-base)] px-5 py-14 md:px-14 ${BAND_DIVIDER}`}>
         <div className="mx-auto grid max-w-6xl gap-5 md:grid-cols-2">
-          <Reveal>
+          <Reveal className="h-full">
             <div className="flex h-full items-center gap-5 rounded-2xl bg-[var(--zass-card)] p-6 shadow-sm">
               <div className="flex-1">
                 <p className="text-sm font-bold text-[var(--zass-primary)]">
@@ -742,7 +738,7 @@ export default function HomePage() {
               />
             </div>
           </Reveal>
-          <Reveal>
+          <Reveal className="h-full">
             <div className="flex h-full items-center gap-5 rounded-2xl bg-[var(--zass-card)] p-6 shadow-sm">
               <div className="flex-1">
                 <p className="text-sm font-bold text-[var(--zass-primary)]">
