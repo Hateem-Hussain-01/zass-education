@@ -4,6 +4,7 @@ import { useSettings } from "@/lib/store";
 import { TEAM } from "@/lib/types";
 import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
+import TeamLinkedIn from "@/components/TeamLinkedIn";
 
 /* Same team photos as the home page: matched by the person, not by
    file order (the template ships 2 men + 2 women; the team is 3 men +
@@ -98,16 +99,19 @@ export default function AboutPage() {
               {TEAM.map((m) => (
                 <div
                   key={m.name}
-                  className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-6 text-center shadow-sm hover:shadow-md hover:-translate-y-1 transition-all"
+                  className="bg-[var(--zass-card)] border border-[rgba(0,70,67,0.15)] rounded-2xl p-6 text-left shadow-sm hover:shadow-md hover:-translate-y-1 transition-all"
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={TEAM_PHOTOS[m.name] ?? "/images/purdue/team1.jpg"}
                     alt={m.name}
-                    className="w-16 h-16 mx-auto rounded-full object-cover"
+                    className="w-24 h-24 rounded-full object-cover"
                   />
-                  <h3 className="font-bold text-[#004643] mt-3">{m.name}</h3>
-                  <span className="text-xs text-[rgba(0,70,67,0.6)]">{m.role}</span>
+                  <div className="mt-4 flex items-center justify-between gap-3">
+                    <h3 className="font-bold text-[#004643]">{m.name}</h3>
+                    <TeamLinkedIn url={m.linkedinUrl} name={m.name} />
+                  </div>
+                  <span className="mt-1 block text-xs text-[rgba(0,70,67,0.6)]">{m.role}</span>
                 </div>
               ))}
             </div>

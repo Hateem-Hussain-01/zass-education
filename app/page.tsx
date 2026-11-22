@@ -7,6 +7,7 @@ import { TEAM } from "@/lib/types";
 import { BOARDS } from "@/lib/boards";
 import { CATALOGUE_PAPERS } from "@/lib/papers-catalogue";
 import Reveal from "@/components/Reveal";
+import TeamLinkedIn from "@/components/TeamLinkedIn";
 import Icon, { type IconName } from "@/components/icons";
 
 /* ------------------------------------------------------------------ */
@@ -646,7 +647,7 @@ export default function HomePage() {
             {TEAM.map((m) => (
               <Reveal key={m.name} className="h-full">
                 <div className="h-full overflow-hidden rounded-2xl border border-[rgba(0,70,67,0.15)] bg-[var(--zass-card)] shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md">
-                  <div className="h-[220px] overflow-hidden bg-[rgba(0,70,67,0.08)]">
+                  <div className="h-[300px] overflow-hidden bg-[rgba(0,70,67,0.08)]">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={TEAM_PHOTOS[m.name] ?? "/images/purdue/team1.jpg"}
@@ -654,8 +655,11 @@ export default function HomePage() {
                       className="h-full w-full object-cover object-top"
                     />
                   </div>
-                  <div className="p-4 text-center">
-                    <h3 className="font-extrabold text-[#004643]">{m.name}</h3>
+                  <div className="p-5 text-left">
+                    <div className="flex items-center justify-between gap-3">
+                      <h3 className="font-extrabold text-[#004643]">{m.name}</h3>
+                      <TeamLinkedIn url={m.linkedinUrl} name={m.name} />
+                    </div>
                     <span className="mt-1 block text-xs text-[rgba(0,70,67,0.6)]">
                       {m.role}
                     </span>

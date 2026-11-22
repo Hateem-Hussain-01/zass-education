@@ -151,12 +151,16 @@ export const DEFAULT_SETTINGS: SiteSettings = {
 
 /** The Zass Education team, exactly as named by the founder. Roles given
  *  by Eman (22 Nov 2026): Zaeem Noor is Founder; the other three are
- *  Co-Founders. No bios or quotes are invented for them. */
-export const TEAM: { name: string; role: string }[] = [
-  { name: "Zaeem Noor", role: "Founder" },
-  { name: "Shahbaz Hussain", role: "Co-Founder" },
-  { name: "Alliya Shahbaz", role: "Co-Founder" },
-  { name: "Sufyan Munawar", role: "Co-Founder" },
+ *  Co-Founders. No bios or quotes are invented for them.
+ *  linkedinUrl: a real LinkedIn profile link when Eman gives one.
+ *  Empty for all four right now - Zaeem's URL is still awaited, and no
+ *  URL is ever guessed. The card always shows the LinkedIn icon in the
+ *  same spot; it is a link only when a URL is set. */
+export const TEAM: { name: string; role: string; linkedinUrl: string }[] = [
+  { name: "Zaeem Noor", role: "Founder", linkedinUrl: "" },
+  { name: "Shahbaz Hussain", role: "Co-Founder", linkedinUrl: "" },
+  { name: "Alliya Shahbaz", role: "Co-Founder", linkedinUrl: "" },
+  { name: "Sufyan Munawar", role: "Co-Founder", linkedinUrl: "" },
 ];
 
 export function initials(name: string): string {
