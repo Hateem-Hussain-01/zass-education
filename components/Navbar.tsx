@@ -10,8 +10,11 @@ const LINKS = [
   { href: "/", label: "Home" },
   { href: "/resources", label: "Resources" },
   { href: "/courses", label: "Courses" },
-  { href: "/about", label: "About" },
 ];
+
+/** About is rendered after the Examination Boards dropdown so it is the
+ *  last tab in the navbar (Eman, 22 Nov 2026). */
+const ABOUT = { href: "/about", label: "About" };
 
 /** Right-side actions. The admin portal is intentionally NOT linked here;
  *  it is reachable only via its direct /admin URL. */
@@ -82,6 +85,16 @@ export default function Navbar() {
               </div>
             </div>
           </div>
+          <Link
+            href={ABOUT.href}
+            className={
+              pathname === ABOUT.href
+                ? "text-[var(--zass-primary)]"
+                : "hover:text-[var(--zass-primary)]"
+            }
+          >
+            {ABOUT.label}
+          </Link>
         </div>
         <div className="hidden md:flex items-center gap-2 shrink-0">
           {ACTIONS.map((a) => (
@@ -111,6 +124,16 @@ export default function Navbar() {
         ))}
         <Link href="/boards" className="whitespace-nowrap">
           Boards
+        </Link>
+        <Link
+          href={ABOUT.href}
+          className={
+            pathname === ABOUT.href
+              ? "text-[var(--zass-primary)] whitespace-nowrap"
+              : "whitespace-nowrap"
+          }
+        >
+          {ABOUT.label}
         </Link>
         <Link href="/book-session" className="whitespace-nowrap">
           Book a 1-to-1 Session
