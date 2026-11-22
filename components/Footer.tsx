@@ -126,7 +126,7 @@ export default function Footer() {
               {courses.slice(0, 5).map((c) => (
                 <li key={c.id}>
                   <Link href="/courses" className="hover:text-[var(--zass-primary)]">
-                    — {c.title.split(" — ")[0]}
+                    {c.title.split(" — ")[0]}
                   </Link>
                 </li>
               ))}
@@ -142,27 +142,27 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm text-[rgba(0,70,67,0.78)]">
               <li>
                 <Link href="/about" className="hover:text-[var(--zass-primary)]">
-                  — About Us
+                  About Us
                 </Link>
               </li>
               <li>
                 <Link href="/papers" className="hover:text-[var(--zass-primary)]">
-                  — Past Papers
+                  Past Papers
                 </Link>
               </li>
               <li>
                 <Link href="/boards" className="hover:text-[var(--zass-primary)]">
-                  — Examination Boards
+                  Examination Boards
                 </Link>
               </li>
               <li>
                 <Link href="/book-session" className="hover:text-[var(--zass-primary)]">
-                  — Book a 1-to-1 Session
+                  Book a 1-to-1 Session
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="hover:text-[var(--zass-primary)]">
-                  — Contact
+                  Contact
                 </Link>
               </li>
             </ul>

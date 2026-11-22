@@ -1,12 +1,13 @@
 "use client";
 
 import { useSettings } from "@/lib/store";
-import Icon from "./icons";
 
 /**
- * Thin top bar (Purdue layout): phone + email on the left, social icons
- * on the right. No opening hours — that would be an invented fact.
- * Only social links the admin actually filled in are shown.
+ * Thin top bar (Purdue layout): social icons only, right-aligned.
+ * Phone + email were removed from the top bar (they stay in the
+ * footer's Contact Info column). No opening hours — that would be
+ * an invented fact. Only social links the admin actually filled
+ * in are shown.
  */
 export default function TopBar() {
   const { settings } = useSettings();
@@ -28,23 +29,7 @@ export default function TopBar() {
 
   return (
     <div className="bg-[var(--zass-primary)] text-white">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-1.5 text-[13px] md:px-10">
-        <div className="flex min-w-0 items-center gap-5">
-          <a
-            href={`tel:${settings.contactPhone.replace(/\s/g, "")}`}
-            className="flex items-center gap-1.5 whitespace-nowrap hover:underline"
-          >
-            <Icon name="phone" className="h-3.5 w-3.5" />
-            {settings.contactPhone}
-          </a>
-          <a
-            href={`mailto:${settings.contactEmail}`}
-            className="hidden items-center gap-1.5 whitespace-nowrap hover:underline sm:flex"
-          >
-            <Icon name="mail" className="h-3.5 w-3.5" />
-            {settings.contactEmail}
-          </a>
-        </div>
+      <div className="mx-auto flex max-w-7xl items-center justify-end gap-4 px-5 py-1.5 text-[13px] md:px-10">
         {socials.length > 0 && (
           <div className="flex shrink-0 items-center gap-1.5">
             {socials.map((s) => (
